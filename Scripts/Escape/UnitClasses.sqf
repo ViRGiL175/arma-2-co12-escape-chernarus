@@ -9,65 +9,108 @@
  */
 
 private ["_enemyFrequency"];
+private ["_secWep"];
+private ["_secWepa"];
+
+guardWeapon = ["huntingrifle", "LeeEnfield", "Sa58V_EP1", "Saiga12K", "AK_74", "AK_47_M", "M1014", "AK_107_kobra"];
+guardAmmo = ["5x_22_LR_17_HMR", "10x_303", "30Rnd_762x39_AK47", "8Rnd_B_Saiga12_74Slug", "30Rnd_545x39_AK", "30Rnd_762x39_AK47", "8Rnd_B_Beneli_Pellets", "30Rnd_545x39_AK"];
+
+_secWep = ["Makarov", "MakarovSD", "revolver_EP1", "Sa61_EP1", "UZI_EP1", "Colt1911", "M9", "Makarov", "revolver_EP1", "Sa61_EP1", "UZI_EP1", "Colt1911", "M9", "glock17_EP1"];
+_secWepa = ["8Rnd_9x18_Makarov", "8Rnd_9x18_MakarovSD", "6Rnd_45ACP", "20Rnd_B_765x17_Ball", "30Rnd_9x19_UZI", "7Rnd_45ACP_1911", "15Rnd_9x19_M9", "8Rnd_9x18_Makarov", "6Rnd_45ACP", "20Rnd_B_765x17_Ball", "30Rnd_9x19_UZI", "7Rnd_45ACP_1911", "15Rnd_9x19_M9", "17Rnd_9x19_glock17"];
+
+_Wep = ["huntingrifle", "LeeEnfield", "Sa58V_EP1", "Saiga12K", "AK_74", "AK_47_M", "AKS_74"];
+_Wepa = ["5x_22_LR_17_HMR", "10x_303", "30Rnd_762x39_AK47", "8Rnd_B_Saiga12_74Slug", "30Rnd_545x39_AK", "30Rnd_762x39_AK47", "30Rnd_545x39_AK"];
+
+_gearItem = ["HandGrenade_East", "HandGrenade_East", "SmokeShell", "PipeBomb", "MineE", "TimeBomb", "SmokeShellRed", "SmokeShellGreen", "SmokeShellBlue", "SmokeShellOrange", "SmokeShellPurple", "SmokeShellYellow", "HandGrenade_East", "HandGrenade_East", "PipeBomb", "MineE", "HandGrenade_East", "HandGrenade_East", "PipeBomb", "MineE", "HandGrenade_East", "HandGrenade_East", "PipeBomb", "MineE", "HandGrenade_East", "HandGrenade_East", "PipeBomb", "MineE"];
+
+_rndgear = floor random (count _gearItem);
+_gear = _gearItem select _rndgear;
+
+_rnd = floor random (count _secWep);
+_pistol = _secWep select _rnd;
+_ammopistol = _secWepa select _rnd;
+
+_rndpri = floor random (count _Wep);
+_primary = _Wep select _rndpri;
+_ammoprimary = _Wepa select _rndpri;
+
+drn_var_Escape_InnerFenceGuardGearItems = _gear;
+
+drn_var_Escape_InnerFenceGuardPrimaryWeapon = _primary;
+drn_var_Escape_InnerFenceGuardPrimaryWeaponMagazine = _ammoprimary;
+
 
 _enemyFrequency = _this select 0;
 
 // Random array. Start position guard types.
-drn_arr_Escape_StartPositionGuardTypes = ["Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sab", "Ins_Soldier_Sapper"];
+drn_arr_Escape_StartPositionGuardTypes = ["GUE_Villager3", "GUE_Villager4", "GUE_Woodlander1", "GUE_Woodlander2", "GUE_Woodlander3"];
 
 // Inner fence guard's secondary weapon (and corresponding magazine type).
-drn_var_Escape_InnerFenceGuardSecondaryWeapon = "Makarov";
-drn_var_Escape_InnerFenceGuardSecondaryWeaponMagazine = "8Rnd_9x18_Makarov";
+// Random array. Start position guard secondary types.
+drn_var_Escape_InnerFenceGuardSecondaryWeapon = _pistol;
+drn_var_Escape_InnerFenceGuardSecondaryWeaponMagazine = _ammopistol;
 
 // Random array. Civilian vehicle classes for ambient traffic. (Can also be set to a faction name).
-drn_arr_Escape_MilitaryTraffic_CivilianVehicleClasses = ["SkodaBlue", "SkodaGreen", "SkodaRed", "Skoda", "VWGolf", "TT650_Civ", "MMT_Civ", "hilux1_civil_2_covered", "hilux1_civil_1_open", "hilux1_civil_3_open", "car_hatchback", "datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", "V3S_Civ", "car_sedan", "Tractor", "UralCivil", "UralCivil2", "Lada_base", "LadaLM", "Lada2", "Lada1"];
+drn_arr_Escape_MilitaryTraffic_CivilianVehicleClasses = ["TT650_TK_CIV_EP1", "SUV_TK_CIV_EP1", "SkodaBlue", "TowingTractor", "SkodaGreen", "Ikarus", "SkodaRed", "LandRover_TK_CIV_EP1", "Skoda", "VWGolf", "TT650_Civ", "HMMWV_Civ", "MMT_Civ", "hilux1_civil_2_covered", "ATV_US_EP1_Civ", "hilux1_civil_1_open", "Lada2_TK_CIV_EP1", "hilux1_civil_3_open", "GAZ_Vodnik_MedEvac", "S1203_TK_CIV_EP1", "car_hatchback", "VolhaLimo_TK_CIV_EP1", "M1133_MEV_EP1_Civ", "datsun1_civil_1_open", "datsun1_civil_2_covered", "Ikarus_TK_CIV_EP1", "datsun1_civil_3_open", "S1203_ambulance_EP1", "V3S_Civ", "BTR40_TK_GUE_EP1_Civ", "car_sedan", "Tractor", "UralCivil", "UralCivil2", "Lada_base", "LadaLM", "Lada2", "Lada1"];
 
 // Random arrays. Enemy vehicle classes for ambient traffic. (Can also be set to a faction name).
 // Variable _enemyFrequency applies to server parameter, and can be one of the values 1 (Few), 2 (Some) or 3 (A lot).
 switch (_enemyFrequency) do {
     case 1: {
-        drn_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = ["TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS"];
+        drn_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = ["T34_INS", "Offroad_DSHKM_INS", "V3S_Open_TK_CIV_EP1", "MMT_Civ", "BAF_Jackal2_L2A1_D", "Pickup_PK_INS", "ArmoredSUV_PMC_INS", "UAZ_INS", "UAZ_AGS30_INS", "MAZ_543_SCUD_TK_EP1", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS"];
     };
     case 2: {
-        drn_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = ["TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS"];
+        drn_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = ["BTR40_MG_TK_INS_EP1_INS", "V3S_Open_TK_CIV_EP1", "MMT_Civ", "BAF_Jackal2_L2A1_D", "GRAD_TK_EP1", "Offroad_DSHKM_INS", "ArmoredSUV_PMC_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS"];
     };
     default {
-        drn_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = ["TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS"];
+        drn_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = ["TT650_Ins", "Offroad_DSHKM_INS", "V3S_Open_TK_CIV_EP1", "MMT_Civ", "HMMWV_Armored", "LandRover_Special_CZ_EP1", "BTR40_MG_TK_GUE_EP1", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "Ural_INS", "UralOpen_INS", "Ural_ZU23_INS", "BMP2_Ambul_INS", "UralRefuel_INS"];
     };
 };
 
 // Random array. General infantry types. E.g. village patrols, ambient infantry, ammo depot guards, communication center guards, etc.
-drn_arr_Escape_InfantryTypes = ["Ins_Soldier_AA", "Ins_Soldier_AT", "Ins_Soldier_AT", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper"];
+drn_arr_Escape_InfantryTypes = ["UN_CDF_Soldier_B_EP1", "INS_Bardak", "Ins_Soldier_AT", "Dixon_PMC", "Reynolds_PMC", "Soldier_AA_PMC", "Soldier_Crew_PMC", "Ins_Soldier_AR", "Ins_Soldier_MG", "Ins_Soldier_Medic", "UN_CDF_Soldier_AT_EP1", "Ins_Soldier_2", "TK_Soldier_SniperH_EP1", "Soldier_Bodyguard_AA12_PMC", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Soldier_Medic_PMC", "Ins_Soldier_Sniper", "Ins_Soldier_AR", "Soldier_Sniper_PMC", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper", "Rus_Commander", "Ru_Commander", "Ins_Bardak", "Ins_Lopotev", "Ins_Commander", "Tk_Soldier_Night_1_EP1", "RU_Soldier_Spotter", "TK_Soldier_SL_EP1", "Ins_Soldier_Pilot", "Ins_Villager3", "UN_CDF_Soldier_AT_EP1", "UN_CDF_Soldier_Officer_EP1", "UN_CDF_Soldier_MG_EP1", "GUE_Soldier_Medic", "Soldier_Bodyguard_M4_PMC", "Soldier_GL_M16A2_PMC", "Soldier_AA_PMC", "INS_Lopotev", "RU_Soldier_Officer", "RU_Soldier_HAT", "RU_Soldier_LAT"];
+
+drn_arr_Escape_SpecInfantryTypes = ["RU_Soldier_Spotter", "RU_Soldier_SniperH", "RU_Soldier_Sniper", "GUE_Soldier_Scout", "TK_Soldier_Spotter_EP1", "TK_Soldier_Sniper_Night_EP1", "TK_Soldier_Sniper_EP1"];
+
+drn_arr_Escape_CiviInfantryTypes = ["GUE_Villager3", "GUE_Villager4", "GUE_Woodlander1", "GUE_Woodlander2", "GUE_Woodlander3", "GUE_Worker1"];
+
+drn_arr_Escape_MillitaryInfantryTypes = ["RU_Soldier_Officer", "RU_Soldier", "RU_Soldier2", "RU_Soldier_GL", "RU_Soldier_MG", "RU_Soldier_Marksman", "RU_Soldier_Medic"];
+
+drn_arr_Escape_SpetzInfantryTypes = ["RUS_Commander", "RUS_Soldier1", "RUS_Soldier2", "RUS_Soldier3", "RUS_Soldier_Marksman", "RUS_Soldier_Sab", "RUS_Soldier_TL"];
+
+drn_arr_Escape_PMCInfantryTypes = ["Soldier_Medic_PMC", "Soldier_Sniper_PMC", "Soldier_Bodyguard_M4_PMC", "Soldier_MG_PMC", "Soldier_AT_PMC", "Soldier_Engineer_PMC", "Soldier_M4A3_PMC"];
+
+drn_arr_Escape_ChDKZInfantryTypes = ["INS_Soldier_1", "INS_Soldier_2", "INS_Soldier_CO", "INS_Soldier_GL", "INS_Soldier_Medic", "INS_Soldier_Sab", "INS_Soldier_Sniper"];
 
 // Random array. A roadblock has a manned vehicle. This array contains possible manned vehicles (can be of any kind, like cars, armored and statics).
-drn_arr_Escape_RoadBlock_MannedVehicleTypes = ["Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "AGS_Ins", "DSHKM_Ins", "DSHkM_Mini_TriPod", "SPG9_Ins"];
+drn_arr_Escape_RoadBlock_MannedVehicleTypes = ["Offroad_DSHKM_INS", "Pickup_PK_INS", "ArmoredSUV_PMC", "BTR40_MG_TK_INS_EP1", "BRDM2_ATGM_TK_EP1", "LandRover_Special_CZ_EP1", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS", "BMP2_INS", "BMP2_HQ_INS", "BRDM2_INS", "BRDM2_ATGM_INS", "T72_INS", "ZSU_INS", "AGS_Ins", "DSHKM_Ins", "DSHkM_Mini_TriPod", "SPG9_Ins"];
 
 // Random array. Vehicle classes (preferrably trucks) transporting enemy reinforcements.
-drn_arr_Escape_ReinforcementTruck_vehicleClasses = ["Ural_INS", "UralOpen_INS"];
+drn_arr_Escape_ReinforcementTruck_vehicleClasses = ["Ural_INS", "UralOpen_INS", "SUV_PMC"];
 // Total cargo for reinforcement trucks. Each element corresponds to a vehicle (array element) in array drn_arr_Escape_ReinforcementTruck_vehicleClasses above.
-drn_arr_Escape_ReinforcementTruck_vehicleClassesMaxCargo = [14, 14];
+drn_arr_Escape_ReinforcementTruck_vehicleClassesMaxCargo = [14, 14, 5];
 
 // Random array. Motorized search groups are sometimes sent to look for you. This array contains possible class definitions for the vehicles.
-drn_arr_Escape_MotorizedSearchGroup_vehicleClasses = ["BMP2_INS", "BMP3", "BTR90", "GAZ_Vodnik"];
+drn_arr_Escape_MotorizedSearchGroup_vehicleClasses = ["BMP2_INS", "BMP3", "BTR90", "GAZ_Vodnik", "ArmoredSUV_PMC"];
 // Total cargo motorized search group vehicle. Each element corresponds to a vehicle (array element) in array drn_arr_Escape_MotorizedSearchGroup_vehicleClasses above.
-drn_arr_Escape_MotorizedSearchGroup_vehicleClassesMaxCargo = [7, 5, 7, 10];
+drn_arr_Escape_MotorizedSearchGroup_vehicleClassesMaxCargo = [7, 5, 7, 10, 7];
 
 // A communication center is guarded by vehicles depending on variable _enemyFrequency. 1 = a random light armor. 2 = a random heavy armor. 3 = a random 
 // light *and* a random heavy armor.
 
 // Random array. Light armored vehicles guarding the communication centers.
-drn_arr_ComCenDefence_lightArmorClasses = ["BMP2_INS", "BRDM2_INS", "BMP3", "BTR90", "GAZ_Vodnik"];
+drn_arr_ComCenDefence_lightArmorClasses = ["BMP2_INS", "BRDM2_INS", "BMP3", "BTR90", "GAZ_Vodnik", "ArmoredSUV_PMC", "T34", "ZSU_INS", "BTR60_TK_EP1", "BRDM2_ATGM_INS"];
 // Random array. Heavy armored vehicles guarding the communication centers.
-drn_arr_ComCenDefence_heavyArmorClasses = ["T72_INS", "ZSU_INS", "2S6M_Tunguska", "T90"];
+drn_arr_ComCenDefence_heavyArmorClasses = ["T72_INS", "ZSU_INS", "2S6M_Tunguska", "T90", "ArmoredSUV_PMC", "T34", "ZSU_INS", "BTR60_TK_EP1", "BRDM2_ATGM_INS"];
 
 // A communication center contains two static weapons (in two corners of the communication center).
 // Random array. Possible static weapon types for communication centers.
-drn_arr_ComCenStaticWeapons = ["DSHKM_Ins"];
+drn_arr_ComCenStaticWeapons = ["DSHkM_Mini_TriPod", "AGS_Ins", "DSHKM_Ins", "DSHKM_Ins"];
 // A communication center have two parked and empty vehicles of the following possible types.
-drn_arr_ComCenParkedVehicles = ["TT650_Ins", "Offroad_DSHKM_INS", "Pickup_PK_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS"];
+drn_arr_ComCenParkedVehicles = ["TT650_Ins", "GRAD_INS", "Offroad_DSHKM_INS", "Pickup_PK_INS", "ArmoredSUV_PMC", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_INS", "UAZ_AGS30_INS", "UAZ_MG_INS", "UAZ_SPG9_INS"];
 
 // Random array. Enemies sometimes use civilian vehicles in their unconventional search for players. The following car types may be used.
-drn_arr_Escape_EnemyCivilianCarTypes = ["SkodaBlue", "SkodaGreen", "SkodaRed", "Skoda", "VWGolf", "MMT_Civ", "hilux1_civil_2_covered", "car_hatchback", "datsun1_civil_2_covered", "V3S_Civ", "car_sedan", "UralCivil", "UralCivil2", "Lada_base", "LadaLM", "Lada2", "Lada1"];
+drn_arr_Escape_EnemyCivilianCarTypes = ["SkodaBlue", "Ikarus", "VWGolf", "MMT_Civ", "hilux1_civil_2_covered", "car_hatchback", "datsun1_civil_2_covered", "Lada_base", "LadaLM", "Lada2", "Lada1"];
 
 // Vehicles, weapons and ammo at ammo depots
 
@@ -95,12 +138,29 @@ drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AK_74_
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AKS_74_U", 25, 3, 6, ["30Rnd_545x39_AK"], 12]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["PK", 30, 2, 3, ["100Rnd_762x54_PK"], 15]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["Makarov", 85, 8, 12, ["8Rnd_9x18_Makarov"], 10]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["revolver_EP1", 25, 8, 12, ["6Rnd_45ACP"], 12]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["revolver_gold_EP1", 5, 8, 12, ["6Rnd_45ACP"], 12]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["M16A2", 25, 1, 8, ["30Rnd_556x45_Stanag"], 15]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["M4A1", 35, 1, 8, ["30Rnd_556x45_Stanag"], 15]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["M1014", 25, 2, 4, ["8Rnd_B_Beneli_74Slug", "8Rnd_B_Beneli_Pellets"], 15]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AA12_PMC", 10, 1, 2, ["20Rnd_B_AA12_74Slug", "20Rnd_B_AA12_HE", "20Rnd_B_AA12_Pellets"], 5]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["glock17_EP1", 25, 8, 12, ["17Rnd_9x19_glock17"], 5]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["Colt1911", 37, 8, 12, ["7Rnd_45ACP_1911"], 7]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["M9", 25, 1, 2, ["15Rnd_9x19_M9", "15Rnd_9x19_M9SD"], 10]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["M9SD", 15, 1, 2, ["30Rnd_9x19_UZI_SD"], 10]];
 
 // Russian weapons
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AK_107_Kobra", 20, 1, 3, ["30Rnd_545x39_AK"], 18]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AK_107_GL_Kobra", 15, 1, 3, ["30Rnd_545x39_AK", "1Rnd_SMOKE_GP25", "1Rnd_HE_GP25"], 15]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["bizon", 15, 1, 3, ["64Rnd_9x19_Bizon"], 15]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["Saiga12K", 15, 1, 2, ["8Rnd_B_Saiga12_74Slug", "8Rnd_B_Saiga12_Pellets"], 20]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["UZI_EP1", 35, 1, 2, ["30Rnd_9x19_UZI", "30Rnd_9x19_UZI_SD"], 10]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["UZI_SD_EP1", 25, 1, 2, ["30Rnd_9x19_UZI_SD"], 10]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AKS_GOLD", 5, 1, 2, ["30Rnd_762x39_AK47", "30Rnd_762x39_SA58"], 10]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["SVD", 25, 1, 3, ["10Rnd_762x54_SVD"], 20]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["Makarov", 45, 2, 6, ["8Rnd_9x18_Makarov"], 6]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["Sa61_EP1", 35, 2, 3, ["20Rnd_B_765x17_Ball"], 6]];
+drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AK_47_S", 25, 2, 3, ["30Rnd_762x39_SA58"], 6]];
 
 // Weapons and ammo in the special weapons box
 drn_arr_AmmoDepotSpecialWeapons = [];
@@ -112,6 +172,17 @@ drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["Hu
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["RPK_74", 20, 1, 1, ["75Rnd_545x39_RPK"], 18]];
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["RPK_74", 20, 1, 1, ["30Rnd_545x39_AK"], 18]];
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["AKS_74_PSO", 20, 1, 3, ["30Rnd_545x39_AK"], 14]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["DMR", 15, 1, 2, ["20Rnd_762x51_DMR"], 5]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["M14_EP1", 25, 1, 2, ["20Rnd_762x51_DMR"], 5]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["M4A1_Aim_camo", 25, 1, 4, ["20Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD"], 6]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["M4A1_AIM_SD_camo", 15, 1, 2, ["30Rnd_556x45_StanagSD"], 8]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["MP5A5", 20, 1, 5, ["30Rnd_9x19_MP5"], 12]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["MP5SD", 20, 1, 5, ["30Rnd_9x19_MP5SD"], 12]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["BAF_L7A2_GPMG", 15, 1, 2, ["100Rnd_762x51_M240"], 3]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["SCAR_L_CQC_Holo", 20, 1, 4, ["30Rnd_556x45_Stanag", "20Rnd_556x45_Stanag"], 4]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["Mk_48", 35, 1, 2, ["100Rnd_762x51_M240"], 3]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["m8_tws", 5, 1, 2, ["30Rnd_556x45_Stanag"], 4]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["m8_tws_sd", 2, 1, 2, ["30Rnd_556x45_StanagSD"], 4]];
 
 // Russian weapons
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["AK_107_PSO", 15, 1, 1, ["30Rnd_545x39_AK"], 20]];
@@ -120,7 +191,10 @@ drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["Bi
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["Pecheneg", 10, 1, 1, ["100Rnd_762x54_PK"], 12]];
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["ksvk", 10, 1, 1, ["5Rnd_127x108_KSVK"], 15]];
 drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["VSS_Vintorez", 10, 1, 1, ["10Rnd_9x39_SP5_VSS"], 12]];
-drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["MakarovSD", 20, 2, 5, ["8Rnd_9x18_MakarovSD"], 10]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["SVD_CAMO", 5, 1, 2, ["10Rnd_762x54_SVD"], 10]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["SVD_des_EP1", 5, 1, 2, ["10Rnd_762x54_SVD"], 10]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["SVD_NSPU_EP1", 4, 1, 2, ["10Rnd_762x54_SVD"], 10]];
+drn_arr_AmmoDepotSpecialWeapons set [count drn_arr_AmmoDepotSpecialWeapons, ["SVD", 45, 1, 3, ["10Rnd_762x54_SVD"], 20]];
 
 // Weapons and ammo in the launchers box
 drn_arr_AmmoDepotLaunchers = [];
@@ -129,11 +203,19 @@ drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["RPG7V", 100,
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["RPG7V", 25, 1, 2, ["PG7VR"], 2]];
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Strela", 100, 1, 1, ["Strela"], 2]];
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Strela", 75, 1, 2, ["Strela"], 2]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Stinger", 25, 1, 2, ["Stinger"], 2]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["MAAWS", 35, 1, 2, ["MAAWS_HEAT", "MAAWS_HEDP"], 1]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["M47Launcher_EP1", 10, 1, 2, ["Dragon_EP1"], 2]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["M136", 10, 1, 2, ["M136"], 2]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["M32_EP1", 15, 1, 3, ["6Rnd_HE_M203", "6Rnd_FlareWhite_M203", "6Rnd_Smoke_M203", "1Rnd_HE_M203", "FlareWhite_M203", "1Rnd_Smoke_M203"], 4]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["M79_EP1", 25, 1, 4, ["1Rnd_HE_M203", "FlareWhite_M203", "1Rnd_Smoke_M203"], 4]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Mk13_EP1", 20, 1, 2, ["1Rnd_HE_M203", "FlareWhite_M203", "1Rnd_Smoke_M203"], 4]];
 
 // Russian weapons
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["RPG18", 25, 1, 2, ["RPG18"], 2]];
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["MetisLauncher", 15, 1, 1, ["AT13"], 2]];
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Igla", 35, 1, 2, ["Igla"], 3]];
+drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["M79_EP1", 25, 1, 4, ["1Rnd_HE_M203", "FlareWhite_M203", "1Rnd_Smoke_M203"], 4]];
 
 // Some stolen western weapons can sometimes appear
 drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Javelin", 5, 2, 2, ["Javelin"], 2]];

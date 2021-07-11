@@ -8,6 +8,9 @@ _maxEnemySkill = _this select 1;
 _enemyFrequency = _this select 2;
 if (count _this > 3) then { _debug = _this select 3; } else { _debug = false; };
 
+_attackHeli = ["Ka52", "Ka52Black", "Mi24_V", "Su34", "Su25_INS", "Mi24_P"];
+_dropHeli = ["Mi17_INS", "CH_47F_BAF", "UH1H_TK_EP1", "An2_TK_EP1", "BAF_Merlin_HC3_D"];
+
 // Create all surprises
 
 waitUntil {([drn_searchAreaMarkerName] call drn_fnc_CL_MarkerExists)};
@@ -18,7 +21,7 @@ _surprises = [];
 
 // Drop Chopper
 
-_surpriseArgs = [(_enemyFrequency + 2) + floor random (_enemyFrequency * 2)]; // [NoOfDropUnits]
+_surpriseArgs = [(_enemyFrequency + 4) + floor random (_enemyFrequency * 4)]; // [NoOfDropUnits]
 _timeInSek = 5 * 60 + random (60 * 60);
 _timeInSek = time + (_timeInSek * (0.5 + (4 - _enemyFrequency) / 4));
 _condition = {true};
@@ -47,8 +50,8 @@ diag_log ("ESCAPE SURPRISE: " + str _surprise);
 // Reinforcement Truck
 
 _surpriseArgs = [_minEnemySkill, _maxEnemySkill];
-_timeInSek = 10 * 60 + random (30 * 60);
-_timeInSek = time + (_timeInSek * (0.5 + (4 - _enemyFrequency) / 4));
+_timeInSek = 15 * 60 + random (45 * 60);
+_timeInSek = time + (_timeInSek * (0.75 + (4 - _enemyFrequency) / 3));
 _surprise = ["REINFORCEMENTTRUCK", _timeInSek, {[drn_searchAreaMarkerName] call drn_fnc_CL_MarkerExists}, false, _surpriseArgs];
 _surprises set [count _surprises, _surprise];
 diag_log ("ESCAPE SURPRISE: " + str _surprise);
@@ -56,7 +59,7 @@ diag_log ("ESCAPE SURPRISE: " + str _surprise);
 // Enemies in a civilian car
 
 _surpriseArgs = [_minEnemySkill, _maxEnemySkill];
-_timeInSek = 0 * 60 + random (60 * 60);
+_timeInSek = 1 * 60 + random (60 * 60);
 _timeInSek = time + (_timeInSek * (0.5 + (4 - _enemyFrequency) / 4));
 _surprise = ["CIVILIANENEMY", _timeInSek, {[drn_searchAreaMarkerName] call drn_fnc_CL_MarkerExists}, false, _surpriseArgs];
 _surprises set [count _surprises, _surprise];
@@ -119,7 +122,7 @@ while {true} do {
                     _dropUnits = [];
                     
                     for [{_i = 0}, {_i < _noOfDropUnits}, {_i = _i + 1}] do {
-                        _soldierType = drn_arr_Escape_InfantryTypes select floor (random count drn_arr_Escape_InfantryTypes);
+                        _soldierType = drn_arr_Escape_SpecInfantryTypes select floor (random count drn_arr_Escape_SpecInfantryTypes);
                         _soldier = _dropGroup createUnit [_soldierType, [0,0,30], [], 0, "FORM"];
                         _soldier setSkill (_minEnemySkill + random (_maxEnemySkill - _minEnemySkill));
                         _soldier setRank "CAPTAIN";
@@ -138,7 +141,7 @@ while {true} do {
                         [_group, drn_searchAreaMarkerName, _dropPos, drn_var_Escape_DebugSearchGroup] execVM "Scripts\DRN\SearchGroup\SearchGroup.sqf";                        
                     };
                     
-                    [getMarkerPos "drn_dropChopperStartPosMarker", east, "Mi17_Ins", "Ins_Soldier_Pilot", _dropUnits, _dropPosition, _minEnemySkill, _maxEnemySkill, _onGroupDropped, drn_var_Escape_debugDropChoppers] execVM "Scripts\Escape\CreateDropChopper.sqf";
+                    [getMarkerPos "drn_dropChopperStartPosMarker", east, _dropHeli select (round(random 5)), "Soldier_PMC", _dropUnits, _dropPosition, _minEnemySkill, _maxEnemySkill, _onGroupDropped, drn_var_Escape_debugDropChoppers] execVM "Scripts\Escape\CreateDropChopper.sqf";
                     
                     // Create next drop chopper
                     _surpriseArgs = [(_enemyFrequency + 2) + floor random (_enemyFrequency * 2)]; // [NoOfDropUnits]
@@ -153,15 +156,15 @@ while {true} do {
                 if (_surpriseID == "RUSSIANSEARCHCHOPPER") then {
                     private ["_chopper", "_result", "_group"];
                     
-                    _chopper = "Ka52Black" createVehicle getMarkerPos "drn_russianSearchChopperStartPosMarker";
+                    _chopper = _attackHeli select (round(random 6)) createVehicle getMarkerPos "drn_russianSearchChopperStartPosMarker";
                     _chopper lock false;
                     _chopper setVehicleVarName "drn_russianSearchChopper";
                     _chopper call compile format ["%1=_this;", "drn_russianSearchChopper"];
                     
                     _group = createGroup east;
 
-                    "Ins_Soldier_Pilot" createUnit [[0, 0, 30], _group, "", (_minEnemySkill + random (_maxEnemySkill - _minEnemySkill)), "LIEUTNANT"];
-                    "Ins_Soldier_Pilot" createUnit [[0, 0, 30], _group, "", (_minEnemySkill + random (_maxEnemySkill - _minEnemySkill)), "LIEUTNANT"];
+                    "Soldier_Pilot_PMC" createUnit [[0, 0, 30], _group, "", (_minEnemySkill + random (_maxEnemySkill - _minEnemySkill)), "LIEUTNANT"];
+                    "Soldier_Pilot_PMC" createUnit [[0, 0, 30], _group, "", (_minEnemySkill + random (_maxEnemySkill - _minEnemySkill)), "LIEUTNANT"];
 
                     ((units _group) select 0) assignAsDriver _chopper;
                     ((units _group) select 0) moveInDriver _chopper;
@@ -213,7 +216,7 @@ while {true} do {
                         sleep 1;
                     };
                     
-                    [call drn_fnc_Escape_GetPlayerGroup, getPos _spawnSegment, east, drn_arr_Escape_EnemyCivilianCarTypes, drn_arr_Escape_InfantryTypes, _enemyFrequency, drn_var_Escape_debugCivilEnemy] execVM "Scripts\Escape\CreateCivilEnemy.sqf";
+                    [call drn_fnc_Escape_GetPlayerGroup, getPos _spawnSegment, east, drn_arr_Escape_EnemyCivilianCarTypes, drn_arr_Escape_CiviInfantryTypes, _enemyFrequency, drn_var_Escape_debugCivilEnemy] execVM "Scripts\Escape\CreateCivilEnemy.sqf";
                     
                     _surpriseArgs = [_minEnemySkill, _maxEnemySkill];
                     _timeInSek = 15 * 60 + random (45 * 60);

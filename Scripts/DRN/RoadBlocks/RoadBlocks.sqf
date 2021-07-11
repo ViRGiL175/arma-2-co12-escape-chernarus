@@ -212,6 +212,11 @@ _fnc_CreateRoadBlock = {
     _pos = [_posX, _posY];
     
     _group = createGroup _side;
+	
+        if (_faction == RESISTANCE) then {
+            _possibleInfantryTypes = drn_arr_Escape_PMCInfantryTypes
+        };
+		
     _guardTypes = _possibleInfantryTypes;
     (_guardTypes select floor random count _guardTypes) createUnit [_pos, _group, "", 0.5, "LIEUTNANT"];
     (_guardTypes select floor random count _guardTypes) createUnit [_pos, _group, "", 0.5, "LIEUTNANT"];

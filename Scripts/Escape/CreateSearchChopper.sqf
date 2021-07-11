@@ -20,6 +20,7 @@ private ["_homePos", "_side", "_searchAreaMarker", "_searchTimeMin", "_refuelTim
 private ["_chopper", "_group", "_pilot", "_gunner1", "_gunner2"];
 private ["_vehicleVarName", "_vehicleVarNameBase", "_vehicleVarNameNo"];
 
+_searchHeli = ["Ka60_PMC", "Ka137_MG_PMC", "Mi17_INS", "UH1H_TK_GUE_EP1", "AH6X_EP1", "MQ9PredatorB_US_EP1", "AW159_Lynx_BAF"];
 _homePos = _this select 0;
 _side = _this select 1;
 _searchAreaMarker = _this select 2;
@@ -57,16 +58,16 @@ while {!(isNil _vehicleVarName)} do {
 	_vehicleVarName = _vehicleVarNameBase + str _vehicleVarNameNo;
 };
 
-_chopper = "Mi17_Ins" createVehicle _homePos;
+_chopper = _searchHeli select (round(random 7)) createVehicle _homePos;
 _chopper lock false;
 _chopper setVehicleVarName _vehicleVarName;
 _chopper call compile format ["%1=_this;", _vehicleVarName];
 
 _group = createGroup _side;
 
-"Ins_Soldier_Pilot" createUnit [position player, _group, "", (_minSkill + random (_maxSkill - _minSkill)), "LIEUTNANT"];
-"Ins_Soldier_Pilot" createUnit [position player, _group, "", (_minSkill + random (_maxSkill - _minSkill)), "LIEUTNANT"];
-"Ins_Soldier_Pilot" createUnit [position player, _group, "", (_minSkill + random (_maxSkill - _minSkill)), "LIEUTNANT"];
+"GUE_Villager3" createUnit [position player, _group, "", (_minSkill + random (_maxSkill - _minSkill)), "LIEUTNANT"];
+"GUE_Woodlander1" createUnit [position player, _group, "", (_minSkill + random (_maxSkill - _minSkill)), "LIEUTNANT"];
+"GUE_Woodlander3" createUnit [position player, _group, "", (_minSkill + random (_maxSkill - _minSkill)), "LIEUTNANT"];
 
 _unitArray = _unitArray + units _group;
 

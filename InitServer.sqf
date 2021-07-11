@@ -1,6 +1,6 @@
 if (!isServer) exitWith {};
 
-private ["_useEscapeSurprises", "_useRandomStartPos", "_useAmmoDepots", "_useSearchLeader", "_useMotorizedSearchGroup", "_useVillagePatrols", "_useMilitaryTraffic", "_useAmbientInfantry", "_useSearchChopper", "_useRoadBlocks", "_guardsExist", "_guardsAreArmed", "_guardLivesLong"];
+private ["_useEscapeSurprises", "_secWep", "_secWepa", "_useRandomStartPos", "_useAmmoDepots", "_useSearchLeader", "_useMotorizedSearchGroup", "_useVillagePatrols", "_useMilitaryTraffic", "_useAmbientInfantry", "_useSearchChopper", "_useRoadBlocks", "_guardsExist", "_guardsAreArmed", "_guardLivesLong"];
 private ["_debugEscapeSurprises", "_debugAmmoDepots", "_debugSearchLeader", "_showGroupDiagnostics", "_debugVillagePatrols", "_debugMilitaryTraffic", "_debugAmbientInfantry", "_debugGarbageCollector", "_debugRoadBlocks"];
 private ["_enemyMinSkill", "_enemyMaxSkill", "_searchChopperSearchTimeMin", "_searchChopperRefuelTimeMin", "_enemySpawnDistance", "_playerGroup", "_enemyFrequency", "_comCenGuardsExist", "_fenceRotateDir", "_scriptHandle"];
 
@@ -17,6 +17,10 @@ _useAmbientInfantry = true;
 _useSearchChopper = true;
 _useRoadBlocks = true;
 
+_Wep = true;
+_Wepa = true;
+_secWep = true;
+_secWepa = true;
 _guardsExist = true;
 _comCenGuardsExist = true;
 _guardsAreArmed = true;
@@ -576,15 +580,22 @@ if (_useSearchChopper) then {
     _guard removeWeapon "ItemMap";
     _guard removeWeapon "ItemCompass";
     _guard removeWeapon "ItemGPS";
+    _guard removeWeapon "NVGoggles";
     _guard setSkill _enemyMinSkill + random (_enemyMaxSkill - _enemyMinSkill);
     
+    removeAllWeapons _guard;
+    _guard addWeapon drn_var_Escape_InnerFenceGuardSecondaryWeapon;
+	_guard addMagazine drn_var_Escape_InnerFenceGuardPrimaryWeaponMagazine;
+	_guard addMagazine drn_var_Escape_InnerFenceGuardPrimaryWeaponMagazine;
+	_guard addMagazine drn_var_Escape_InnerFenceGuardPrimaryWeaponMagazine;
     _guard addMagazine drn_var_Escape_InnerFenceGuardSecondaryWeaponMagazine;
     _guard addMagazine drn_var_Escape_InnerFenceGuardSecondaryWeaponMagazine;
     _guard addMagazine drn_var_Escape_InnerFenceGuardSecondaryWeaponMagazine;
+	_guard addMagazine drn_var_Escape_InnerFenceGuardGearItems;
     if (random 100 < 50) then {
         _guard addMagazine drn_var_Escape_InnerFenceGuardSecondaryWeaponMagazine;
     };
-    _guard addWeapon drn_var_Escape_InnerFenceGuardSecondaryWeapon;
+	_guard addWeapon drn_var_Escape_InnerFenceGuardPrimaryWeapon;
     
     if (random 100 < 40) then {
         _guard addweapon "NVGoggles";
@@ -639,6 +650,7 @@ if (_useSearchChopper) then {
             
             if (random 100 < 40) then {
                 _unit addweapon "NVGoggles";
+				
             };
             
             _unit setSkill _enemyMinSkill + random (_enemyMaxSkill - _enemyMinSkill);
@@ -728,8 +740,11 @@ if (_useSearchChopper) then {
         sleep 10;
     };
     
-    // Guard passes out
-    _guard setDamage 1;
+    // Guard commits suicide
+    _guard playMove "ActsPercMstpSnonWpstDnon_suicide1B"; 
+    sleep 7.85;
+    playSound "pistol";
+    _guard setdamage 1;
 };
 
 

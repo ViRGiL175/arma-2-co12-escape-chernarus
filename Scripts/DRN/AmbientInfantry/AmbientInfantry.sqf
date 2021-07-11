@@ -135,6 +135,11 @@ while {true} do {
         // Get a random spawn position
         _spawnPos = [units _referenceGroup, _minDistance, _maxSpawnDistance] call _fnc_GetRandomSpawnPos;
         _skill = _minSkill + random (_maxSkill - _minSkill);
+		
+		        _faction = _factionsArray select (floor (random (count _factionsArray)));
+        if (_faction == RESISTANCE) then {
+            _possibleInfantryTypes = drn_arr_Escape_PMCInfantryTypes
+        };
         
         // Create group
         _unitsInGroup = _minUnitsInGroup + floor (random (_maxUnitsInGroup - _minUnitsInGroup));

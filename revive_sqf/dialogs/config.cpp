@@ -82,5 +82,11 @@ class CfgSounds
 		sound[]={"revive_sqf\sound\UNIV_v51.ogg",0.05,1.0};
 		titles[]={};
 	};
+	class pistol
+	{
+		name = "pistol";
+		sound[] = {\Sounds\pistol.ogg, db+19, 1.0};
+		titles[] = {};
+	};
 	
 };

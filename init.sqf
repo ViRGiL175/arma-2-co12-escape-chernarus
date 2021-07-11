@@ -1,6 +1,11 @@
+
 private ["_useRevive"];
 private ["_volume", "_dynamicWeather", "_isJipPlayer"];
 private ["_showIntro", "_showPlayerMapAndCompass", "_fog", "_playerIsImmortal", "_playersEnteredWorld"];
+
+_recontime = (paramsArray select 7);
+_dynamicwar = (paramsArray select 6);
+_spawndistance = (paramsArray select 5);
 
 _isJipPlayer = false;
 if (!isServer && isNull player) then
@@ -194,11 +199,13 @@ waitUntil {!isNil "drn_var_Escape_FunctionsInitializedOnServer"};
 
 // Player Initialization
 
+
 removeAllWeapons player;
 removeAllItems player;
 player addWeapon "ItemRadio";
 player addWeapon "ItemWatch";
 player addWeapon "ItemMap";
+
 
 drn_fnc_Escape_DisableLeaderSetWaypoints = {
     if (!visibleMap) exitwith {};
@@ -232,7 +239,7 @@ if (!isMultiplayer) then {
         if (_x != p1) then {
             deleteVehicle _x;
         };
-    } foreach units group player;
+    } foreach units group p1;
 };
 
 // Run start sequence for all players
@@ -299,9 +306,9 @@ if (!isNull player) then {
             };
         }
         else {
-            sleep 1;
+            sleep 0.4;
             if (_showIntro) then {
-                ["<t size='0.9'>" + "Engima of Ostgota Ops presents" + "</t>",0.02,0.3,2,-1,0,3010] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Engima of Ostgota Ops present" + "</t>",0.02,0.3,2,-1,0,3010] spawn bis_fnc_dynamicText;
             };
             
             if (isMultiplayer) then {
@@ -311,7 +318,7 @@ if (!isNull player) then {
                 {
                     _x setPos [(drn_startPos select 0) + (random 4) - 2, (drn_startPos select 1) + (random 6) - 3, 0];
                     _x disableAI "MOVE";
-                } foreach units group player;
+                } foreach units group p1;
             };
             
             while {!([drn_startPos] call drn_fnc_Escape_AllPlayersOnStartPos) && !drn_escapeHasStarted} do {
@@ -322,14 +329,14 @@ if (!isNull player) then {
                 0 cutText ["", "BLACK FADED"];
                 sleep 2.75;
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 1.75;
             
-                ["<t size='0.9'>" + "Escape Chernarus" + "</t>",0.02,0.3,2,-1,0,3011] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Escape Chernarus edited by Iceman" + "</t>",0.02,0.3,2,-1,0,3011] spawn bis_fnc_dynamicText;
                 
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 1.75;
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 1.75;
                 
                 0 cutText ["", "BLACK FADED"];
                 ["Somewhere in Chernarus", str (date select 2) + "/" + str (date select 1) + "/" + str (date select 0) + " " + str (date select 3) + ":00"] spawn BIS_fnc_infoText;
@@ -367,7 +374,7 @@ if (!isNull player) then {
                 // Only show this on non ported missions
                 if (worldName == "Chernarus") then {
                     sleep 20;
-                    [name player + "! Please tell me about your Escape Chernarus experience on the BIS Forum or at Armaholic.com! Thank you, and enjoy the mission!", true] call drn_fnc_CL_ShowTitleTextLocal;
+                    [name player + "! Please give me feedback about your Escape Chernarus adventures on Armaholic.com on the mission page or PM me! Enjoy the mission!", true] call drn_fnc_CL_ShowTitleTextLocal;
                 };
             };
         };
@@ -390,6 +397,20 @@ if (!isNull player) then {
     };
 };
 
+pmc1 setPos (getpos respawn_guerilla);
+pmc4 setPos (getpos respawn_guerilla);
+pmc3 setPos (getpos respawn_guerilla);
+pmc2 setPos (getpos respawn_guerilla);
+
+waitUntil {!isNil {myACM getVariable "initDone"}};
+ waitUntil {myACM getVariable "initDone"};
+
+[_dynamicwar, myACM] call BIS_ACM_setIntensityFunc;
+ [myACM, 1000, _spawndistance] call BIS_ACM_setSpawnDistanceFunc;
+ [["PMC_BAF","INS","GUE"], myACM] call BIS_ACM_setFactionsFunc;
+ ["ground_patrol", 0.15, myACM] call BIS_ACM_setTypeChanceFunc;
+ ["air_patrol", 0.5, myACM] call BIS_ACM_setTypeChanceFunc;
+ 
+"targmark" setmarkerpos getpos forEach units group p1; SAT=[GUER,"Surveillance"]; SAT SideChat "New Spotted Position Marked on Map"; sleep _recontime;
+
 if (true) exitWith {};
-
-

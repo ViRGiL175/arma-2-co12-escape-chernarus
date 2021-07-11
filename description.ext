@@ -6,7 +6,7 @@ class Header
   maxPlayers = 8;
 };
 
-onLoadMission = "ESCAPE CHERNARUS 1.8";
+onLoadMission = "ESCAPE CHERNARUS EDITED BY ICEMAN";
 OnLoadMissionTime = FALSE;
 
 // description.ext settings for revive
@@ -14,6 +14,7 @@ OnLoadMissionTime = FALSE;
 respawn = "BASE";
 respawndelay = 4;
 disabledAI = 1;
+loadScreen = "pics\loading.jpg";
 
 // Include revive script resources
 #include "revive_sqf\dialogs\config.cpp"
@@ -43,18 +44,18 @@ class Params
         {
 		//paramsArray[0]
                 title = "Enemy Skill";
-                values[] = {0, 1, 2, 3, 4};
-                texts[] = {"Cadet", "Easy", "Normal", "Hard", "Extreme"};
-                default = 2;
+                values[] = {1.5, 3, 4, 5, 6, 7, 7.5, 8};
+                texts[] = {"Cadet", "Easy", "Normal", "Hard", "Extreme", "Insane", "Hardcore", "Nightmare"};
+                default = 4;
 		};
 	class EnemyFrequency
 	{
 		// paramsArray[1]
 		title="Enemy Frequency";
-		values[]={1,2,3};
-		texts[]={"Few (suitable for 1-3 players)", "Some (suitable for 4-6 players)", "A lot (suitable for 7-8 players)"};
-		default = 3;
-	};
+		values[]={1,2,3,4};
+		texts[]={"Few (suitable for 1-3 players)", "Some (suitable for 4-6 players)", "A lot (suitable for 7-8 players)", "Hardcore (suitable for players with a death wish)"};
+		default = 2;
+    };
 	class TimeOfDay	
 	{	
 		// paramsArray[2]
@@ -83,8 +84,24 @@ class Params
 	{
 		// paramsArray[5]
 		title="Enemy Spawn Distance";
-		values[]={800,1050,1300};
-		texts[]={"Short (better performance)", "Medium", "Far (for good rigs)"};
-		default = 1300;
+		values[]={1000,1150,1300,3500};
+		texts[]={"Short (better performance)", "Medium (for average rigs)", "Far (for good rigs)", "Insane (only for supercomputers)"};
+		default = 1150;
+	};
+		class DynamicCombat
+	{	
+		// paramsArray[6]
+		title="Ambient Combat Frequency";
+		values[]={0,0.05,0.1,0.25,0.75,1};
+		texts[]={"Off", "Minimal", "Low", "Medium", "High", "War Zone"};
+		default = 0;
+	};
+		class TvTDiff
+	{	
+		// paramsArray[6]
+		title="Opfor Player Balance";
+		values[]={40,60,80};
+		texts[]={"Easy", "Balanced", "Hard"};
+		default = 60;
 	};
 };
