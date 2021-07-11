@@ -6,7 +6,7 @@ class Header
   maxPlayers = 8;
 };
 
-onLoadMission = "ESCAPE CHERNARUS 1.8";
+onLoadMission = "Entering the HulaZone...";
 OnLoadMissionTime = FALSE;
 
 // description.ext settings for revive
@@ -53,7 +53,7 @@ class Params
 		title="Enemy Frequency";
 		values[]={1,2,3};
 		texts[]={"Few (suitable for 1-3 players)", "Some (suitable for 4-6 players)", "A lot (suitable for 7-8 players)"};
-		default = 3;
+		default = 2;
 	};
 	class TimeOfDay	
 	{	
@@ -77,14 +77,30 @@ class Params
 		title="Grass";
 		values[]={50,25,12,6,2};
 		texts[]={"No Grass", "Proximity", "Normal", "Far", "Very Far"};
-		default = 12;
+		default = 2;
 	};
 	class EnemySpawnDistance
 	{
 		// paramsArray[5]
 		title="Enemy Spawn Distance";
-		values[]={800,1050,1300};
-		texts[]={"Short (better performance)", "Medium", "Far (for good rigs)"};
+		values[]={800,1050,1300,2000,3000};
+        texts[]={"Short (better performance)", "Medium", "Far (for good rigs)", "Very far (experimental)", "Extreme(2*Far in all directions)"};
 		default = 1300;
+	};
+	class TimeSpeedup
+	{
+        // paramsArray[6]
+		title="Time Speedup";
+		values[] = {0, 1, 2, 5};
+		texts[] = {"24 hour day", "12 hour day", "8 hour day", "4 hour day"};
+		default = 0;
+	};
+    class ViewDistance
+	{
+        // paramsArray[7]
+		title="View Distance";
+		values[] = {1300, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000};
+		texts[] = {"1300 m", "2000 m", "3000 m", "4000 m", "5000 m", "6000 m", "7000 m", "8000 m", "9000 m", "10000 m"};
+		default = 4000;
 	};
 };

@@ -53,7 +53,7 @@ if (isServer) then {
 };
 
 _volume = soundVolume;
-enableSaving [false, false];
+enableSaving [true, false];
 0 fadeSound 0;
 enableRadio false;
 0 cutText ["", "BLACK FADED"];
@@ -196,6 +196,7 @@ waitUntil {!isNil "drn_var_Escape_FunctionsInitializedOnServer"};
 
 removeAllWeapons player;
 removeAllItems player;
+removeBackpack player;
 player addWeapon "ItemRadio";
 player addWeapon "ItemWatch";
 player addWeapon "ItemMap";
@@ -224,6 +225,7 @@ if (!isMultiplayer) then {
         
         removeAllWeapons _x;
         removeAllItems _x;
+		removeBackpack _x;
         _x addWeapon "ItemRadio";
         _x addWeapon "ItemWatch";
         _x addWeapon "ItemMap";
@@ -301,7 +303,7 @@ if (!isNull player) then {
         else {
             sleep 1;
             if (_showIntro) then {
-                ["<t size='0.9'>" + "Engima of Ostgota Ops presents" + "</t>",0.02,0.3,2,-1,0,3010] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Hulahuga proudly presents" + "</t>",0.02,0.3,2,-1,0,3010] spawn bis_fnc_dynamicText;
             };
             
             if (isMultiplayer) then {
@@ -320,16 +322,16 @@ if (!isNull player) then {
             
             if (_showIntro) then {            
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 2.5;
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 2.5;
             
-                ["<t size='0.9'>" + "Escape Chernarus" + "</t>",0.02,0.3,2,-1,0,3011] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Escape From Chernarus - HulaZone<br/><br/>Based on the work of Engima" + "</t>",0.02,0.3,2,-1,0,3011] spawn bis_fnc_dynamicText;
                 
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 2.5;
                 0 cutText ["", "BLACK FADED"];
-                sleep 2.75;
+                sleep 2;
                 
                 0 cutText ["", "BLACK FADED"];
                 ["Somewhere in Chernarus", str (date select 2) + "/" + str (date select 1) + "/" + str (date select 0) + " " + str (date select 3) + ":00"] spawn BIS_fnc_infoText;
@@ -367,7 +369,7 @@ if (!isNull player) then {
                 // Only show this on non ported missions
                 if (worldName == "Chernarus") then {
                     sleep 20;
-                    [name player + "! Please tell me about your Escape Chernarus experience on the BIS Forum or at Armaholic.com! Thank you, and enjoy the mission!", true] call drn_fnc_CL_ShowTitleTextLocal;
+                    [name player + "! Please tell me about your Escape From Chernarus - HulaZone experience on the BIS Forum, Dev-Heaven, Reddit or Armaholic! Links are in the readme. Thank you, and enjoy!", true] call drn_fnc_CL_ShowTitleTextLocal;
                 };
             };
         };
@@ -390,6 +392,21 @@ if (!isNull player) then {
     };
 };
 
+//viewDistance
+_ViewDistance = (paramsArray select 7);
+setViewDistance = _ViewDistance;
+   
+// Time speedup module, [Interval ,Bool , Night Cycle]. Bool-> if false = skipTime, if true = setDate. Nightcycle = nightmultiplier
+
+_TimeSpeedup = (paramsArray select 6);
+[_TimeSpeedup,true,false] execFSM "core_time.fsm";
+
+// Alternate timespeedup
+// if(_TimeSpeedup > 0) then {
+//     while{true}  do{
+//	    sleep 0.5;
+//	    skipTime(2/3600);
+//     };
+//};
+
 if (true) exitWith {};
-
-

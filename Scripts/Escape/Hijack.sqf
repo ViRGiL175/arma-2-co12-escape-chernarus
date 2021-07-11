@@ -4,9 +4,9 @@ private ["_marker", "_extractionPointNo", "_count", "_text"];
 _generatorTrailer = _this select 0;
 _unit = _this select 1;
 
-_count = 30;
-if (typeOf _unit == "FR_AC") then {
-	_count = 10;
+_count = 120;
+if (typeOf _unit == "US_Soldier_Spotter_EP1") then {
+	_count = 40;
 };
 
 while {(_count > 0) && (_unit distance _generatorTrailer < 3) && !(_unit getVariable "NORRN_unconscious")} do

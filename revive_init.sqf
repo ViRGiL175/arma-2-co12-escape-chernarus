@@ -1,7 +1,7 @@
 /*
   CO & OA REVIVE SCRIPT
 
-  © OCTOBER 2010 - norrin (simonnsl@iprimus.com.au)
+  ï¿½ OCTOBER 2010 - norrin (simonnsl@iprimus.com.au)
 
   Version:  0.50 ArmA2	
 *******************************************************************************************************
@@ -127,13 +127,13 @@ _enemy_side_4 					= "";				//array no.89 - NOT IMPLEMENTED
 // ==================================================================
 // FRIENDLY SIDE TO PLAYABLE UNITS
 _allied_side_1 					= "WEST";			//array no.42 - Friendly sides can be "EAST", "WEST","RESISTANCE" etc.  
-_allied_side_2 					= "WEST";			//array no.43 - If all players are from the same side make sure you set the same side for both variables eg "WEST", "WEST"
+_allied_side_2 					= "";			//array no.43 - If all players are from the same side make sure you set the same side for both variables eg "WEST", "WEST"
 _allied_side_3 					= "";				//array no.90 - NOT IMPLEMENTED
 _allied_side_4 					= "";				//array no.91 - NOT IMPLEMENTED
 // ==================================================================
 // UNCONSCIOUS CAMERA OPTIONS
 _follow_cam 					= 1;				//array no.5  - option to allow viewing of friendly units while unconscious
-_follow_cam_distance			= 250;				//array no.32 - the range that unconscious players can spectate friendly units
+_follow_cam_distance			= 500;				//array no.32 - the range that unconscious players can spectate friendly units
 _follow_cam_team	   			= 0;				//array no.44 - set to 1 if you wish unconscious players only to spectate players within NORRN_player_units array
 _top_view_height 	   			= 70;				//array no.55 - allows you to set the top down camera height 
 _visible_timer 					= 1;				//array no.41 - view a cound-down timer while unconscious
