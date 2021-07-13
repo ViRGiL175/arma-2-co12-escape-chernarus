@@ -417,12 +417,13 @@ drn_fnc_Escape_BuildAmmoDepot = {
     
     // Weapons
     
-    private ["_weapons", "_weaponMagazines", "_box", "_weaponCount"];
+    private ["_weapons", "_weaponMagazines", "_backpacks", "_box", "_weaponCount"];
 
     // Basic Weapon Box
     
     _weapons = [];
     _weaponMagazines = [];
+    _backpacks = [];
     
     for "_i" from 0 to (count drn_arr_AmmoDepotBasicWeapons - 1) do {
         private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount", "_magazines", "_magazinesPerWeapon"];
@@ -446,10 +447,28 @@ drn_fnc_Escape_BuildAmmoDepot = {
         };
     };
     
-    if (count _weapons > 0) then {
+    for "_i" from 0 to (count drn_arr_AmmoDepotBasicBackpacks - 1) do {
+        private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount"];
+        
+        _handGunItem = drn_arr_AmmoDepotBasicBackpacks select _i;
+        
+        _weaponClassName = _handGunItem select 0;
+        _probabilityOfPrecence = _handGunItem select 1;
+        _minCount = _handGunItem select 2;
+        _maxCount = _handGunItem select 3;
+        
+        if (random 100 <= _probabilityOfPrecence) then {
+            _weaponCount = floor (_minCount + random (_maxCount - _minCount));
+            _backpacks set [count _backpacks, [_weaponClassName, _weaponCount]];
+            
+        };
+    };
+
+    if (count [_weapons, _backpacks] > 0) then {
         _box = "RUBasicWeaponsBox" createVehicle _middlePos;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
+		clearBackpackCargoGlobal _box;
         
         {
             _box addWeaponCargoGlobal _x;
@@ -458,12 +477,18 @@ drn_fnc_Escape_BuildAmmoDepot = {
         {
             _box addMagazineCargoGlobal _x;
         } foreach _weaponMagazines;
+        
+        {
+            _box addBackpackCargoGlobal _x;
+        } foreach _backpacks;
     };
+
 
     // Special Weapon Box
     
     _weapons = [];
     _weaponMagazines = [];
+	_backpacks = [];
     
     for "_i" from 0 to (count drn_arr_AmmoDepotSpecialWeapons - 1) do {
         private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount", "_magazines", "_magazinesPerWeapon"];
@@ -487,8 +512,90 @@ drn_fnc_Escape_BuildAmmoDepot = {
         };
     };
     
-    if (count _weapons > 0) then {
+    for "_i" from 0 to (count drn_arr_AmmoDepotSpecialBackpacks - 1) do {
+        private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount"];
+        
+        _handGunItem = drn_arr_AmmoDepotSpecialBackpacks select _i;
+        
+        _weaponClassName = _handGunItem select 0;
+        _probabilityOfPrecence = _handGunItem select 1;
+        _minCount = _handGunItem select 2;
+        _maxCount = _handGunItem select 3;
+        
+        if (random 100 <= _probabilityOfPrecence) then {
+            _weaponCount = floor (_minCount + random (_maxCount - _minCount));
+            _backpacks set [count _backpacks, [_weaponClassName, _weaponCount]];
+            
+        };
+    };
+
+    if (count [_weapons, _backpacks] > 0) then {
         _box = "RUSpecialWeaponsBox" createVehicle _middlePos;
+        clearWeaponCargoGlobal _box;
+        clearMagazineCargoGlobal _box;
+		clearBackpackCargoGlobal _box;
+        
+        {
+            _box addWeaponCargoGlobal _x;
+        } foreach _weapons;
+        
+        {
+            _box addMagazineCargoGlobal _x;
+        } foreach _weaponMagazines;
+		
+        {
+            _box addBackpackCargoGlobal _x;
+        } foreach _backpacks;
+    };
+
+
+    // Launchers
+    
+    _weapons = [];
+    _weaponMagazines = [];
+	_backpacks = [];
+    
+    for "_i" from 0 to (count drn_arr_AmmoDepotLaunchers - 1) do {
+        private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount", "_magazines", "_magazinesPerWeapon"];
+        
+        _handGunItem = drn_arr_AmmoDepotLaunchers select _i;
+        
+        _weaponClassName = _handGunItem select 0;
+        _probabilityOfPrecence = _handGunItem select 1;
+        _minCount = _handGunItem select 2;
+        _maxCount = _handGunItem select 3;
+        _magazines = _handGunItem select 4;
+        _magazinesPerWeapon = _handGunItem select 5;
+        
+        if (random 100 <= _probabilityOfPrecence) then {
+            _weaponCount = floor (_minCount + random (_maxCount - _minCount));
+            _weapons set [count _weapons, [_weaponClassName, _weaponCount]];
+            
+            for "_j" from 0 to (count _magazines) - 1 do {
+                _weaponMagazines set [count _weaponMagazines, [_magazines select _j, _weaponCount * _magazinesPerWeapon]];
+            };
+        };
+    };
+    
+    for "_i" from 0 to (count drn_arr_AmmoDepotLauncherBackpacks - 1) do {
+        private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount"];
+        
+        _handGunItem = drn_arr_AmmoDepotLauncherBackpacks select _i;
+        
+        _weaponClassName = _handGunItem select 0;
+        _probabilityOfPrecence = _handGunItem select 1;
+        _minCount = _handGunItem select 2;
+        _maxCount = _handGunItem select 3;
+        
+        if (random 100 <= _probabilityOfPrecence) then {
+            _weaponCount = floor (_minCount + random (_maxCount - _minCount));
+            _backpacks set [count _backpacks, [_weaponClassName, _weaponCount]];
+            
+        };
+    };
+	
+    if (count [_weapons, _backpacks] > 0) then {
+        _box = "RULaunchersBox" createVehicle _middlePos;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         
@@ -499,7 +606,12 @@ drn_fnc_Escape_BuildAmmoDepot = {
         {
             _box addMagazineCargoGlobal _x;
         } foreach _weaponMagazines;
+		
+        {
+            _box addBackpackCargoGlobal _x;
+        } foreach _backpacks;
     };
+
 
     // Ordnance
     
@@ -571,47 +683,6 @@ drn_fnc_Escape_BuildAmmoDepot = {
     
     if (count _weapons > 0) then {
         _box = "RUVehicleBox" createVehicle _middlePos;
-        clearWeaponCargoGlobal _box;
-        clearMagazineCargoGlobal _box;
-        
-        {
-            _box addWeaponCargoGlobal _x;
-        } foreach _weapons;
-        
-        {
-            _box addMagazineCargoGlobal _x;
-        } foreach _weaponMagazines;
-    };
-
-    // Launchers
-    
-    _weapons = [];
-    _weaponMagazines = [];
-    
-    for "_i" from 0 to (count drn_arr_AmmoDepotLaunchers - 1) do {
-        private ["_handGunItem", "_weaponClassName", "_probabilityOfPrecence", "_minCount", "_maxCount", "_magazines", "_magazinesPerWeapon"];
-        
-        _handGunItem = drn_arr_AmmoDepotLaunchers select _i;
-        
-        _weaponClassName = _handGunItem select 0;
-        _probabilityOfPrecence = _handGunItem select 1;
-        _minCount = _handGunItem select 2;
-        _maxCount = _handGunItem select 3;
-        _magazines = _handGunItem select 4;
-        _magazinesPerWeapon = _handGunItem select 5;
-        
-        if (random 100 <= _probabilityOfPrecence) then {
-            _weaponCount = floor (_minCount + random (_maxCount - _minCount));
-            _weapons set [count _weapons, [_weaponClassName, _weaponCount]];
-            
-            for "_j" from 0 to (count _magazines) - 1 do {
-                _weaponMagazines set [count _weaponMagazines, [_magazines select _j, _weaponCount * _magazinesPerWeapon]];
-            };
-        };
-    };
-    
-    if (count _weapons > 0) then {
-        _box = "RULaunchersBox" createVehicle _middlePos;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         

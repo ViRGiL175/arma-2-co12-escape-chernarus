@@ -149,18 +149,7 @@ drn_arr_Escape_StartPositionGuardTypes = [
     "Ins_Soldier_Sab",
     "Ins_Soldier_Sapper",
     "Ins_Woodlander2",
-    "Ins_Woodlander3",
-
-    "MVD_Soldier",
-    "MVD_Soldier_AT",
-    "MVD_Soldier_GL",
-    "MVD_Soldier_MG",
-    "MVD_Soldier_Marksman",
-    "MVD_Soldier_Sniper",
-    "MVD_Soldier_TL",
-    "Soldier_Sniper_PMC",
-    "RU_Soldier_Spotter",
-    "RUS_Soldier_Marksman"
+    "Ins_Woodlander3"
 ];
 
 // Inner fence guard's secondary weapon (and corresponding magazine type).
@@ -1450,7 +1439,50 @@ drn_arr_AmmoDepotLaunchers set [count drn_arr_AmmoDepotLaunchers, ["Javelin", 5,
 
 
 //HulaZone backpacks
+// Backpacks
+// Basic backpacks
+drn_arr_AmmoDepotBasicBackpacks = [];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["CZ_Backpack_EP1", 20, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["TK_Assault_Pack_EP1", 20, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["TK_ALICE_Pack_EP1", 20, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["CZ_VestPouch_EP1", 40, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["US_Backpack_EP1", 5, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["US_Assault_Pack_EP1", 30, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["USBasicBag", 40, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["US_Patrol_Pack_EP1", 30, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_OD", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_DES", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_3DES", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_WDL", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_MAR", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_DMAR", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_UCP", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_6DES", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_TAK", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_NVG", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_BLK", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_DPM", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_FIN", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_MTC", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_NOR", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_WIN", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_ATC", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_MTL", 10, 1, 1]];
+drn_arr_AmmoDepotBasicBackpacks set [count drn_arr_AmmoDepotBasicBackpacks, ["LEN_Backpack_FTN", 10, 1, 1]];
 
+// Special backpacks
+drn_arr_AmmoDepotSpecialBackpacks = [];
+drn_arr_AmmoDepotSpecialBackpacks set [count drn_arr_AmmoDepotSpecialBackpacks, ["MAV_RAVEN_BACKPACK", 10, 1, 1]];
+drn_arr_AmmoDepotSpecialBackpacks set [count drn_arr_AmmoDepotSpecialBackpacks, ["2b14_82mm_TK_INS_Bag_EP1", 10, 1, 1]];
+drn_arr_AmmoDepotSpecialBackpacks set [count drn_arr_AmmoDepotSpecialBackpacks, ["AGS_TK_INS_Bag_EP1", 5, 1, 1]];
+drn_arr_AmmoDepotSpecialBackpacks set [count drn_arr_AmmoDepotSpecialBackpacks, ["DSHkM_Mini_TriPod_TK_INS_Bag_EP1", 10, 1, 1]];
+drn_arr_AmmoDepotSpecialBackpacks set [count drn_arr_AmmoDepotSpecialBackpacks, ["DSHKM_TK_INS_Bag_EP1", 10, 1, 1]];
+drn_arr_AmmoDepotSpecialBackpacks set [count drn_arr_AmmoDepotSpecialBackpacks, ["SPG9_TK_INS_Bag_EP1", 5, 1, 1]];
+
+// Launcher backpacks
+drn_arr_AmmoDepotLauncherBackpacks = [];
+drn_arr_AmmoDepotLauncherBackpacks set [count drn_arr_AmmoDepotLauncherBackpacks, ["TK_RPG_Backpack_EP1", 20, 1, 1]];
+drn_arr_AmmoDepotLauncherBackpacks set [count drn_arr_AmmoDepotLauncherBackpacks, ["Metis_TK_Bag_EP1", 10, 1, 1]];
 
 
 // Weapons and ammo in the ordnance box
