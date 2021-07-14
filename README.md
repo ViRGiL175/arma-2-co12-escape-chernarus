@@ -43,14 +43,14 @@ In the [Releases section](https://github.com/ViRGiL175/arma-2-co12-escape-cherna
 
 ### How can I help you make it greater?
 
-GitHub has Issues and Discussions sections where you can write about bugs, your adventures, ideas, and other stuff. We're very interested!
+GitHub has Issues and Discussions sections where **you can write about bugs, your adventures, ideas, and other stuff**. We're very interested!
 
-If you know anything about Arma modding, any help is welcome (because this is our first project, and we haven't even played Arma itself, only Escape and DayzMod)! 
+If **you know anything about Arma modding**, any help is welcome (because this is our first project, and we haven't even played Arma itself, only Escape and DayzMod)!
 
 Feel free to create your own builds and send them to us, if you know how to use GitHub, we are waiting for your Pull Requests. We will review, test and make Escape better and better!
 
-If you have any interesting mods from Arma 2 (Armaholic and other resources are already dead in time), that could improve Escape, don't hesitate to share them with us! 
+If **you have any interesting mods from Arma 2** (Armaholic and other resources are already dead in time), that could improve Escape, don't hesitate to share them with us!
 
 Because even mods from HulaZone and Iceman were saved on our computers only by a true miracle and could be lost forever.
 
-Thank you! Enjoy!
+Thank you! **Enjoy!**
