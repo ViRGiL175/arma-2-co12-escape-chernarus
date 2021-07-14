@@ -377,7 +377,7 @@ if (!isNull player) then {
                 // Only show this on non ported missions
                 if (worldName == "Chernarus") then {
                     sleep 20;
-                    [name player + "Please give us feedback about your Escape Chernarus adventures, bugs and ideas on GitHub.com mission page! Enjoy the mission and good luck!", true] call drn_fnc_CL_ShowTitleTextLocal;
+                    [name player + "! Please give us feedback about your Escape Chernarus adventures, bugs and ideas on GitHub.com mission page! Enjoy the mission and good luck!", true] call drn_fnc_CL_ShowTitleTextLocal;
                 };
             };
         };
