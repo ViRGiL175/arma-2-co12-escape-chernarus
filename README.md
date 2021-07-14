@@ -14,9 +14,9 @@ Then this mission is for you!
 
 In this mission you must escape from captivity in the midst of hostilities in Chernarus: get out of the guarded area, deal with the search parties and not die on the battlefield, get the map, equipment, organize an attack on the enemy communications center, contact your allies and proceed to the declared evacuation point.
 
-##### This is an assembly of several projects. 
+##### This is an assembly of several projects.
 
-The [original logic and mission was created by Engima](https://web.archive.org/web/20210302085542/https://www.armaholic.com/page.php?id=16162). On this basis there were two mods: a [mod from HulaZone team](https://web.archive.org/web/20210123151358/https://www.armaholic.com/page.php?id=20862) with a bunch of new content (weapons, vehicles, enemy classes) and a [mod from Iceman](https://web.archive.org/web/20210225022305/https://www.armaholic.com/page.php?id=21728), which added to the map an active and very expressive military clash. 
+The [original logic and mission was created by Engima](https://web.archive.org/web/20210302085542/https://www.armaholic.com/page.php?id=16162). On this basis there were two mods: a [mod from HulaZone team](https://web.archive.org/web/20210123151358/https://www.armaholic.com/page.php?id=20862) with a bunch of new content (weapons, vehicles, enemy classes) and a [mod from Iceman](https://web.archive.org/web/20210225022305/https://www.armaholic.com/page.php?id=21728), which added to the map an active and very expressive military clash.
 
 We liked both, so we decided to combine these two mods to make an escape with lots of content, and in a live dynamic combat environment where anything can go wrong and deeper.
 
@@ -24,7 +24,7 @@ We liked both, so we decided to combine these two mods to make an escape with lo
 
 Yes, Arma 2 has fewer features, buggy as hell, morally and technically obsolete, but...
 
-Gosh, how cool the explosions look and sound in it, how juicy helicopter and plane crashes, artillery fire (and sometimes shotgun) destroys buildings and almost every UAZ has a total ear destruction weapon on the roof! 
+Gosh, how cool the explosions look and sound in it, how juicy helicopter and plane crashes, artillery fire (and sometimes shotgun) destroys buildings and almost every UAZ has a total ear destruction weapon on the roof!
 
 It's all about expression. And Arma 3 doesn't have that kind of expression even close, it's like high-tech paintball.
 
