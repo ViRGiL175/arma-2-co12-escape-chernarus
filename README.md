@@ -1,4 +1,4 @@
-### Escape Chernarus mission for Arma 2
+# Escape Chernarus mission for Arma 2
 
 Do you remember those good old Escape mission? Do you want stressful action-full coop military experience? Do you bored by flat and inexpressive Arma 3 warfare process?
 
@@ -6,13 +6,17 @@ Then this mission is for you!
 
 ### What is this?
 
+<p align="right">  
+<video width="320" height="240" controls src="https://user-images.githubusercontent.com/11541555/125618952-3a7e86ad-aac2-4581-9b3b-b64c9d4fb4c9.mp4" type="video/mp4"></video>
+</p>
+
 [Original Engima mission trailer](https://www.youtube.com/watch?v=2KHmEMLIYqg)
 
 In this mission you must escape from captivity in the midst of hostilities in Chernarus: get out of the guarded area, deal with the search parties and not die on the battlefield, get the map, equipment, organize an attack on the enemy communications center, contact your allies and proceed to the declared evacuation point.
 
-This is an assembly of several projects. 
+##### This is an assembly of several projects. 
 
-The [original logic and mission](https://web.archive.org/web/20210302085542/https://www.armaholic.com/page.php?id=16162) was created by Engima. On this basis there were two mods: a [mod from HulaZone team](https://web.archive.org/web/20210123151358/https://www.armaholic.com/page.php?id=20862) with a bunch of new content (weapons, vehicles, enemy classes) and a [mod from Iceman](https://web.archive.org/web/20210225022305/https://www.armaholic.com/page.php?id=21728), which added to the map an active and very expressive military clash. 
+The [original logic and mission was created by Engima](https://web.archive.org/web/20210302085542/https://www.armaholic.com/page.php?id=16162). On this basis there were two mods: a [mod from HulaZone team](https://web.archive.org/web/20210123151358/https://www.armaholic.com/page.php?id=20862) with a bunch of new content (weapons, vehicles, enemy classes) and a [mod from Iceman](https://web.archive.org/web/20210225022305/https://www.armaholic.com/page.php?id=21728), which added to the map an active and very expressive military clash. 
 
 We liked both, so we decided to combine these two mods to make an escape with lots of content, and in a live dynamic combat environment where anything can go wrong and deeper.
 
@@ -24,9 +28,9 @@ Gosh, how cool the explosions look and sound in it, how juicy helicopter and pla
 
 It's all about expression. And Arma 3 doesn't have that kind of expression even close, it's like high-tech paintball.
 
-We tried the same escape mission in Arma 3, but time after time we came back to Arma 2 for the fun, the bugs, and the intense experience.
+We tried the same Escape mission in Arma 3, but time after time we came back to Arma 2 for the fun, the bugs, and the intense experience.
 
-You can compare and understand everything, escape for Arma 3 is here: 
+You can compare and understand everything, Escape for Arma 3 is here: </br>
 https://github.com/NeoArmageddon/co10_Escape
 
 ### How can I play it?
