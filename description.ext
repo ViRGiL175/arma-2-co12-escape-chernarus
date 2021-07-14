@@ -6,7 +6,7 @@ class Header
   maxPlayers = 8;
 };
 
-onLoadMission = "ESCAPE CHERNARUS EDITED BY ICEMAN";
+onLoadMission = "ESCAPE CHERNARUS BY QAZPOS";
 OnLoadMissionTime = FALSE;
 
 // description.ext settings for revive

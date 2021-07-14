@@ -308,7 +308,10 @@ if (!isNull player) then {
         else {
             sleep 0.4;
             if (_showIntro) then {
-                ["<t size='0.9'>" + "Engima of Ostgota Ops present" + "</t>",0.02,0.3,2,-1,0,3010] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Engima of Ostgota Ops" + "</t>", 0.02, 0.3, 2.4, -1, 0, 3010] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Iceman" + "</t>", 0.02, 0.3, 2, -1, 0, 3010] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "HulaZone Team" + "</t>", 0.02, 0.3, 1, -1, 0, 3010] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "and qazpos presents" + "</t>", 0.02, 0.3, 2.4, -1, 0, 3010] spawn bis_fnc_dynamicText;
             };
             
             if (isMultiplayer) then {
@@ -331,7 +334,7 @@ if (!isNull player) then {
                 0 cutText ["", "BLACK FADED"];
                 sleep 1.75;
             
-                ["<t size='0.9'>" + "Escape Chernarus edited by Iceman" + "</t>",0.02,0.3,2,-1,0,3011] spawn bis_fnc_dynamicText;
+                ["<t size='0.9'>" + "Escape Chernarus" + "</t>", 0.02, 0.3, 2, -1, 0, 3011] spawn bis_fnc_dynamicText;
                 
                 0 cutText ["", "BLACK FADED"];
                 sleep 1.75;
@@ -374,7 +377,7 @@ if (!isNull player) then {
                 // Only show this on non ported missions
                 if (worldName == "Chernarus") then {
                     sleep 20;
-                    [name player + "! Please give me feedback about your Escape Chernarus adventures on Armaholic.com on the mission page or PM me! Enjoy the mission!", true] call drn_fnc_CL_ShowTitleTextLocal;
+                    [name player + "Please give us feedback about your Escape Chernarus adventures, bugs and ideas on GitHub.com mission page! Enjoy the mission and good luck!", true] call drn_fnc_CL_ShowTitleTextLocal;
                 };
             };
         };
