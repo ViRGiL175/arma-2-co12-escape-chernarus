@@ -49,8 +49,8 @@ If you know anything about Arma modding, any help is welcome (because this is ou
 
 Feel free to create your own builds and send them to us, if you know how to use GitHub, we are waiting for your Pull Requests. We will review, test and make Escape better and better!
 
-If you have any interesting mods from Arma 2 (Armaholic and other resources are already dead in time), that could improve your escape, don't hesitate to share them with us! 
+If you have any interesting mods from Arma 2 (Armaholic and other resources are already dead in time), that could improve Escape, don't hesitate to share them with us! 
 
-Because even these mods from HulaZone and Iceman were saved on our computers only by a true miracle and could be lost forever.
+Because even mods from HulaZone and Iceman were saved on our computers only by a true miracle and could be lost forever.
 
 Thank you! Enjoy!
