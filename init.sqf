@@ -323,16 +323,22 @@ if (!isNull player) then {
             };
             
             if (_showIntro) then {
-                0 cutText ["Engima of Ostgota Ops", "BLACK FADED"];
-                sleep 2.4;
-                0 cutText ["Iceman", "BLACK FADED"];
+                // [text, x, y, duration, fadeInTime, deltaY, rscLayer] spawn BIS_fnc_dynamicText
+                ["<t size='0.9'>" + "Engima of Ostgota Ops" + "</t>", 0, 0.3, 3.0, 0.5, 0, 0] spawn BIS_fnc_dynamicText
+                sleep 3.0;
+                0 cutText ["", "BLACK FADED", 1];
+                ["<t size='0.9'>" + "Iceman" + "</t>", 0, 0.3, 2.0, 0.5, 0, 0] spawn BIS_fnc_dynamicText
                 sleep 2.0;
-                0 cutText ["HulaZone Team", "BLACK FADED"];
-                sleep 1.0;
-                0 cutText ["and qazpos presents", "BLACK FADED"];
-                sleep 2.4;
-                0 cutText ["Escape Chernarus", "BLACK FADED"];
+                0 cutText ["", "BLACK FADED", 1];
+                ["<t size='0.9'>" + "HulaZone Team" + "</t>", 0, 0.3, 2.0, 0.5, 0, 0] spawn BIS_fnc_dynamicText
                 sleep 2.0;
+                0 cutText ["", "BLACK FADED", 1];
+                ["<t size='0.9'>" + "and qazpos presents" + "</t>", 0, 0.3, 2.4, 0.5, 0, 0] spawn BIS_fnc_dynamicText
+                sleep 2.4;
+                0 cutText ["", "BLACK FADED", 1];
+                ["<t size='0.9'>" + "Escape Chernarus" + "</t>", 0, 0.3, 2.0, 0.5, 0, 0] spawn BIS_fnc_dynamicText
+                sleep 2.0;
+                0 cutText ["", "BLACK FADED", 1];
                 ["Somewhere in Chernarus", str (date select 2) + "/" + str (date select 1) + "/" + str (date select 0) + " " + str (date select 3) + ":00"] spawn BIS_fnc_infoText;
             };
         };
