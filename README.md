@@ -14,7 +14,7 @@ In this mission you must escape from captivity in the midst of hostilities in Ch
 
 ##### This is an assembly of several projects.
 
-The [original logic and mission was created by Engima](https://web.archive.org/web/20210302085542/https://www.armaholic.com/page.php?id=16162). On this basis there were two mods: a [mod from HulaZone team](https://web.archive.org/web/20210123151358/https://www.armaholic.com/page.php?id=20862) with a bunch of new content (weapons, vehicles, enemy classes) and a [mod from Iceman](https://web.archive.org/web/20210225022305/https://www.armaholic.com/page.php?id=21728), which added to the map an active and very expressive military clash.
+The [original logic and mission was created by Engima](https://web.archive.org/web/20210302085542/https://www.armaholic.com/page.php?id=16162). On this basis there were two mods: a [mod from HulaZone team](https://web.archive.org/web/20210123151358/https://www.armaholic.com/page.php?id=20862) with a bunch of new content (weapons, vehicles, enemy classes) and a [mod from Iceman](https://web.archive.org/web/20210225022305/https://www.armaholic.com/page.php?id=21728), who added to the map an active and very expressive military clash.
 
 We liked both, so we decided to combine these two mods to make an escape with lots of content, and in a live dynamic combat environment where anything can go wrong and deeper.
 
@@ -37,8 +37,8 @@ In the [Releases section](https://github.com/ViRGiL175/arma-2-co12-escape-cherna
 
 1. Install Arma 2 Operation Arrowhead or Combined Operations
 2. Get some way to connect your whole team directly; for example, [Radmin VPN](https://www.radmin-vpn.com/)
-3. Download all the folders from the releases section and copy them to your Arma 2 folder
-4. Go into the game, in the multiplayer section, create a server, select our mission and go
+3. Download all the folders from the releases section and copy them to your Arma 2 OA folder
+4. Go into the game, in the multiplayer section, create a server, select our mission and try to escape
 
 ### How can I help you make it greater?
 
