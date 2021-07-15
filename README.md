@@ -6,9 +6,7 @@ Then this mission is for you!
 
 ### What is this?
 
-<p align="right">  
-<video width="320" height="240" controls src="https://user-images.githubusercontent.com/11541555/125618952-3a7e86ad-aac2-4581-9b3b-b64c9d4fb4c9.mp4" type="video/mp4"></video>
-</p>
+https://user-images.githubusercontent.com/11541555/125618952-3a7e86ad-aac2-4581-9b3b-b64c9d4fb4c9.mp4
 
 [Original Engima mission trailer](https://www.youtube.com/watch?v=2KHmEMLIYqg)
 
@@ -37,9 +35,10 @@ https://github.com/NeoArmageddon/co10_Escape
 
 In the [Releases section](https://github.com/ViRGiL175/arma-2-co12-escape-chernarus/releases) you can download the latest version of the mission. To install and run it, you need to:
 
-1. describe
-2. installation
-3. process
+1. Install Arma 2 Operation Arrowhead or Combined Operations
+2. Get some way to connect your whole team directly; for example, [Radmin VPN](https://www.radmin-vpn.com/)
+3. Download all the folders from the releases section and copy them to your Arma 2 folder
+4. Go into the game, in the multiplayer section, create a server, select our mission and go
 
 ### How can I help you make it greater?
 
