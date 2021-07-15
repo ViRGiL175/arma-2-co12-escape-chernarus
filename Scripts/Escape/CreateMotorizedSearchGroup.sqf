@@ -40,7 +40,7 @@ if (_enemyFrequency == 2) then {
     _soldiersCount = 4 + floor random (_vehicleMaxCargo - 3);
 };
 
-_infantryTypes = drn_arr_Escape_InfantryTypes;
+_infantryTypes = drn_arr_Escape_SpetzInfantryTypes;
 for "_i" from 1 to _soldiersCount do {
     _infantryType = _infantryTypes select floor random count _infantryTypes;
     _insurgentSoldier = _group createUnit [_infantryType, [0,0,30], [], 0, "FORM"];

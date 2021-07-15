@@ -36,11 +36,11 @@ if (str _infantryClasses == """RU""") then {
     _isFaction = true;
 };
 if (str _infantryClasses == """INS""") then {
-    _possibleInfantryTypes = ["Ins_Soldier_AA", "Ins_Soldier_AT", "Ins_Soldier_AR", "Ins_Soldier_GL", "Ins_Soldier_MG", "Ins_Soldier_Medic", "Ins_Soldier_1", "Ins_Soldier_2", "Ins_Soldier_Sniper"];
+    _possibleInfantryTypes = ["RU_Soldier_Officer", "RU_Soldier", "RU_Soldier2", "RU_Soldier_GL", "RU_Soldier_MG", "RU_Soldier_Marksman", "RU_Soldier_Medic"];
     _isFaction = true;
 };
 if (str _infantryClasses == """GUE""") then {
-    _possibleInfantryTypes = ["GUE_Soldier_AR", "GUE_Soldier_GL", "GUE_Soldier_Sniper", "GUE_Soldier_MG", "GUE_Soldier_Medic", "GUE_Soldier_3", "GUE_Soldier_2", "GUE_Soldier_1", "GUE_Soldier_AT", "GUE_Soldier_AA"];
+    _possibleInfantryTypes = ["RU_Soldier_Officer", "RU_Soldier", "RU_Soldier2", "RU_Soldier_GL", "RU_Soldier_MG", "RU_Soldier_Marksman", "RU_Soldier_Medic"];
     _isFaction = true;
 };
 
