@@ -1,0 +1,1153 @@
+﻿<Project name="Arma2">
+  <Package name="Vilas_Weapons_Update">
+    <Key ID="STR_VILAS_AUTHOR">
+      <English>Vilas</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG16">
+      <English>RPG-16</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG16_LIB">
+      <English>RPG-16 antitank grenade launcher has been developed in late 1960s especially for Soviet airborne troops. Compared to the contemporary RPG-7, RPG-16 provided greater effective range and better accuracy, thanks to the smaller caliber warhead and more powerful rocket booster. Adopted in 1970, the RPG-16 was widely used during Soviet campaign in Afghanistan, mostly against hardened fire positions and buildings and from stand-off ranges. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG16_SHORT">
+      <English>Rocket-propelled grenade</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPOA">
+      <English>RPO-A "Schmel"</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPOA_LIB">
+      <English>Development for a singe-shot, disposable grenade launcher for Soviet army capable of firing incendiary, thermobaric / FAE (Fuel-Air Explosive) or smoke rockets was initiated in 1984. The resulting weapon, known as 'Schmel' (bumblebee) was adopted by the Soviet army in 1988 in three versions - RPO-A with thermobaric/FAE warhead, RPO-Z with incendiary warhead and the RPO-D with smoke warhead. The RPO-A is a single-shot recoilless weapon of somewhat unusual construction. It has a fiberglass smoothbore barrel which is factory pre-loaded with a round of ammunition, which, in turn, consists of a missile with warhead and tail fins, and propelling charge. The blast effect of the thermobaric / FAE RPO-A warhead, which contains about 2.2 kg of Fuel-Air Explosive, is roughly equivalent to the blast effect of a 107mm / 4inch HE artillery shell. Upon explosion, the RPO-A warhead generates a cloud of high-temperature flame about 6-7 meters in diameter with a concussion blast radius of 3 meters or more. The blast cloud lasts as long as 0.4 seconds, thus allowing for significant incendiary effect in addition to the massive pressure wave. A typical HE explosion, by contrast, has a much shorter lifetime. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPOA_SHORT">
+      <English>Disposable thermobaric launcher</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPOA_USED">
+      <English>RPO-A (Used)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG22">
+      <English>RPG-22</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG22_LIB">
+      <English>The RPG-22 rocket-propelled anti-tank grenade is an improved version of the earlier RPG-18 weapon. It was designed during late seventies and adopted by Soviet army in 1980. It also can be found in service with other armies of the ex-USSR countries. Key improvements of the RPG-22 over the RPG-18 included more powerful rocket motor, redesigned launcher tube and warhead of larger caliber, with bigger charge of explosive, to provide rougly 25% increase in armour piercing capability. The RPG-22 is a disposable, single shot rocket launcher pre-loaded with fin-stabilized rocket. The smoothbore barrel/container is made from two parts; the main tube and a telescoping forward extension, which slides over the barrel, both made of fiberglass. The rocket is contained in the barrel tube, and its solid-fuel motor burns out completely within the barrel. Because the barrel is open at the rear to avoid recoil, there is a dangerous backblast area behind the firing weapon, at least 15 meters (45 ft) long. Firing mechanism is cocked manually by rising the rear sight; lovering the rear sight de-cocks the firing mechanism so the grenade can be brough back to safe mode if the there's no immediate target. The rocket is fin-stabilized (with four switch-blade like fins at the rear), and its solid-propellant motor burns out completely while rocket is still in the barrel, accelerating it to about 133 m/s. The shaped charge (HEAT) warhead is loaded with 360 gram of explosive charge, resulting in armor penetration of up to 400 mm of homogenous steel armor. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG22_SHORT">
+      <English>Disposable rocket-propelled grenade launcher</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG22_USED">
+      <English>RPG-22 (Used)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG26">
+      <English>RPG-26</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG26_LIB">
+      <English>The development of the RPG-26 rocket-propelled antitank grenade was initiated on request from the Soviet army in the year 1980, and in around 1985 it was officially adopted by Soviet army, along with earlier RPG-22 grenade. The RPG-26 was further simplified with intoduction of the monobloc, non-telescoping launching tube, and also had improved rocket motor and warhead, which somewhat extended effective range and increased armor petentartion by about 10% (compared with RPG-22). The RPG-26 still remains in production in Russia, and is issued by Russian army as a standard personal anti-armor equipment for infantry on foot. The RPG-26 also served as a base for an 'assault rocket-propelled grenade' RShG-2. The RPG-26 is a disposable, single shot rocket launcher pre-loaded with fin-stabilized rocket. The single-piece smoothbore barrel / container is made of fiberglass. The rocket is contained in the barrel tube, and its solid-fuel motor burns out completely within the barrel. Because the barrel is open at the rear to avoid recoil, there is a dangerous backblast area behind the firing weapon. In transport/storage mode both ends of the barrel are closed by the front and rear covers, made of rubber; those covers shall not be removed manually and are destroyed during the rocket launch. Firing mechanism is cocked manually by rising the rear sight; lovering the rear sight de-cocks the firing mechanism so the grenade can be brough back to safe mode if the there's no immediate target. The rocket is fin-stabilized (with four switch-blade like fins at the rear), and its solid-propellant motor burns out completely while rocket is still in the barrel, accelerating it to about 144 m/s. The shaped charge (HEAT) warhead capable of armor penetration of up to 440 mm of homogenous steel armor.  &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG26_SHORT">
+      <English>Disposable rocket-propelled grenade</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG26_USED">
+      <English>RPG-26 (Used)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG7V">
+      <English>RPG-7V PGO-7</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG7V_LIB">
+      <English>RPG-7V fitted with a 2.7x PGO-7 fixed magnification optical sight to cope with the increased range of rounds like the PG-7VR and PG-7VL. The sight has a range-finding scale for typical targets (tanks) with height of 2.7m/9ft, and windage adjustment scales. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG7D">
+      <English>RPG-7D PGO-7</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG7D_LIB">
+      <English>Minor modification of the RPG-7 that features a two-part breakdown barrel for issue to airborne troops. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG29">
+      <English>RPG-29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG29_LIB">
+      <English>The RPG-29 Vampir (Vampire) is a Russian rocket-propelled grenade  launcher. Developed during the 1980s, it is the most recent weapon of its type to be adopted by the Russian military. Its tandem-charge PG-29V warhead is capable of defeating the frontal armor of modern tanks. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPG29_SHORT">
+      <English>Rocket-propelled grenade launcher&lt;br/&gt;Unguided</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SKS">
+      <English>SKS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SKS_LIB">
+      <English>The SKS is a Soviet semi-automatic carbine chambered for the 7.62x39mm round, designed in 1945 by Sergei Gavrilovich Simonov. SKS is an acronym for Samozaryadniy Karabin sistemi Simonova, 1945 (Self-loading Carbine, Simonov's system, 1945), or SKS 45. The Soviets rather quickly phased the SKS carbine out of first-line service, replacing it with the AK-47, but it remained in second-line service for decades afterwards. It remains a ceremonial arm today. It was widely exported and produced by the former Eastern Bloc nations, as well as China, where it was designated the 'Type 56', East Germany as the "Karabiner S" and in North Korea  as the "Type 63". It is today popular on the civilian surplus market in many countries. The SKS was one of the first weapons chambered for the 7.62x39mm M43 round later used in the AK-47 and RPD. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SKS_SHORT">
+      <English>Self-loading carbine&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_APS">
+      <English>APS Stechkin</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_APB">
+      <English>APB Stechkin</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_APS_LIB">
+      <English>The Stechkin APS (Avtomaticheskiy Pistolet Stetchkina, Russian: Автоматический Пистолет Стечкина) is a Russian selective fire machine pistol and was intended as a sidearm for artillery soldiers and tank crews. The Stechkin pistol was originally chambered for 7.62x25mm Tokarev. Stechkin changed the pistol to the 9 mm caliber used in the new Makarov pistol (PM), as it became clear that this cartridge was set to become the new service ammunition for handguns of the Red Army. In 1951, both the Makarov and Stechkin were introduced into the Soviet military arsenal, replacing the trusted Tokarev TT-33. As a pistol, it is rather heavy, and combined with the shoulder stock (which was rarely ever used), it is quite bulky. This led to the APS being gradually phased out of active service, although it is still held in reserve. The Stechkin APS was eventually replaced by the AKS-74U compact assault rifle with folding stock, offering more firepower due to its much more powerful 5.45x39mm M74 rifle ammunition. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_APB_LIB">
+      <English>The APB (Avtomaticheskij Pistolet Besshumnyj - automatic silenced pistol) is a further development of the Stechkin APS automatic pistol. The APB was developed in 1972 for Spetsnaz and KGB units, and has been widely used in Afghanistan and later conflicts. The APB, with the silencer fitted, is as loud as a non-silenced .22 caliber pistol, and is very accurate and controllable, especially with the shoulder stock fitted. One can easily achieve multiple hits at ranges of 25 meters and beyond in full automatic mode, firing bursts of 2 - 4 rounds. &lt;br/&gt;The basic action of the APB is the same as in APS pistol, but the barrel is drilled to decrease the muzzle velocity, and is enclosed in the tubular jacket, which extends forward from the slide and has grooves to accept the quick-detachable silencer interface. The clumsy and heavy holster/shoulder stock of the APS is replaced by the much more convenient detachable shoulder stock made of steel wire. The APB is usually carried in a special leather holster, with the separate pouch for silencer and shoulder stock. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_APS_SHORT">
+      <English>Machine pistol&lt;br/&gt;Caliber: 9x18mm PM</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_APB_SHORT">
+      <English>Silenced machine pistol&lt;br/&gt;Caliber: 9x18mm PM</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PYA">
+      <English>Yarygin PYa</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PYA_LIB">
+      <English>The PYa (Pistolet Yarygina - Yarygin pistol) was developed for the Russian Army trials, codenamed 'Grach' (rook). These trials were started by issuing initial requirements for a new military pistol in 1993. Than new pistol should had have a DA trigger, large capacity magazine, all steel construction and be able to be converted into 9x18 PM and PMM, 9x19mm Luger, and 7.62x25mm TT chamberings. Later on, the multicaliber option was dropped from military requirements, and in the late 1990s Russian army settled on the improved version of the worlds' most popular 9mm Luger/Parabellum round, very hot loaded (peak pressure generated by 7N21 is well beyond 9mm +P standards) and fitted with armour piercing bullet with hardened steel cores. Several designs were submitted to the trials, but eventual winner was the pistol, designed at the state Izhevsk Mechanical Plant by the Vladimir Yarygin. This pistol, initially known as the 6P35 (military index during trials) or as MP-443 'Grach' (manufacturer's designation), now is officially adopted by the Russian Government for Military and Law Enforcement use under the PYa designation, and already issued to some Russian Army units, most probably located in Chechnya. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PYA_SHORT">
+      <English>Semi-automatic pistol&lt;br/&gt;Caliber: 9x19mm 7N21</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PK">
+      <English>PK</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PKM">
+      <English>PKM</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PKMNSPU">
+      <English>PKM NSPU</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PKP">
+      <English>Pecheneg</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR3">
+      <English>SR-3 "Vikhr"</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR3_LIB">
+      <English>The SR-3 'Vikhr' (Whirlwind) compact assault rifle was developed in TSNIITOCHMASH by A. Borisov and V. Levchenko during early 1990s. Initially known as "MA" (Malogabaritnyj Avtomat = small-size assault rifle), it was based on the silenced 9 mm  AS 'Val' assault rifle, and intended for concealed carry by special VIP protection teams and State security operatives. The SR-3 is widely used by various FSO (Federal Protection Service, a VIP protection organization, which guards the President and the government of the Russian Federation) and FSB (Federal Security Service) operatives, elite Russian counter-terror teams and other specialized users in the MVD and Russian police. In terms of size and weight, the SR-3 is similar to many submachine guns, but it fires much more powerful 9x39mm ammunition, available in armor piercing (SP-6) and ball (SP-5) loadings. The SR-3 features the receiver, machined from a bar of steel, and gas-operated action with long stroke piston, plus the same rotating bolt group from the AS. However, the SR-3 has no integral silencer, nor provision to mount one, and thus is much shorter than the AS. Other changes included a more compact, top-folding butt and simplified flip-up rear sight. The redesigned charging handle, made in the form of dual sliders above the forearm, must be grasped by thumb and index finger and then retracted to load the weapon. The trigger unit is generally the same as in the AS, but the AK-type safety is replaced by ambidextrous lever above the pistol grip. The fire mode selector is of cross-bolt, push button type and located behind the trigger, inside the trigger guard. SR-3 uses same polymer magazines for 10 or 20 rounds, as the parent AS and VSS rifles. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR3_SHORT">
+      <English>Compact assault rifle&lt;br/&gt;Caliber: 9x39mm</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_9A91">
+      <English>9A-91</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_9A91_KOBRA">
+      <English>9A-91 Kobra</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_9A91_SD">
+      <English>9A-91 Kobra SD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_9A91_LIB">
+      <English>The 9A-91 9 mm compact assault rifle was originally developed as a part of the A91 family of compact weapons. Designed by the famous KBP design bureau in Tula, the 9A-91 was originally intended for an Army PDW (Personal Defense Weapon) role, but instead found some favor in the ranks of MVD and Russian police troops, as a less expensive (and somewhat more versatile) alternative to the  SR-3 'Vikhr' compact assault rifle. The 9A-91 rifle is a gas operated, rotating bolt weapon, which utilizes a long stroke gas piston, located above the barrel, and a rotating bolt with 4 lugs. The receiver is made from steel stampings; the forend and pistol grip are made from polymer. The steel buttstock folds up and above the receiver when not in use. The charging handle is located on the right side of bolt carrier (it was welded solid on early production guns, or can be folded up on current production guns). The safety/fire selector lever was located at the left side of the receiver on early guns, but was since relocated to the right side, to clear space for the sight mounting rail. The safety/fire selector lever has 3 positions and allows for single shots and full automatic fire. The flip-up rear sight has settings for 100 and 200 meters range, but the relatively short sight base and steep trajectory of the subsonic bullet effectively restricts the 9A-91 to ranges of about 100 meters, at which the 9 x 39 ammunition is clearly superior in penetration and hitting power to either 9mm pistol ammunition from submachine guns, or 5.45 and 5.56 mm ammunition from compact assault rifles like  AKS-74U or HK-53. To aid aiming, current production 9A-91 rifles are fitted with mounting rail on the left side of receiver, which allows instalation of mounts with day (telescope or red-dot) or night (IR) sights. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_9A91_SHORT">
+      <English>Compact assault rifle&lt;br/&gt;Caliber: 9x39mm</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VSS_PSO">
+      <English>VSS PSO-1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VSS_NSPU">
+      <English>VSS NSPU-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VAL">
+      <English>AS Val</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VAL_NSPU">
+      <English>AS Val NSPU-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VAL_KOBRA">
+      <English>AS Val Kobra</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VAL_LIB">
+      <English>The AS 'Val' is a Soviet-designed assault rifle featuring an integrated suppressor. It was developed during the late 1980s by TsNIITochMash (Central Institute for Precision Machine Building) and is used by Russian Spetsnaz special forces and the MVD, FSB and select units of the Russian Army. The 'Val' has a 70% piece commonality with its sister-gun, the VSS 'Vintorez'. Differences between the two include furniture made of high impact polymer and a skeletonized steel stock which folds to the left for storage and transportation, although the gun can still be operated with stock folded. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_VAL_SHORT">
+      <English>Silenced assault rifle&lt;br/&gt;Caliber: 9x39mm</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14">
+      <English>OC-14</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14_SD">
+      <English>OC-14 SD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14_SCOPE">
+      <English>OC-14 Scope</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14_GL">
+      <English>OC-14 GP25</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14_LIB">
+      <English>The OTs-14/OC-14 "Groza" ("Thunder") modular assault rifle was developed during the early 1990s by V. Telesh and Ju. Lebedev at the TSKIB SOO (Central Design Bureau for Sporting and Hunting Arms, located in the city of Tula). It was intended for various Special Forces in the Russian army and Internal Affairs Ministry as an dedicated CQB / Urban warfare weapon. It was briefly manufactured in small numbers at the Tula Arms factory during the mid-1990s. OTs-14 rifles saw some action during the first anti-terrorist campaign in Chechnya in 1999, but soon felt out of favor and are no longer made. The OC-14 is based on the familiar AKS-74U receiver and action, modified for the larger 9 x 39 subsonic ammunition favored by various SpetsNaz troops. It is fitted into a bullpup layout, with removable trigger / pistol grip unit which could be replaced with an alternative unit integral with 40 mm grenade launcher. In the grenade-launching configuration, a single trigger controls both the 40 mm GL and the rifle itself, with a separate barrel selector. The safety / fire mode selector of AK pattern is retained and in bullpup configuration is especially uncomfortable to operate. The barrel can be fitted with a quick-detachable silencer. Standard open sights are built into the carrying handle, which results in relatively short sight base. The carrying handle also has mounting points for telescope, red dot or night sights. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 9x39mm</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_OC14_GL_SHORT">
+      <English>Assault rifle with grenade launcher&lt;br/&gt;Caliber: 9x39mm</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVUA">
+      <English>SVU-A</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVU">
+      <English>SVU</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVU_LIB">
+      <English>The Dragunov SVU is a bullpup configuration of the SVD sniper rifle. The SVU was developed to meet the needs of the security forces of the Russian Ministry of Internal Affairs, such as OMON. The SVU was first seen in usage in the First Chechen War. Originally, the plan was to just slightly modernize the aging SVD, but they eventually realised that the configuration of the weapon would have to be completely altered, leading to the creation of the SVU. A muzzle brake was added which could absorb up to 40% of the recoil energy and an elastic butt stock with lamellar spring was non-rigidly attached to the receiver. The acoustics of the rifle were also improved by adding a sound suppressor. The other main improvements made to the SVU over the SVD include replacement of butt stock, pistol grip, trigger and the mounting for the sight, and shortening the barrel by 100mm achieved perfect balance for the weapon. Although the effective range of the weapon is only 400m (most modern sniper rifles have an effective range of around 1000m), the fire rate of 30 rounds/min in automatic mode make up for this. However, the rate of fire in standard sniper mode is only around 5 rounds/min. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVU_SHORT">
+      <English>Sharpshooter rifle&lt;br/&gt;Caliber: 7.62x54mmR</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVD">
+      <English>Dragunov SVD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_SVD">
+      <English>SVD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVD_S">
+      <English>Dragunov SVDS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_SVD_S">
+      <English>SVDS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVD_NSPU">
+      <English>Dragunov SVD NSPU-2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_SVD_NSPU">
+      <English>SVD NSPU-2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVDM">
+      <English>Dragunov SVD-M</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_SVDM">
+      <English>SVD-M</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVDM_P21">
+      <English>Dragunov SVD-M 1P21</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_SVDM_P21">
+      <English>SVD-M 1P21</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVDM_LIB">
+      <English>A modernized SVD that features polymer stock and a new flash hider/muzzle brake. For mounted and airborne troops, a folding butt and shortened barrel (to 590mm) was also incorporated. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SVD_SHORT">
+      <English>Sharpshooter rifle&lt;br/&gt;Caliber: 7.62x54mmR</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SV98">
+      <English>SV-98</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SV98_P69">
+      <English>SV-98 1P69</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SV98_SD">
+      <English>SV-98 Suppressor</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SV98_LIB">
+      <English>The SV-98 sniper rifle is based on the Record 300 m (328 yd) full bore sport shooting rifle series also made by IZHMASH JSC (Izhevsk Machinebuilding Plant). The heart of the SV-98 is a cold-hammer forged receiver and a cold-hammer forged free-floating heavy barrel which can be chrome lined to order. The manually operated bolt action has a rotating bolt with three symmetrically-spaced frontal lugs. The barrel has 4 grooves right-hand rifling and a 320 mm (1 in 12.6 in) twist rate and features a threaded muzzle which can accept the standard provide conical birdcage-pattern muzzle brake or a suppressor (special type of suppressor intended for supersonic ammunition). The SV-98 is equipped with iron sights and a Picatinny rail on top of the receiver that can be used to mount Russian and foreign made telescopic sights and other aiming optics with an appropriate rail interface system. The ambidextrous laminated plywood stock features an adjustable butt plate that can be regulated for length of pull and height and a height adjustable cheek comb. The front of the stock is prepared for an integral folding bipod and at the rear of the stock is prepared for mounting an integral rear monopod. The length of both bipod legs is independently adjustable and the rear monopod folds into the stock. The trigger mechanism displays an adjustable trigger pull weight of 1.0 to 1.5 kg (2.2 to 3.3 lb). To reduce recoil, jump, flash and sound signature, the SV-98 can be supplied with a tactical suppressor. An anti-mirage strap can be fixed between the front and rear sights. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SV98_SHORT">
+      <English>Sniper Rifle&lt;br/&gt;Caliber: 7.62x54mmR</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AN94">
+      <English>AN-94</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AN94_P29">
+      <English>AN-94 1P29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AN94_GL">
+      <English>AN-94 GP25</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AN94_LIB">
+      <English>The AN-94 (sometimes called the 'Abakan') is an advanced Russian assault rifle. The initials stand for Avtomat Nikonova (after chief designer Gennadiy Nikonov) Model 1994. The Russian Government formally declared the AN-94 to be the successor and replacement to the legendary Kalashnikov series of rifles following the Abakan  advanced assault rifle trials in The USSR throughout the 1980s. Gennadiy Nikonov's system reportedly outperformed its many remarkable rivals significantly, proving better than the advanced AEK-971 and the AKB (successor to the AK 107). The Nikonov AN-94 was commissioned for general issue to the Soviet  (now Russian) armed forces, with mass production scheduled at the traditional home of the Kalashnikov assault rifle, the historic Izhmash state factories. The stated great advantage of the AN-94 system is its ability to 'postpone' recoil until after the rounds fired have left the weapon. This, it is claimed, enables more 'hits' on target under the most adverse combat conditions. The AN-94 offers a unique two-shot burst function at a stated 1800 rounds per minute rate of fire. The Nikonov mechanism fires the second shot in the burst fast enough that it escapes before the recoil of the first shot is felt, thus potentially allowing the two shots to hit the same point, for example to aid in piercing body armour. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AN94_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AN94_GL_SHORT">
+      <English>Assault rifle with grenade launcher&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK101">
+      <English>AK-101</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK101_LIB">
+      <English>The AK-101 assault rifle is an export version of the 5.45mm Kalashnikov AK-74M assault rifle. The main difference between AK-101 and AK-74M is in ammunition used - the AK-101 is chambered for 5.56x45mm NATO ammunition. Otherwise it is basically the same as the AK-74M, which is current standard issue rifle of the Russian army. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK101_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 5.56X45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK103">
+      <English>AK-103</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK103_LIB">
+      <English>The Kalashnikov AK-103 assault rifle is a modification of the current Russian standard issue AK-74M rifle for older 7.62x39mm ammunition. It is primary intended for export, although it is belived that few AK-103 are in use by various Russian special Law Enforcement groups, which prefer 7.62mm over 5.45mm for its better stopping power. So far the biggest buyer for AK-103 assault rifles was the Venezuela, which in 2006 bought 100,000 AK-103 rifles and is sintent to purchase the manufacturing license and necessary equipment for domestic production of this weapon. The AK-103 is technically similar to AK-74M except for caliber and magazines used; any 7.62mm AK / AKM type magazine can be used in AK-103, but rifles now are issued with new production 30-round magazines made of black polymer. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK105">
+      <English>AK-105</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK105_KOBRA">
+      <English>AK-105 Kobra</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK102104105">
+      <English>The AK-102,  AK-104 and AK-105 rifles are essentially similar to one another, being different only in the caliber and type of magazine used. All three are 'compact' versions of the 5.56mm AK-101, 7.62mm AK-103 and 5.45mm AK-74M, respectively. The main visible differences between those 'Hundredth series compact assault rifles' and earlier 5.45mm AKS-74U compact assault rifle are that 'Hundred series' rifles use somewhat longer barrels and full length gas pistons, as opposed to shorter AKS-74U, and solid, side-folding polymer stocks. In fact, other than shorter barrels with special muzzle devices (flash / blast reducers) those compact rifles are similar in details to their respective full-size variants.&lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK105_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK107">
+      <English>AK-107</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK107_KOB">
+      <English>AK-107 Kobra</English>
+    </Key>
+    <Key ID="STR_DN_AK_107_KOBRA">
+      <English>AK-107 Kobra</English>
+    </Key>
+    <Key ID="STR_DN_AK_107_GL_PSO">
+      <English>AK-107 GL PSO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GP30">
+      <English>GP-30</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M70">
+      <English>M-70A/B</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M70_LIB">
+      <English>The M-70 is a military assault rifle developed and manufactured by Zastava Arms, Serbia, formerly Yugoslavia. The M70 is designed on the basis of famous Kalashnikov rifles, chamberd to the M67 7.62x39mm round. After the M-64 was rejected by the Yugoslav, Zastava was given a second chance in 1970 with a go-ahead to begin army funded production of the AP M-70 and M-70A series. Before production of larger series of these models, cost cutting measures in production, resulted in the removal of the internal bolt hold open, and relocation to the magazine follower. In addition, the installation of the barrel through threading into the receiver was replaced by the cheaper method of pressing and pinning the barrel into receiver. Rifles produced with these new features were known as models AP M-70B (fixed stock version), and M-70AB (underfolding version). The Zastava M70 can be identified from other AK rifles by the 3 cooling slots in the foregrip, the light-coloured teak furniture, the grenade-launching sight on the gas block and the black rubber buttplate on versions with a fixed stock. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M70_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M67</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AMD">
+      <English>AMD 65</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AMD_LIB">
+      <English>The AMD-65 is a Hungarian-manufactured variant of the venerable AKM rifle for use by that nation's armored infantry and paratrooper units. The rifle's design is suited for outdoor use as an infantry rifle but can also be used from within the confines of an armored vehicle as a fire support weapon. This is possible due to the side-folding stock of shaft design that makes it more compact. The barrel is also relatively short for the 7.62x39mm cartridge. The 12.6-inch barrel does not require the bulbous muzzle chamber of the AKS-74U but does use a specially designed muzzle brake, which attenuates muzzle flash while aggrandizing the sound. The AMD-65, along with the earlier AKM-63, have been largely replaced in Hungarian military service by the AK-63, a more traditional AKM copy with a lower manufacturing cost. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AMD_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS47">
+      <English>AKS-47</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS47_LIB">
+      <English>The AKS-47 was an AK-47 with a collapsible buttstock, adopted into service at the same time as the AK-47.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS47_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PMI">
+      <English>PM md. 63</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PMI_LIB">
+      <English>The Pistol Mitralieră model 1963 (abbreviated PM md. 63 or simply md. 63) is an assault rifle patterned after the AK-47, and chambered in the 7.62x39mm cartridge. In the early 1960s, the Romanian Army used mostly PPSh-41, Oriţa submachine guns and imported AK-47 rifles. With the development of the stamped Type 4 AKM receiver, and the Soviet Union's call to each of the Warsaw Pact's nations to produce their own assault rifles chambered in 7.62mm, be they AK-47 pattern or not, the Romanian State Arsenal developed an AKM clone featuring a forward-pointing front handgrip molded into the lower handguard, called the Pistol Mitralieră model 1963. The underfolding stock version is designated the Pistol Mitralieră model 1965, and features a rear-pointing front handgrip, allowing the underfolding stock to be completely retracted. The PM md. 63/65 is almost identical to the AKM/AKMS, and thus is simple, inexpensive to manufacture, and easy to clean and maintain. In the early 1960s, the Romanian Army used mostly PPSh-41, Oriţa submachine guns and imported AK-47 rifles. With the development of the stamped Type 4 AKM receiver, and the Soviet Union's call to each of the Warsaw Pact's nations to produce their own assault rifles chambered in 7.62mm, be they AK-47 pattern or not, the Romanian State Arsenal developed an AKM clone featuring a forward-pointing front handgrip molded into the lower handguard, called the Pistol Mitralieră model 1963. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_PMI_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MPI">
+      <English>MPi-KS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MPI_LIB">
+      <English>One of a family of AK-47 derivatives produced in East Germany (Deutsche Demokratische Republik, lit German Democratic Republic). The family includes the MPi-K (AK-47), MPi-KS (AKS), MPi-KM (AKM), MPi-KMS-72 (AKMS), KK-MPi Mod.69 (.22-Lr select-fire trainer). &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MPI_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK4749">
+      <English>AK-47 (Type 1)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK4749_LIB">
+      <English>AK-47 with the original stamped receiver. During the original production run, difficulties were encountered in welding the guide and ejector rails, causing high rejection rates. Instead of halting production, a heavy machined receiver was substituted for the sheet metal receiver. This was a more costly process, but the use of machined receivers accelerated production as tooling and labor for the earlier Mosin-Nagant  rifle's machined receiver were easily adapted. Partly because of these problems, the Soviets were not able to distribute large numbers of the new rifle to soldiers until 1956. Once manufacturing difficulties had been overcome, a redesigned version designated the AKM (M for "modernized" or "upgraded"—in Russian: (Автомат Калашникова Модернизированный [Avtomat Kalashnikova Modernizirovanniy]) was introduced in 1959. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK4749_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK47">
+      <English>AK-47</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK47_LIB">
+      <English>The AK-47 is a selective fire, gas operated 7.62x39mm assault rifle, first developed in the Soviet Union by Mikhail Kalashnikov. The designation AK-47 stands for Kalashnikov automatic rifle, model of 1947 (Russian: Автомат Калашникова 47, tr. Avtomat Kalashnikova 47). It is officially known as Avtomat Kalashnikova (or simply 'AK'). Also it is known as Kalashnikov or Russian jargon Kalash. Design work on the AK began in 1944. In 1946 a version of the rifle, the AK-46, was presented for official military trials, and a year later the fixed stock version was introduced into service with select units of the Soviet Army. An early development of the design was the AKS-47 (S—Skladnoy or "folding"), which differed in being equipped with an underfolding metal shoulder stock. The AK-47 was officially accepted by the Soviet Armed Forces in 1949 and used by the majority of the member states of the former Warsaw Pact. The original AK-47 was one of the first true assault rifles. Even after seven decades, due to its durability, low production cost and ease of use, the model and its variants remain the most widely used and popular assault rifles in the world. It has been manufactured in many countries and has seen service with regular armed forces as well as irregular, revolutionary and terrorist organizations worldwide. The AK-47 was also used as a basis for the development of many other types of individual and crew-served firearms. More AK-type rifles have been produced than all other assault rifles combined. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK47_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK47M1">
+      <English>AK-47M1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK47M1_LIB">
+      <English>A modified AK-47 used by Bulgaria, mostly by reserve and police forces since it had been largely supplanted by a Bulgarian-built version of the AK-74. Instead of using the AKM, the Bulgarians decided to go with their own, improved version of the AK-47. The AK-47M1 differs from the original AK-47 primarily in using plastics or compressed resin where the AK-47 used wood, and has a mount on top of the receiver for a telescopic, laser, or night sight.  This makes the AK-47M1 considerably lighter than the original AK-47. In addition, the underside of the handguard has a clip-on mount for the GP-25 grenade launcher. Internally, the AK-47’s mechanism is retained, but many of the parts are made of light alloy instead of stamped steel. The muzzle of the AK-47M1 is also equipped with a flash suppressor. The magazines normally issued with the AK-47M1 are also plastic, but it can still take the old steel magazines. As the typical Bulgarian soldier is smaller than his Russian counterpart, the butt of the AK-47M1 is shorter. An AKS-47M1 is also made, which is a folding-stock version (this is a metal stock, but not the same kind as used on the Russian AKMS).</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK47M1_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKMSGL">
+      <English>AKMS GP25</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKMSGL_LIB">
+      <English>AKMS fitted with a GP-25 grenade launcher.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKMSGL_SHORT">
+      <English>Compact assault rifle with grenade launcher&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKMSB">
+      <English>AKMS PBS-1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKMSB_LIB">
+      <English>With the AKM update to the AK-47, one change made was the addition of a removable muzzle flip compensator. This spoon-like compensator is screwed onto the muzzle and utilizes the muzzle blast to reduce muzzle climb during the automatic fire. This compensator can be replaced by a PBS-1 "noiseless firing device", generally known as a silencer. This silencer requires a special, sub-sonic ammunition with heavier bullets, designated the 7.62x39mm US (Umenshennaya Skorost – Low velocity). &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKMSB_SHORT">
+      <English>Compact assault rifle&lt;br/&gt;Caliber: 7.62x39mm US</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74UN">
+      <English>AKS-74UN</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74UB">
+      <English>AKS-74UB</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74UB_LIB">
+      <English>The AKS-74UB ("B"—Besshumniy) is a sound-suppressed variant of the AKS-74U adapted for use with the PBS-4 suppressor (used in combination with subsonic 5.45x39mm US ammunition). Very little is known about this model. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74UB_SHORT">
+      <English>Compact assault rifle&lt;br/&gt;Caliber: 5.45x39mm 7U1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74M">
+      <English>AK-74M</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74NSPU">
+      <English>AK-74 NSPU-2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74MNSPU">
+      <English>AK-74M NSPU-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74M_PSO">
+      <English>AK-74M PSO-1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74M_KOB">
+      <English>AK-74M Kobra</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74M_P29">
+      <English>AK-74M 1P29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74M_GL_P29">
+      <English>AK-74M GL 1P29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_AK74M_GL_P29">
+      <English>AK-74M 1P29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74P">
+      <English>AK-74 Plum Polymer</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74">
+      <English>AKS-74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74_LIB">
+      <English>A version of the AK-74 with a folding buttstock, the AKS-74 is intended for airborne troops. It featured a new type of folding buttstock; instead of the earlier pattern of underfolding stock, found on 7.62mm AKMS rifles, the AKS-74 has a more rigid and robust side-folding metallic buttstock, which folds to the left side of the gun. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74P">
+      <English>AKS-74 Plum Polymer</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74GP25">
+      <English>AKS-74 GP25</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74GP25_SHORT">
+      <English>Assault rifle with grenade launcher&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AKS74PGP25">
+      <English>AKS-74 GP25 Plum Polymer</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_AKS74PGP25">
+      <English>AKS-74 Plum Polymer</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74MK">
+      <English>AK-74M Collimator</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74MGP30">
+      <English>AK-74M GP30</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AK74MGP30_SHORT">
+      <English>Assault rifle with grenade launcher&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK971_EARLY">
+      <English>AEK-971 (Early)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK971_LATE">
+      <English>AEK-971 (Modern)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK971_GL">
+      <English>AEK-971 GP25</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK971_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK971_GL_SHORT">
+      <English>Assault Rifle with grenade launcher&lt;br/&gt;Caliber: 5.45x39mm M74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK971_LIB">
+      <English>The AEK-971 assault rifle was developed at Kovrov Machinebuilding Plant (formerly known as Kovrov Machineguns Plant) by chief designer S.I. Koksharov. Originally designed and tested during 'Abakan' trials of late 1980s, it failed in trials, but its development was continued in hopes to sell the gun to police forces and for export. During early 2000s small batches of AEK-971 rifles in 5.45x39 caliber were manufactured for Russian MVD (internal affairs ministry) troops, but its production has ceased in 2006, as Kovrov Machinebuilding Plant got rid of all military production and switched to civilain products only. The AEK-971 assault rifle has a gas driven, balanced action with rotating bolt locking, which means the gas drive has two gas chambers and two gas pistons. The first gas piston is linked via a gas rod to the bolt carrier and operates as usual. The second gas piston is linked to a balancing steel weight and moves in the opposite direction to the main gas piston. Both pistons are synchronized through a simple gear. The synchronous and opposite movement of the balancing weight eliminates all except the recoil impulse, so the rifle becomes far more stable during full-auto fire. The gain in accuracy in full auto is about 15-20%, when compared to the AK-74 assault rifle in the same caliber. The AN-94 assault rifle, which was officially adopted by Russian army, has a slight edge over the AEK-971 only in short burst (2 rounds only) mode. In full-auto medium or long burst fire mode (3-5 or 7-10 rounds per burst) AEK-971 wins hands down, being also some 0.5kg lighter than the AN-94, and much simpler and cheaper to manufacture. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK973_EARLY">
+      <English>AEK-973 (Early)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK973_LATE">
+      <English>AEK-973 (Modern)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK973_COL">
+      <English>AEK-973 Collimator</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK973_SHORT">
+      <English>Battle rifle&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AEK973_LIB">
+      <English>A variant of the AEK-971 chambered to the Russian 7.62x39mm round commonly used in the AK-47/AKM.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK47">
+      <English>RPK</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK47_LIB">
+      <English>RPK stands for Ruchnoy Pulemjot Kalashnikova - Kalashnikov hand-held (light) machine gun. In 1961, Soviet army chose the Kalashnikov system for a new infantry weapons system to replace the 7.62x39 SKS carbines, AK assault rifles and RPD LMGs, comprising of a modified AKM assault rifle and RPK squad automatic weapon (machine rifle/light machine gun). In Russia RPK light machine guns have mostly been replaced in service by the RPK-74 light machine guns of similar design, although few 7,62mm RPK may be still found in service with non-infantry units. The RPK is a gas operated, magazine fed, air cooled, selective fire weapon. The basic action, with a long-stroke gas piston located above the barrel and a rotating bolt, is similar to that of the Kalashnikov assault rifle. The trigger unit and safety is also the same, therefore the RPK fires from a closed bolt in both semi-automatic and automatic modes. The barrel is permanently fixed to the receiver and cannot be replaced in the field. The magazine interface is same as on the Kalashnikov assault rifle in the same caliber, and RPK and AKM magazines are interchangeable. However, the standard magazines for RPK are of extended capacity. The most common are curved box magazines holding 40 rounds of ammunition. Early production RPK magazines were made from stamped steel, but later on polymer magazines were introduced. Steel 75-rnd drum magazines were also produced, but were not very popular due to their weight, bulkiness and difficulty in reloading them. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK47_SHORT">
+      <English>Light machine gun&lt;br/&gt;Caliber: 7.62x39mm M43</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M_75Rnd_762x39_RPK">
+      <English>RPK Drum</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M_75Rnd_762x39_RPK_SHORT">
+      <English>Caliber: 7.62x39mm M43&lt;br/&gt;Rounds: 75&lt;br/&gt;Used in: RPK</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK74">
+      <English>RPK-74</English>
+    </Key>
+    <Key ID="STR_DN_RPK_74">
+      <English>RPK-74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK74M">
+      <English>RPK-74M</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK74MP29">
+      <English>RPK-74M 1P29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK74MN">
+      <English>RPK-74M NSPU-2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_RPK74M_LIB">
+      <English>The most recent version of the RPK-74, it features black polymer furniture, side-folding butt and side-rail on receiver for sighting equipment, along with several parts strengthened to improve overall reliability. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M_60Rnd_545x39_RPK74">
+      <English>RPK-74 Quad Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M_60Rnd_545x39_RPK74_SHORT">
+      <English>Caliber: 5.45x39mm M74&lt;br/&gt;Rounds: 60&lt;br/&gt;Used in: RPK-74, AK-74 variants, AK-107</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GLOCK">
+      <English>Glock 17</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GLOCK_O">
+      <English>Glock 19</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_BHP">
+      <English>Browning HP</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_BHP_LIB">
+      <English>The Browning Hi-Power is a single-action, 9mm semi-automatic handgun. It is based on a design by American firearms inventor John Browning, and later improved by Dieudonné Saive at Fabrique Nationale (FN) of Herstal, Belgium. Browning died in 1926, several years before the design was finalized. The Hi-Power is one of the most widely used military pistols of all time, having been used by the armed forces of over 50 countries. The Hi-Power name alluded to the 13-round magazine capacity; almost twice that of contemporary designs such as the Luger or Mauser 1910. The pistol is often referred to as an HP (for "Hi-Power" or "High-Power") or as a GP (for the French term, "Grande Puissance"). The term P-35  is also used, based on the introduction of the pistol in 1935. It is most often called the "Hi-Power", even in Belgium. It is also known as the BAP (Browning Automatic Pistol), particularly in Irish service. In the Canadian Forces it is generally called a "nine mil", or, by French Canadian troops, a "neuf millimètres". Technically, the High Power pistol, also known as Browning HP 35, GP 35 or Model 1935, is a recoil operated, locked breech pistol. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_BHP_SHORT">
+      <English>Semi-automatic pistol&lt;br/&gt;Caliber: 9x19mm Luger/Parabellum</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USP">
+      <English>USP</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USPSD">
+      <English>USP SD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USP_LIB">
+      <English>Heckler + Koch started the development of a new Universal Selbstlade Pistole (Universal Self-loading Pistol, or USP in short), in the mid-1989. The concept of the new design was to provide a universal weapon for police and military forces, available in a variety of versions and sizes. The target market for this new weapon was apparently the USA, as the first version of the pistol, which appeared in 1993, was chambered for a new American cartridge, the .40 S+W. A 9mm version appeared a little later, and in 1995 the slightly modified 9mm USP pistol was adopted by the  Bundeswehr (German army) as its new service pistol, under the designation P8. The same year the company also brought out another 'America-special' version of the USP, this time in.45 ACP caliber. There are several special-purpose versions of the USP, which includes two original variations fitted with extended threaded barrels to be used with silencers--the .45 caliber USP Tactical, 9mm USP 9 SD, and the .45 caliber USP 45 Compact Tactical--which are sometimes preferred by the US Military over the Mark 23 Model 0. USP pistols are short-recoil operated, locked-breech pistols with a polymer frame. Barrels on all USP pistols have polygonal rifling, except the earliest production pistols made in 1993, and all German army P8’s. The trigger is double-action, with an external hammer, an automatic firing pin safety and a frame-mounted lever. Each pistol can be easily adjusted by a gunsmith to any of the trigger mode configurations, with the replacement of a few parts that include a cam plate and a safety lever. The sights are dovetailed to the slide. Magazines on most USP pistols are of steel construction, but Bundeswehr-owned P8 pistols have semi-translucent polymer magazines. Magazine release levers are ambidextrous and located at the base of the trigger-guard. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USP45">
+      <English>USP45</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USP45SD">
+      <English>USP45 SD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USP45_SHORT">
+      <English>Semi-automatic pistol&lt;br/&gt;Caliber: .45 ACP</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_USP45SD_SHORT">
+      <English>Silenced semi-automatic pistol&lt;br/&gt;Caliber: .45 ACP</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3A2">
+      <English>HK G3A2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3A2">
+      <English>G3A2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3A3">
+      <English>HK G3A3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3A3">
+      <English>G3A3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3A4">
+      <English>HK G3A4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3A4_B">
+      <English>HK G3A4 (Black)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3A4">
+      <English>G3A4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3N">
+      <English>HK G3A3 Bundeswehr</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3N_B">
+      <English>HK G3A3 Bundeswehr (Black)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3N">
+      <English>G3A3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3ZF">
+      <English>HK G3A3 ZF</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3ZF_B">
+      <English>HK G3A3 ZF (Black)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3ZF">
+      <English>G3A3 ZF</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3SG1">
+      <English>HK G3A3 SG/1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3SG1_B">
+      <English>HK G3A3 SG/1 (Black)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3SG1">
+      <English>G3A3 SG/1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3TGS">
+      <English>HK G3A3 TGS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3TGS_B">
+      <English>HK G3A3 TGS (Black)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G3TGS">
+      <English>G3A3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK79">
+      <English>HK79</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK79_LIB">
+      <English>A G3 with a 40 mm HK79 under-barrel grenade launcher. TGS stands for Tragbares Granat System (portable grenade system). The HK79 is a single shot, breech-loading add-on weapon with rifled barrel. The barrel is made of steel, and is hinged to the launcher frame at the front,  to be tipped down at the rear for loading and unloading. The single-action firing mechanism has manually cocked action and manual safety, located at the rear of the launcher. The button-shaped trigger is located at the left side of the launcher frame, above the barrel. Rear sight of ladder type is marked from 50 to 350 meters, and is clamped onto the top of the host rifle receiver. The HK79 can fire all types of 40mm low-velocity ammunition, including the HE-FRAG, HE-DP, smoke, illuminating and various less-lethal (tear gas canister, rubber baton) rounds. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3_LIB">
+      <English>During the early- to mid-1950s West Germany faced the need for rearming its army for the newest common 7.62x51mm NATO caliber small arms. Initially Germans preferred the Belgian FN FAL rifle, and adopted it circa 1956 under the designation of G1. Due to obvious reasons Germany wanted to manufacture its military rifles, and attempted to buy a manufacturing license for FAL, but Belgium rejected the deal. Instead, Germany bought the manufacturing license for the Spanish CETME rifle and transferred it to the Heckler und Koch (HK) company, located in Oberndorf. HK slightly modified the CETME design, and in 1959 the Bundeswehr finally adopted the CETME/Heckler-Koch rifle as G3 (Gewehr 3 - Rifle, [model] 3). A total of more than 50 countries during the last 40 years have issued the G3 to its forces. The key reason for its high popularity is that it is much simpler and cheaper to manufacture than its major contemporary rivals. HK still manufactures a wide variety of firearms based on the G3 design but of different purposes and calibers, like MP-5 and 5.56mm HK33. The G3 rifle is a selective fire, magazine fed rifle, built using delayed blowback action, developed by German engineers at Mauser Werke late in the 2nd World War and refined in Spain, at the CETME company. In the mid-1960s the initial design was upgraded to the G3A3 and G3A4 configurations. These rifles had ventilated plastic handguards and a drum-type rear diopter sights, marked from 100 to 400 meters. Late German production G3A3 and G3A4 models were built using new trigger units, integral with restyled pistol grip and triggerguard, made from plastic. Every G3 rifle can be equipped with detachable bipods, claw-type detachable scope mounts. Long-barreled versions can be fitted with bayonet or used to launch rifle grenades from the barrel. Folding cocking handle is located on the special tube above the barrel, at the left side, and does not reciprocate when gun is fired. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3_SHORT">
+      <English>Battle Rifle&lt;br/&gt;Caliber: 7.62X51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3ZF_SHORT">
+      <English>Marksman/Battle rifle&lt;br/&gt;Caliber: 7.62X51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3SG1_SHORT">
+      <English>Sniper/Battle rifle&lt;br/&gt;Caliber: 7.62X51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G3TGS_SHORT">
+      <English>Battle rifle with grenade launcher&lt;br/&gt;Caliber: 7.62X51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG3">
+      <English>AG-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG3_LIB">
+      <English>A Norwegian G3A5 variant produced by Kongsberg Våpenfabrikk. A total of 253,497 units were produced for the Norwegian Armed Forces from 1967 to 1974. The Norwegian AG-3 differs from the original G3 in that it has a buttstock that is approx. 2 cm longer, the bolt carrier has a serrated thumb groove to aid in silent bolt closure, and features an all-metal cocking handle and a different bayonet mount. On April 11, 2007, it was announced that the AG-3 would be replaced by the Heckler + Koch HK416 in all military branches except for certain groups of the Home Guard. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG3_SHORT">
+      <English>Battle rifle&lt;br/&gt;Caliber: 7.62X51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M60">
+      <English>M60</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M60E3">
+      <English>M60E3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M60_LIB">
+      <English>The M60 is a family of American general purpose machine guns firing 7.62x51mm NATO cartridges from a disintegrating belt of M13 links. Introduced in 1957, it has served with every branch of the U.S. military and the initial version was officially adopted by the U.S. Army in the late 1950s. During tests the M60 was fairly effective, but in the jungles of Southeast Asia displayed several potent shortcomings. For units in Vietnam, the single most common complaint was that the M60 was comparatively unreliable and prone to jamming and other malfunctions, especially when it was dirty. Fine sand and dust in the mechanism could bring the M60 to a halt. This was a major factor in the Israeli Defense Force declining to adopt the M60. In normal conditions it would often fire thousands of rounds without a serious jam while field conditions tended to reduce reliability without proper maintenance. The safety was awkward to operate and worked the 'wrong way' for soldiers who were trained with the M16 rifle and M1911A1 pistol in that it required an upward movement of the thumb on the safety catch to make the gun ready to fire rather than a downward movement as with the other weapons. Additionally, it was possible to install parts of the fire control mechanism incorrectly, causing a "runaway gun" where it would keep firing until empty, even if the operator took his finger off the trigger. Several critical parts of early production M60s, such as the receiver cover and feed tray, were made from very thin sheet metal stampings and prone to bending or breaking. The U.S. Marines especially disliked the M60, and many Marine units held onto their BARs until 1967–68 officially, and longer unofficially. The reliability problem with the M60 machine gun was even more evident when the gun was compared to the successful and reliable PK machine gun used by Warsaw Pact forces and Soviet client states. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M60E3_LIB">
+      <English>he M60E3 was fielded circa 1986 in an attempt to remedy problems with earlier versions of the M60 for infantry use. It is a lightweight, 'improved' version intended to reduce the load carried by the gunner. Unlike its predecessors, the M60E3 has several updated modern features. It has a bipod (attached to the receiver) for improved stability, ambidextrous safety, universal sling attachments, a carrying handle on the barrel, and a simplified gas system. However, these features also caused almost as many problems for the weapon as they fixed. There were different types of barrels used, but the lightweight barrel was not as safe for sustained fire at 200 rounds per minute as heavier types. The reduced-weight components also reduced the durability of the weapon, making it more prone to rapid wear and parts breakage than the original. Most infantry units in the U.S. Army and Marine Corps have now switched over to the M240 as their general-purpose machine gun, which is more reliable (particularly when dirty) and seems to be well-liked by the troops for its ruggedness, despite the fact it weighs an extra two kilograms. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR25">
+      <English>SR-25</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR25_SD">
+      <English>SR-25 Silencer</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR25_LIB">
+      <English>The SR-25 (Stoner Rifle-25) is a semi-automatic sniper rifle designed by Eugene Stoner and manufactured by Knight's Armament Company. The SR-25 uses a rotating bolt and a direct impingement gas system. It is loosely based on Stoner's AR-10, rebuilt in its original 7.62x51mm NATO caliber. Up to 60% of parts of the SR-25 are interchangeable with the AR-15 and M16—everything but the receiver, the hammer, the barrel assembly and the carrier/bolt. SR-25 barrels were originally manufactured by Remington Arms with its 5R (5 grooves, rounded) rifling, with twist 1:11.25 (1 turn in 11.25 inches / 286 millimetres). The heavy 20 in (510 mm) barrel is free-floating, so handguards are attached to the front of the receiver and do not touch the barrel. The SR-25 enhanced match rifle utilizes the newer URX II Picatinny-Weaver rail system. The match version is designed to shoot at a precision of 0.5 minute of arc, which corresponds to 0.5-inch (13 mm) groups at 100 yards (91 m). The Mk 11 Mod 0 system comes in 7.62 mm NATO caliber, and is designed for match-grade 7.62x51mm NATO ammunition. The Mk 11 system includes the rifle, 20 round box magazines, QD (Quick Detachable) scope rings, Leupold Vari-X Mil-dot riflescope, Harris swivel-base bipod on a Knight's mount, and QD sound suppressor, which is also manufactured by Knight's Armament Co. Flip-up BUIS (Back up iron sights) are attached to the modified gas block and upper receiver. The Mk 11 Mod 0 utilizes a Obermeyer 20 in (510 mm) match target barrel, along with a RAS (Rail Accessory System) fore-end made by KAC, consisting of an 11.35 in (288 mm) long match fore-end. The RAS allows for quick attachment/detachment of MIL-STD-1913 components. The aluminium fore-end makes no contact with the barrel forward of the receiver, allowing for extreme accuracy. The Mk 11 Mod 0 has an empty weight of 15.3 lb (6.9 kg), and an overall length of 45.4 in (115 cm). &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SR25_SHORT">
+      <English>Sniper rifle&lt;br/&gt;Caliber: 7.62x51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M110">
+      <English>M110</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M110_SD">
+      <English>M110 Silencer</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M110_LIB">
+      <English>The M110 Semi-Automatic Sniper System (or M110 SASS) is a semi-automatic rifle that is chambered for the 7.62x51mm NATO round, developed by the American firearm manufacturer Knight's Armament Company and based on their SR-25 rifle. Concluding trials in 2005, it was selected as the US Army's Semi-Automatic Sniper Rifle (XM110 SASR) winner, intended to replace the M24 SWS (Sniper Weapon System). The rifle is similar to the SR-25/Mk 11 Mod 0  semi-automatic precision rifles, but differs significantly in buttstock and rail system design. The SR-25, Mk 11 Mod 0, and M110 are based loosely off the original AR-10 developed by Eugene Stoner  but feature additional refinements instituted by KAC to maximize parts commonality with the AR15/M16, improve weapon reliability, and increase accuracy. There was some controversy this choice, as some experts doubted that Knight's semi-automatic XM110 rifle could equal long-range accuracy of the bolt-action M24. However, troops have rated the weapon extremely highly, noting the quality of the weapon and its semi-automatic capabilities compared to the bolt-action M24. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M21_WOOD">
+      <English>M21 (Wood)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M21_GREEN">
+      <English>M21 (Green)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M21_LIB">
+      <English>The United States Marines wanted an accurate sniper rifle during the Vietnam War. The M14 was selected because of its accuracy, reliability, and the ability for a quick second shot. As a result, in 1969, the Rock Island Arsenal converted 1,435 National Match (target grade) M14s by adding a Leatherwood 3–9x Adjustable Ranging Telescope and providing National Match grade ammunition. It was designated the M21 in 1975. The M21 remained the Army's primary sniper rifle until 1988, when it was replaced by the M24 Sniper Weapon System. In standard military use, the M21 uses a 20-round box magazine as the other members of the M14 family, and weighs 11.6 pounds (5.27 kg) without the scope. The U.S. military never officially authorized or purchased magazines in any other capacity, although 5- and 10-round magazines are available. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M21_SHORT">
+      <English>Sniper Rifle&lt;br/&gt;Caliber: 7.62x51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M24_BLACK">
+      <English>M24 (Black)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M14_WOOD">
+      <English>M14 (Wood)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M14_GREEN">
+      <English>M14 (Plastic)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG3">
+      <English>MG3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG3_LIB">
+      <English>The MG 3 is a German general purpose machine gun chambered for the 7.62x51mm NATO cartridge. The weapon's design is derived from the World War II era MG 42 universal machine gun that fired the 7.92x57mm Mauser round. The MG 3 was developed in the late 1950s and adopted into service with the newly formed Bundeswehr, where it continues to serve to this day as a squad support weapon and vehicle-mounted machine gun. The weapon and its derivatives have also been acquired by the armed forces of over 30 countries. Production rights to the machine gun were purchased by Italy, Spain (MG 42/59), Pakistan (MG 1A3), Greece, Iran, Sudan and Turkey. he MG 3 is an automatic, air-cooled, belt-fed short recoil-operated firearm. The MG 3 is still used as the standard secondary weapon of most modern German armoured fighting vehicle designs (e.g. Leopard 2, PzH 2000, Marder), as a primary weapon on light/non-armored vehicles (e.g. LKW 2to, ATF Dingo) and as an infantry weapon on light bipods as well as different tripods. However, the German Armed Forces will phase out the MG 3 in 2012 and will introduce a replacement in 2011. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG3_SHORT">
+      <English>Medium machine gun&lt;br/&gt;Caliber: 7.62x51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M249_PARA">
+      <English>M249 Para</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MINIMI">
+      <English>FN Minimi</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MINIMI_LIB">
+      <English>The Minimi (short for French: Mini Mitrailleuse; "mini machine gun") is a Belgian 5.56mm light machine gun developed by Fabrique Nationale (FN) in Herstal  by Ernest Vervier. First introduced in 1974, it has entered service with the armed forces of several countries. The weapon is currently manufactured at the FN facility in Herstal as well as being licence-built in Australia, Greece and the USA by FN Manufacturing LLC. The Minimi is a light machine gun firing from an open bolt. The weapon is primarily chambered for 5.56x45mm NATO, though a 7.62x51mm NATO variant exists. It is an air-cooled weapon, capable of fully automatic fire only. It can be belt fed or fired from a magazine. The Minimi is configured in several variants, the Standard model as a platoon or squad support weapon, the Para version for paratroopers and the Vehicle model as secondary armament for fighting vehicles. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_FNMAG">
+      <English>FN MAG</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_FNMAG_LIB">
+      <English>The FN MAG is a Belgian 7.62 mm general purpose machine gun, designed in the early 1950s at Fabrique Nationale (FN) by Ernest Vervier. It has been used by more than 80 countries, and it has been made under licence in countries such as Argentina, Egypt, India, Singapore, the United Kingdom and the United States. The weapon's name is an abbreviation for Mitrailleuse d'Appui Général, meaning general purpose machine gun (GPMG). The MAG is available in three primary versions: the standard, heavy infantry Model 60-20 machine gun, the Model 60-40 coaxial machine gun for armoured fighting vehicles and the Model 60-30 aircraft variant. The MAG Model 60-20 is an automatic, air-cooled, gas-operated machine gun, firing belt-fed 7.62×51mm NATO from an open bolt. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M240B">
+      <English>M240B</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M240B_LIB">
+      <English>The M240B is a modernized and product-improved derivative of the M240G, which features a perforated hand-guard and heat shroud, a MIL-STD-1913 rail integral with the receiver top cover, which enables the use of optical day and night sights, a new synthetic stock and a new ammunition container. It was selected to be the U.S. Army's  new medium machine gun on December 1, 1995, replacing the M60 machine gun (it defeated the M60E4 during trials). It weighs 12.5 kg (28 lb) and has a length of 1,245 mm (49.0 in). The rate of fire is 650–950 rounds/min. &lt;br/&gt;From Wikipedia</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_FAL">
+      <English>FN FAL</English>
+    </Key>
+    <Key ID="STR_EP1_DN_FN_FAL">
+      <English>FN FAL 50.63</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_FAL_PARA">
+      <English>FN FAL Para</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG540">
+      <English>SG 540</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG542">
+      <English>SG 542</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG542_FS">
+      <English>SG 542 (Fixed Stock)</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG540_LIB">
+      <English>The SG 540 is a 5.56mm assault rifle developed in the early 1970s by Schweizerische Industrie Gesellschaft (SIG, currently SAN Swiss Arms AG) as a potential replacement for the 7.5mm SG 510 automatic rifle. Work on a new generation of lightweight rifle using the intermediate 5.56mm round began at SIG in the 1960s and resulted in the somewhat unsuccessful SG 530-1 design that employed a gas-assisted roller-delayed blowback  operating mechanism which proved too complicated and expensive to manufacture. As a result, in 1969 SIG chose to dispense with the complex roller-delayed action opting instead for a design using the more robust and simple piston-operated rotating bolt locking mechanism (derived from the Soviet 7.62mm AK  assault rifle). This combination was to be successful and the rifle entered production as a family of weapons consisting of the base 5.56mm SG 540, the 7.62mm SG 542 and the 5.56mm SG 543 carbine, where both 5.56mm weapons were designed for use with 5.56x45mm NATO M193 ammunition and the SG 542 with the full size 7.62x51mm NATO rifle cartridge. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG542_LIB">
+      <English>Developed alongside the SIG SG 540 rifle, the SG 542 fire the 7.62x51mm NATO cartrige. Differences between the SG 542 and the SG 540 are mainly the result of adopting this more powerful, full-size rifle cartridge. The SG 542 also uses 20/30-round box magazines, though 5 and 10-round  magazines were also manufactured, but the sights were modified with a 600 m setting in addition to the 100, 300 and 500 m sight positions of the SG 540. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG540_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SG542_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 7.62x51mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_INSAS">
+      <English>INSAS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_INSAS_LMG">
+      <English>INSAS LMG</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_INSAS_LIB">
+      <English>The INSAS (Indian Small Arms System) is a family of infantry arms consisting of an assault rifle, a light machine gun and a carbine. It is manufactured by the Indian State Ordnance Factory Board at its Ishapore factory. The Insas Assault Rifle is now the standard infantry weapon of the Indian Armed Forces. The Indian armed forces had been equipped with a copy of the FN FAL rifle since the 1950s. With the FAL becoming obsolete in the 1980s, India began to develop the INSAS, incorporating features from several contemporary rifle designs. The INSAS system was originally planned to have three component weapons: a standard rifle, a carbine, and a squad automatic rifle (LMG), all chambered for 5.56x45mm NATO  ammunition. In 1997 the rifle and LMG were ready for mass production, and served during the Kargil War and Nepalese Civil War. The mass introduction of the INSAS rifle was initially delayed by the lack of domestically made 5.56 mm ammunition; India accordingly bought significant stocks from the Israeli company, IMI. The INSAS rifle is based on the famous Kalashnikov AK-47 action, but with many modifications. The basic gas-operated action is of the Kalashnikov pattern. The gas system is fitted with a manual gas regulator similar in design to that found on the FN FAL as well as a gas cutoff. The charging handle is positioned on the left side of the forearm; it is similar in position and design to the German HK G3 rifle. According to the Times of India, the rifle encountered some reliability problems in the very cold climate of the 1999 Kargil conflict with Pakistan; the cold weather caused the rifle to jam occasionally and the polymer magazines would crack. According to the manufacturers, these problems have been fixed. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_INSAS_SHORT">
+      <English>Assault rifle&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_INSAS_LMG_SHORT">
+      <English>Light machine gun&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M16A1">
+      <English>M16A1</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M4">
+      <English>M4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M4_AIM">
+      <English>M4 Aimpoint</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M4EOT">
+      <English>M4A1 EOTech</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK33">
+      <English>HK33</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK33_LIB">
+      <English>The HK33 is a 5.56mm assault rifle developed in the 1960s by West German armament manufacturer Heckler + Koch GmbH (H+K), primarily for export. Capitalizing on the success of their G3  design, the company developed a family of small arms (all using the G3 operating principle and basic design concept) consisting of four types of firearms: the first type, chambered in 7.62x51mm NATO, the second—using the Soviet 7.62x39mm M43 round, third—the intermediate 5.56x45mm caliber and the fourth type—chambered for the 9x19mm Parabellum pistol cartridge. The HK33 series of rifles were adopted by the Brazilian Air Force (Força Aérea Brasileira or FAB), the armed forces of Thailand and Malaysia where they were produced under a license agreement. The rifle was also license-built in France by MAS and in Turkey by MKEK. The HK33 is no longer manufactured or marketed by Heckler + Koch. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK33_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_AIM">
+      <English>HK-416 Aimpoint</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_IS">
+      <English>HK-416</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_EOT">
+      <English>HK-416 Holo</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_GL">
+      <English>HK-416 AG-C Holo</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_EDR">
+      <English>HK-416 ELCAN</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AGC">
+      <English>AG-C</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_LIB">
+      <English>Following the revision of the OICW Block 1/XM8 program, the Heckler and Koch company decided to enter the US military and law enforcement markets with an alternative design. Based on the experience, gained during successful upgrade program of the British SA80 / L85A1 program, HK decided to cure the existing M16 rifles and  M4 carbines from most of their problems, inherent to this 40-years old design. The key improvements, made by HK, are their patented short-stroke gas piston system, borrowed from HK G36 rifle. This system replaced the direct gas system of standard M16 rifle, so no powder residue will remain in the receiver even after long shooting sessions. Other improvements include new buffer assembly, improved bolt, and a cold hammer forged barrel, as well as free-floating handguard with integral Picatinny-type rails. Originally developed as a "drop-in" upper receiver assembly for any standard M16/M4 type lower receiver, HK416 is also available as a complete weapon, with HK-made lower receivers. &lt;br/&gt;The HK416 is a gas operated, selective fired weapon of modular design. It uses short-stroke gas piston that operates the 7-lug rotating bolt. Receiver is made from high grade aluminium alloy. Combination-type safety/fire selector allows for single shots and full automatic mode. Hk416 retains all M16-style controls, including last round bolt hold-open device, rear-based charging handle and magazine release button on the right side of the magazine well. HK416 is fitted with four Picatinny rails as standard, and may accept any type of sighting devices on STANAG-1913 compliant mounts. It also can accept modified HK AG36/AG-C 40mm grenade launcher, which is clamped directly to bottom rail. Buttstock is of typical M4 design, multi-position telescoped. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_HK416_GL_SHORT">
+      <English>Assault rifle with grenade launcher&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GALIL">
+      <English>Galil AR</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GALIL_ARM">
+      <English>Galil ARM</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GALIL_LIB">
+      <English>The Galil is a family of Israeli small arms designed by Yisrael Galili and Yaacov Lior in the late 1960s and produced by Israel Military Industries Ltd (now Israel Weapon Industries Ltd) of Ramat HaSharon. The Galil’s design is optimized for operation in arid conditions and is based on the Finnish RK 62, which itself was derived from the Soviet AK-47 assault rifle. It was selected as the winner of a competition for the Israel Defense Forces that included many other rival designs (among them, the M16A1, Stoner 63, AK-47 and HK33) and was formally accepted into service in 1972, replacing the dust-sensitive FN FAL. The weapon system consists of a line chambered for the intermediate 5.56x45mm NATO caliber with either the M193 or SS109 ball cartridge and several models designed for use with the 7.62x51mm NATO rifle round. It is named after the Galilee (Galil in Hebrew), a large region in northern Israel. There are four basic configurations of the Galil: the standard rifle-length AR (Assault Rifle), a carbine variant known as the SAR (Short Assault Rifle), a compact MAR (Micro Assault Rifle) version, and an ARM (Assault Rifle and Machine gun) light machine gun. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GALIL_SHORT">
+      <English>Assault Rifle&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_GALIL_ARM_SHORT">
+      <English>Light machine gun&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M_50Rnd_556x45_G">
+      <English>Galil ARM Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_M_50Rnd_556x45_G_SHORT">
+      <English>Caliber: 5.56X45mm NATO&lt;br/&gt;Rounds: 50&lt;br/&gt;Used in: Galil ARM</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG36">
+      <English>HK G36 AG36</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG36GL">
+      <English>AG36</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G36A">
+      <English>G36</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G36KVA4">
+      <English>HK G36KA4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G36KVA4">
+      <English>G36KA4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G36E">
+      <English>HK G36E</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G36E">
+      <English>G36E</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G36A2">
+      <English>HK G36A2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G36A2">
+      <English>G36A2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G36KA4">
+      <English>HK G36KV</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G36KA4">
+      <English>G36KV</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_G36VA4">
+      <English>HK G36A4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_G36VA4">
+      <English>G36A4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG36_LIB">
+      <English>The AG36 grenade launcher has been developed by the famous German company Heckler + Koch as a replacement for its previous add-on 40mm grenade launcher, the HK79. The initial platform (host rifle) for AG36 was the  HK G36 assault rifle, which is now in service with German and Spanish armies. Later on, the AG36 has been adopted to British  L85A2 assault rifle, and to  Diemaco C7A1 assault rifle, which is in service with Dutch army. The latest version of the AG36 is the AG-C/EGLM (Enhanced Grenade Launcher Module), a modification which can be mounted on the  M16A4 assault rifles and  M4 carbines using Picatinny type rails under the forend. A version of the AG-C grenade launcher, known as XM320, is now considered by the US Army as a possible replacement to the venerable  M203 underbarrel launcher under the OICW Block 1 program. If it will be adopted, it then would receive the M320 designation. A special kit is available to convert AG36 into a stand-alone weapon. This kit includes a detachable shoulder stock. AG36 is a single shot, break open weapon. The barrel opens by unlocking and swinging its breach to the left. This allows the operator to use projectiles of any length, including extra-long less-lethal 'baton' and tear gas warheads. The trigger of AG36 is of double-action only type, and it is provided with ambidextrous manual safety. Standard sight is of ladder type, with electronic rangefinding sight being developed for future precision applications. AG36 can fire all standard types of 40x46mm 'low velocity' grenades. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_AG36_SHORT">
+      <English>Assault with grenade launcher&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG4">
+      <English>MG4</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG4_SCOPE">
+      <English>MG4 Scope</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG4_LIB">
+      <English>The MG4 is a belt-fed 5.56 mm light machine gun designed and developed by the German company Heckler + Koch. The weapon was developed in the late 1990s and was first seen publicly in September 2001. It has been selected to replace the 7.62 mm MG3 general purpose machine gun in the Bundeswehr at the squad support level; it will complement the MG3 in other roles. The MG4 will also be the secondary armament of the new Puma  infantry fighting vehicle. Overall, it is designed to be light, provide maximum safety to the user and function reliably under adverse conditions using a wide range of ammunition from different manufacturers, without the need to adjust the gas system. The machine gun was initially known as the MG43 prior to its adoption by the Bundeswehr. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MG4_SHORT">
+      <English>Light machine gun&lt;br/&gt;Caliber: 5.56x45mm NATO</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_CG">
+      <English>Carl Gustav M2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_CG_LIB">
+      <English>The Carl-Gustav series recoilless rifles/launchers are single shot, breech loading weapons with rifled barrels. Unitary ammunition of 84mm caliber is loaded into aluminum cases with open bottoms, closed by plastic pressure discs. The primers are located at the side of the cartridge case, so the round must be properly aligned in the bore upon the loading. To achieve that, the case rim has a special indexing recess. Most types of projectiles are just warheads which are "blown out" of the barrel by the propellant charge, but some most recently developed types of ammunition has built-in rocket boosters, which are ignited as the round reaches safe distance from the shooter, greatly improving the maximum effective range. The rear part of the barrel is fitted with venturi nozzle, which is hinged to allow loading of the ammunition and ejection of the fired cases or unfired rounds. The M2 (m/48) barrels are made from steel, and the M3 (m/86) barrels are made from thin steel liners enclosed into polymer wrapping, so the M3 launcher is significantly lighter. The firing unit consists of the pistol grip with the trigger and manual safety, which is linked to the ignition module at the rear of the weapon by the tube, located below and to the right of the barrel. Under the barrel, there's also a shoulder rest, an adjustable bipod, and a front support grip. The Carl-Gustav recoilless rifles / launchers are fitted with folding open sights, located at the left side of the barrel, but usually issued with telescope sight of 2X or 3X magnification, which has range-finding reticule and can be adjusted for temperature and wing conditions. &lt;br/&gt;From world.guns.ru</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_CG_SHORT">
+      <English>Recoiless rifle &lt;br/&gt;Caliber: 84mm</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_FFV551">
+      <English>FFV 551 HEAT</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_FFV551">
+      <English>FFV551</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_FFV551">
+      <English>Range: 10-700m&lt;br/&gt;Penetration: 400mm RHA&lt;br/&gt;Type: HEAT&lt;br/&gt;Used in: Carl Gustav M2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_FFV502">
+      <English>FFV 502 HEDP</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_FFV502">
+      <English>FFV502</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_FFV502">
+      <English>Range: 20-1000m&lt;br/&gt;Penetration: 150mm RHA&lt;br/&gt;Type: HEDP&lt;br/&gt;Used in: Carl Gustav M2</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_G3">
+      <English>G3 Magazine</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_G3">
+      <English>Caliber: 7.62x51mm NATO&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: G3A2, G3A3, G3A4, AK-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_BHP">
+      <English>Browning HP Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_BHP">
+      <English>Caliber: 9x19mm&lt;br/&gt;Rounds: 12&lt;br/&gt;Used in: Browning HP</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_USP45">
+      <English>USP45 Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_USP45">
+      <English>Caliber: .45 ACP&lt;br/&gt;Rounds: 12&lt;br/&gt;Used in: USP45, USP45 SD</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_USP45SD">
+      <English>USP45SD Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_USP45SD">
+      <English>Caliber: .45 ACP&lt;br/&gt;Rounds: 12&lt;br/&gt;Used in: USP45 SD, USP45</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_GALIL">
+      <English>Galil Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_GALIL">
+      <English>Caliber: 5.56x45mm NATO&lt;br/&gt;Rounds: 35&lt;br/&gt;Used in: Galil AR, Galil ARM</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_HK33">
+      <English>HK33 Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_HK33">
+      <English>Caliber: 5.56x45mm&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: HK33</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_20RN_IN">
+      <English>20Rnd INSAS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_20RN_IN">
+      <English>Caliber: 5.56x45mm NATO&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: INSAS, INSAS LMG</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_30RN_IN">
+      <English>30Rnd INSAS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_30RN_IN">
+      <English>Caliber: 5.56x45mm NATO&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: INSAS, INSAS LMG</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SG540">
+      <English>SG540 Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SG540">
+      <English>Caliber: 5.56z45mm NATO&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: SG 540</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SG542">
+      <English>SG542 Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SG542">
+      <English>Caliber: 7.62z51mm NATO&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: SG 542</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_APS">
+      <English>APS Magazine</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_APS">
+      <English>Caliber: 9x18mm PM&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: APS, APB</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_APB">
+      <English>APB Magazine</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_APB">
+      <English>Caliber: 9x18mm PM SD&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: APB, APS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SP6VSS">
+      <English>VSS SP6</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SP6VSS">
+      <English>Caliber: 9x39mm SP6&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: VSS, AS Val</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SP6VAL">
+      <English>VAL SP6</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SP6VAL">
+      <English>Caliber: 9x39mm SP6&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: VSS, AS Val</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PAB9">
+      <English>OC-14 PAB-9</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PAB9">
+      <English>Caliber: 9x39mm PAB-9&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: OC-14, 9A-91, SR-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SP6OC">
+      <English>OC-14 SP6</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SP6OC">
+      <English>Caliber: 9x39mm SP6 (SD)&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: OC-14, 9A-91, SR-3</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_RPK74">
+      <English>45Rnd RPK-74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_RPK74">
+      <English>Caliber: 5.45x39mm M74&lt;br/&gt;Rounds: 45&lt;br/&gt;Used in: RPK-74</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_AK101">
+      <English>AK-101 Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_AK101">
+      <English>Caliber: 5.56x45mm NATO&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: AK-101</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PYA">
+      <English>PYa Magazine</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PYA">
+      <English>Caliber: 9x19mm 7N21&lt;br/&gt;Rounds: 17&lt;br/&gt;Used in: Yarygin PYa</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_AKSD">
+      <English>AKMS PBS Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_AKSD">
+      <English>Caliber: 7.62x39mm US&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: AKMS PBS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_RPK47">
+      <English>RPK Mag.</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_RPK47">
+      <English>Caliber: 7.62x39mm M43&lt;br/&gt;Rounds: 40&lt;br/&gt;Used in: RPK</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SKS">
+      <English>SKS Clip</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SKS">
+      <English>Caliber: 7.62x39mm M43&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: SKS</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PG7T">
+      <English>TBG-7V</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_PG7T">
+      <English>TBG7V</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PG7T">
+      <English>Range: 0-200m&lt;br/&gt;Type: Thermoberic (FAE)&lt;br/&gt;Used in: RPG-7</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PG29">
+      <English>PG-29V</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_PG29">
+      <English>PG29V</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PG29">
+      <English>Range: 0-500m&lt;br/&gt;Penetration: 600-700m RHA + ERA&lt;br/&gt;Type: Tandem HEAT&lt;br/&gt;Used in: RPG-29</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PG16">
+      <English>PG-16</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_PG16">
+      <English>PG16</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PG16">
+      <English>Range: &lt;br/&gt;Penetration: &lt;br/&gt;Type: HEAT&lt;br/&gt;Used in: RPG-16</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PG22">
+      <English>PG-22</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_PG22">
+      <English>PG22</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PG22">
+      <English>Range: 0-160m&lt;br/&gt;Penetration: 400mm RHA&lt;br/&gt;Type: HEAT&lt;br/&gt;Used in: RPG-22</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_PG26">
+      <English>PG-26</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_PG26">
+      <English>PG26</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_PG26">
+      <English>Range: 0-170m&lt;br/&gt;Penetration: 440mm RHA&lt;br/&gt;Type: HEAT&lt;br/&gt;Used in: RPG-26</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_RPOA">
+      <English>RPO-A</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_SN_RPOA">
+      <English>RPOA</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_RPOA">
+      <English>Range: 0-200m (1000m maximum)&lt;br/&gt;Type: Thermobaric (FAE)&lt;br/&gt;Used in: RPO-A</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MN_SV98">
+      <English>SV-98 Mag</English>
+    </Key>
+    <Key ID="STR_TGW_VIL_MS_SV98">
+      <English>Caliber: 7.62x54mmR&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: SV-98</English>
+    </Key>
+    <Key ID="STR_TGW_WDN_RUS_RPG16">
+      <English>РПГ-16</English>
+    </Key>
+    <Key ID="STR_TGW_WDN_RUS_RPG22">
+      <English>РПГ-22</English>
+    </Key>
+    <Key ID="STR_TGW_WDN_RUS_RPG22">
+      <English>РПГ-26</English>
+    </Key>
+    <Key ID="STR_TGW_WDN_RUS_RPG22">
+      <English>РПГ-26</English>
+    </Key>
+    <Key ID="STR_TGW_WDN_RUS_RPG29">
+      <English>РПГ-29</English>
+    </Key>
+  </Package>
+</Project>

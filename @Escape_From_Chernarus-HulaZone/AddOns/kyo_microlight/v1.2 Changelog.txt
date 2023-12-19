@@ -1,0 +1,16 @@
+Version v1.2 Changelog
+------------------------------------
+Fixed : Engine sound was too loud.
+Fixed : Shadow Lod had a square where prop blur animation was.
+Fixed : Removed the 'Flaps' Options when scrolling with the mouse wheel.
+Fixed : Geo LOD & Shadow LOD has been re-built.
+Fixed : Microlight now stops when landing.
+Added : New Military version with 6 grenades.
+Added : Different colour icons.
+Added : Fuel Capacity of 650.
+Added : HitPoints & Fire Geo LOD.
+Added : Custom Start Sound.
+Added : Custom parachute design, this setObjectTexture.
+Removed : Microlight colours.p3d's, eg kyo_microlight_blue as they were useless.
+Removed : Some textures that weren’t needed.
+Temporary : Christmas 2010 theme.

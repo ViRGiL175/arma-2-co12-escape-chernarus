@@ -1,0 +1,21 @@
+// deploy_fastropes_AI.sqf
+// © OCTOBER 2011 - norrin
+
+private ["_heli","_timer"];
+
+//get passed params
+_heli       = _this Select 0;
+_timer		= _this Select 1;
+
+_heli setVariable ["NORRN_deployRopeTimer", _timer, true];
+sleep 1; 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+if (!local _heli) then
+{
+	Nor_FR_PV = [0,_heli,NORRN_FR_DR];
+	publicVariable "Nor_FR_PV";
+} else {
+	[_heli] spawn NORRN_FR_DR;
+};
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+_heli removeAction NORRN_fast_rope_act;

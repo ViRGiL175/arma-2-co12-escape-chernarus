@@ -1,0 +1,288 @@
+﻿LANGUAGE,English,French
+
+STR_R3F_25Rnd_556x45_FAMAS,"FAMAS Mag. 25 rounds", "Charg. FAMAS 25 coups"
+STR_R3F_25Rnd_556x45_FAMAS_DESC,"Cal. 5.56x45mm, 960 m/s","Cal. 5.56x45mm, 960 m/s"
+STR_R3F_25Rnd_556x45_FAMAS_LIB,"25 rounds magazine for FAMAS F1. Cal.: 5.56x45mm.","Chargeur de 25 cartouches pour FAMAS F1. Cal.: 5.56x45mm."
+
+STR_R3F_30Rnd_556x45_FAMAS,"FAMAS Mag. 30 rounds","Charg. FAMAS 30 coups"
+STR_R3F_30Rnd_556x45_FAMAS_DESC,"Cal. 5.56x45mm, 925 m/s","Cal. 5.56x45mm, 925 m/s"
+STR_R3F_30Rnd_556x45_FAMAS_LIB,"30 rounds magazine for FAMAS G2. Cal.: 5.56x45mm.", "Chargeur de 30 cartouches pour FAMAS G2. Cal.: 5.56x45mm."
+
+STR_R3F_25Rnd_556x45_TRACER_FAMAS,"FAMAS Mag. 25 rounds Tracer","Charg. FAMAS 25 coups Traçantes"
+STR_R3F_25Rnd_556x45_TRACER_FAMAS_DESC,"Cal. 5.56x45mm, 960 m/s","Cal. 5.56x45mm, 960 m/s"
+STR_R3F_25Rnd_556x45_TRACER_FAMAS_LIB,"25 rounds magazine for FAMAS F1. It contains infrared tracer rounds for night combat. Cal.: 5.56x45mm.","Chargeur de 25 cartouches pour FAMAS F1. Il contient des balles traçantes infrarouges pour le combat de nuit. Cal.: 5.56x45mm."
+
+STR_R3F_30Rnd_556x45_TRACER_FAMAS,"FAMAS Mag. 30 rounds Tracer","Charg. FAMAS 30 coups Traçantes"
+STR_R3F_30Rnd_556x45_TRACER_FAMAS_DESC,"Cal. 5.56x45mm tracer rounds, 925 m/s","Cal. 5.56x45mm balles traçantes, 925 m/s"
+STR_R3F_30Rnd_556x45_TRACER_FAMAS_LIB,"30 rounds magazine for FAMAS G2. It contains infrared tracer rounds for night combat. Cal.: 5.56x45mm.","Chargeur de 30 cartouches pour FAMAS G2. Il contient des balles traçantes infrarouges pour le combat de nuit. Cal.: 5.56x45mm."
+
+STR_R3F_25Rnd_556x45_SD_FAMAS,"FAMAS Mag. 25 rounds SD","Charg. FAMAS 25 coups SD"
+STR_R3F_25Rnd_556x45_SD_FAMAS_DESC,"Cal. 5.56x45mm, 330 m/s","Cal. 5.56x45mm, 330 m/s"
+STR_R3F_25Rnd_556x45_SD_FAMAS_LIB,"25 rounds magazine for FAMAS SD. Cal.: 5.56x45mm.","Chargeur de 25 cartouches pour FAMAS SD. Cal.: 5.56x45mm."
+
+STR_R3F_30Rnd_556x45_SD_FAMAS,"FAMAS Mag. 30 rounds SD","Charg. FAMAS 30 coups SD"
+STR_R3F_30Rnd_556x45_SD_FAMAS_DESC,"Cal. 5.56x45mm SD rounds, 330 m/s","Cal. 5.56x45mm balles SD, 330 m/s"
+STR_R3F_30Rnd_556x45_SD_FAMAS_LIB,"30 rounds magazine for FAMAS SD. Cal.: 5.56x45mm.", "Chargeur de 30 cartouches pour FAMAS SD. Cal.: 5.56x45mm."
+
+STR_R3F_10Rnd_762x51_FRF2,"FrF2 Mag. 10 rounds", "Charg. FrF2 10 coups"
+STR_R3F_10Rnd_762x51_FRF2_DESC,"Cal. 7.62x51mm, 820 m/s","Cal. 7.62x51mm, 820 m/s"
+STR_R3F_10Rnd_762x51_FRF2_LIB,"10 rounds magazine for FRF2. Cal. 7.62x51mm.","Chargeur de 10 cartouches pour Fusil à répétition F2 (FRF2). Cal. 7.62x51mm."
+
+STR_R3F_10Rnd_762x51_SD_FRF2,"FrF2 Mag. 10 rounds SD", "Charg. FrF2 10 coups SD"
+STR_R3F_10Rnd_762x51_SD_FRF2_DESC,"Cal. 7.62x51mm SD rounds, 480 m/s","Cal. 7.62x51mm balles SD, 480 m/s"
+STR_R3F_10Rnd_762x51_SD_FRF2_LIB,"10 rounds magazine for FRF2 SD. Cal. 7.62x51mm.","Chargeur de 10 cartouches pour Fusil à répétition F2 silencieux (FRF2 SD). Cal. 7.62x51mm."
+
+STR_R3F_20Rnd_762x51_HK417,"HK417 Mag. 20 rounds", "Charg. HK417 20 coups"
+STR_R3F_20Rnd_762x51_HK417_DESC,"Cal. 7.62x51mm, 815 m/s","Cal. 7.62x51mm, 815 m/s"
+STR_R3F_20Rnd_762x51_HK417_LIB,"20 rounds magazine for HK417. Cal. 7.62x51mm.","Chargeur de 20 cartouches pour Fusil à répétition HK417. Cal. 7.62x51mm."
+
+STR_R3F_20Rnd_762x51_TRACER_HK417,"HK417 Mag. 20 rounds Tracer", "Charg. HK417 20 coups Traçantes"
+STR_R3F_20Rnd_762x51_TRACER_HK417_DESC,"Cal. 7.62x51mm tracer rounds, 815 m/s","Cal. 7.62x51mm balles traçantes, 815 m/s"
+STR_R3F_20Rnd_762x51_TRACER_HK417_LIB,"20 rounds magazine for HK417. It contains infrared tracer rounds for night combat. Cal. 7.62x51mm.","Chargeur de 20 cartouches pour Fusil à répétition HK417. Il contient des balles traçantes infrarouges pour le combat de nuit. Cal. 7.62x51mm."
+
+STR_R3F_20Rnd_762x51_SD_HK417,"HK417 Mag. 20 rounds SD", "Charg. HK417 20 coups SD"
+STR_R3F_20Rnd_762x51_SD_HK417_DESC,"Cal. 7.62x51mm SD rounds, 480 m/s","Cal. 7.62x51mm balles SD, 480 m/s"
+STR_R3F_20Rnd_762x51_SD_HK417_LIB,"20 rounds magazine for HK417 SD. It contains special rounds for SD weapons. Cal. 7.62x51mm.","Chargeur de 20 cartouches pour Fusil à répétition HK417 SD. Il contient des balles spéciales pour les armes équipées de silencieux. Cal. 7.62x51mm."
+
+STR_R3F_7Rnd_127x99_PGM,"PGM Mag. 7 rounds","Charg. PGM 7 coups"
+STR_R3F_7Rnd_127x99_PGM_DESC,"Cal. 12.7x99mm, 780 m/s","Cal. 12.7x99mm, 780 m/s"
+STR_R3F_7Rnd_127x99_PGM_LIB,"Chargeur de 7 cartouches pour fusil de précision PGM Hecate II. Cal. 12.7x99mm.","Chargeur de 7 cartouches pour fusil de précision PGM Hecate II. Cal. 12.7x99mm."
+
+STR_R3F_7Rnd_127x99_PEI_PGM,"PGM Mag. 7 rounds PEI","Charg. PGM 7 coups PEI"
+STR_R3F_7Rnd_127x99_PEI_PGM_DESC,"Cal. 12.7x99mm Piercing Explosive Incendiary, 780 m/s","Cal. 12.7x99mm Perforante Explosive Incendiaire, 780 m/s"
+STR_R3F_7Rnd_127x99_PEI_PGM_LIB,"7 rounds magazine for sniper riffle PGM Hecate II. It contains Piercing Explosive Incendiary rounds used in anti-material combat. Cal. 12.7x99mm.","Chargeur de 7 cartouches pour fusil de précision PGM Hecate II. Il contient des balles Perforantes Explosives Incendiaires destinées à l'usage anti-matériel. Cal. 12.7x99mm."
+
+STR_R3F_200Rnd_556x45_MINIMI,"Minimi Mag. 200 rounds","Charg. Minimi 200 coups"
+STR_R3F_200Rnd_556x45_MINIMI_DESC,"Cal. 5.56x45mm, 915 m/s","Cal. 5.56x45mm, 915 m/s"
+STR_R3F_200Rnd_556x45_MINIMI_LIB,"200 rounds magazine for MINIMI. Cal. 5.56x45mm.", "Chargeur de 200 cartouches pour MINIMI. Cal. 5.56x45mm."
+
+STR_R3F_100Rnd_762x51_MINIMI,"Minimi Mag. 100 rounds","Charg. Minimi 100 coups"
+STR_R3F_100Rnd_762x51_MINIMI_DESC,"Cal. 7.62x51mm, 820 m/s","Cal. 7.62x51mm, 820 m/s"
+STR_R3F_100Rnd_762x51_MINIMI_LIB,"100 rounds magazine for MINIMI. Cal. 7.62x51mm.", "Chargeur de 100 cartouches pour MINIMI. Cal. 7.62x51mm."
+
+STR_R3F_AT4CS_Mag,"AT4 CS Rocket","Roquette AT4 CS"
+STR_R3F_AT4CS_Mag_DESC,"84mm Rocket for AT4 CS Launcher, 290 m/s","Roquette 84mm pour lanceur AT4 CS, 290 m/s"
+STR_R3F_AT4CS_Mag_LIB,"84mm HEAT rocket for AT4 CS. These rockets are reserved for light to middle armored vehicule. They can blow 600mm of armor or 1.5 m of concrete.","Roquette de calibre 84mm à tête creuse pour AT4 CS. Ces roquettes sont destinées à l'usage anti-blindé léger / moyen. Elles peuvent perforer jusqu'à 600mm de blindage ou 1.5 M de béton."
+
+STR_R3F_FAMAS_F1,"FAMAS F1","FAMAS F1"
+STR_R3F_FAMAS_F1_DESC,"FAMAS F1 model","FAMAS modèle F1"
+STR_R3F_FAMAS_F1_LIB,"FAMAS F1 model: The assault rifle of the Manufacture d'Armes de Saint-Étienne was founded in France in 1973 and adopted by the French army in 1979. It is a bullpup type rifle which can be used by right-handers as left-handers. Its barrel length of 488mm gives it both power and precision, but its architecture gives it still a good compactness. It has two modes of fire: piecemeal and burst. Its high rate of fire (1000cps/min) and the ability to shoot free burst (CAR) makes it a perfect assault rifle.","FAMAS  modèle F1 : Le Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne a été créé en Françe en 1973, puis adopté par l'armée française en 1979. C'est un fusil de type BullPup qui peut être utilisé par des droitiers comme des gauchers. Sa longueur de canon de 488mm lui procure à la fois puissance et précision, mais son architecture lui assure tout de même une bonne compacité. Il possède deux modes de tir : coup par coup et rafale. Sa cadence de tir élevée (1000cps/min) et la possibilité de tirer en rafale libre (AUTO) en fait un parfait fusil d'assaut."
+STR_R3F_FAMAS_F1_DES,"FAMAS F1 camo","FAMAS F1 camo"
+
+STR_R3F_FAMAS_F1_AIM,"FAMAS F1 Aimpoint","FAMAS F1 Aimpoint"
+STR_R3F_FAMAS_F1_AIM_DESC,"FAMAS F1 model with Aimpoint scope","FAMAS modèle F1 avec viseur Aimpoint"
+STR_R3F_FAMAS_F1_AIM_LIB,"FAMAS F1 model +  AIM: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model F1. This version is equipped with a sighting aid non-magnifying sight Aimpoint type 'red dot' to close combat.", "FAMAS modèle F1 + AIM : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle F1. Cette version est équipée d'une aide à la visée non grossissante Aimpoint de type viseur 'point rouge' pour combat rapproché."
+STR_R3F_FAMAS_F1_AIM_DES,"FAMAS F1 Aimpoint camo","FAMAS F1 Aimpoint camo"
+
+STR_R3F_FAMAS_F1_EOT,"FAMAS F1 EOTech","FAMAS F1 EOTech"
+STR_R3F_FAMAS_F1_EOT_DESC,"FAMAS F1 model with EOTech scope","FAMAS modèle F1 avec viseur EOTech"
+STR_R3F_FAMAS_F1_EOT_LIB,"FAMAS F1 model + EOTech: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model F1. This version is equipped with an EOTech Holographic sight for close combat.","FAMAS modèle F1 + EOTech : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle F1. Cette version est équipée d'un viseur Holographique EOTech pour combat rapproché."
+STR_R3F_FAMAS_F1_EOT_DES,"FAMAS F1 EOTech camo","FAMAS F1 EOTech camo"
+
+STR_R3F_FAMAS_F1_EOT_HG_SD,"FAMAS F1 EOTech HG SD","FAMAS F1 EOTech HG SD"
+STR_R3F_FAMAS_F1_EOT_HG_SD_DESC,"FAMAS F1 model with EOTech scope, HandGrip and silencer","FAMAS modèle F1 avec viseur EOTech, poignée et silencieux"
+STR_R3F_FAMAS_F1_EOT_HG_SD_LIB,"FAMAS F1 model + EOTech: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model F1. This version is equipped with an EOTech Holographic sight for close combat, an handgrip and a silencer for stealth missions.","FAMAS modèle F1 + EOTech : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle F1. Cette version est équipée d'un viseur Holographique EOTech pour combat rapproché, d'une poignée ainsi que d'un silencieux pour les missions d'infiltrations."
+STR_R3F_FAMAS_F1_EOT_HG_SD_DES,"FAMAS F1 EOTech HG SD camo","FAMAS F1 EOTech HG SD camo"
+
+STR_R3F_FAMAS_F1_J4_M203,"FAMAS F1 J4 M203","FAMAS F1 J4 M203"
+STR_R3F_FAMAS_F1_J4_M203_DESC,"FAMAS F1 model with Scrome J4 scope and grenade launcher","FAMAS modèle F1 avec lunette Scrome J4 et lance-grenades"
+STR_R3F_FAMAS_F1_J4_M203_LIB,"FAMAS F1 model J4 + M203 + PIRAT: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model F1. This version is equipped with a telescopic sight SCROME J4 X4 magnification, a 40mm grenade launcher M203 and a laser pointer infrared shooting aid PIRAT EL-9A","FAMAS modèle F1 + J4 + M203 + P.I.R.A.T : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle F1. Cette version est équipée d'une lunette de tir Scrome J4 grossissement X4, d'un lance-grenades M203 calibre 40mm et d'un pointeur laser infrarouge d'aide au tir EL-9A P.I.R.A.T."
+STR_R3F_FAMAS_F1_J4_M203_DES,"FAMAS F1 J4 M203 camo","FAMAS F1 J4 M203 camo"
+
+STR_R3F_FAMAS_F1_J4_M203_SD,"FAMAS F1 J4 M203 SD","FAMAS F1 J4 M203 SD"
+STR_R3F_FAMAS_F1_J4_M203_SD_DESC,"FAMAS F1 model with Scrome J4 scope, grenade launcher and silencer","FAMAS modèle F1 avec lunette Scrome J4, lance-grenades et silencieux"
+STR_R3F_FAMAS_F1_J4_M203_SD_LIB,"FAMAS F1 model J4 + M203 + PIRAT + Silencer: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model F1. This version is equipped with a telescopic sight SCROME J4 X4 magnification, a 40mm grenade launcher M203 and a laser pointer infrared shooting aid PIRAT EL-9A","FAMAS modèle F1 + J4 + M203 + P.I.R.A.T + Silencieux: Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle F1. Cette version est équipée d'une lunette de tir Scrome J4 grossissement X4, d'un lance-grenades M203 calibre 40mm et d'un pointeur laser infrarouge d'aide au tir EL-9A P.I.R.A.T."
+STR_R3F_FAMAS_F1_J4_M203_SD_DES,"FAMAS F1 J4 M203 SD camo","FAMAS F1 J4 M203 SD camo"
+
+STR_R3F_FAMAS_FELIN,"FAMAS FELIN","FAMAS FELIN"
+STR_R3F_FAMAS_FELIN_DESC,"FAMAS with FELIN scope", "FAMAS avec lunette FELIN"
+STR_R3F_FAMAS_FELIN_LIB,"FAMAS lowered or commando equipped with an optical FELIN FAMAS is part of this program F.E.L.I.N (infantryman with Integrated Equipment and Liasons). It is a modification of the FAMAS G2, PGM handle was removed and replaced by a rail that allows the addition of the bezel FELIN directly on the FAMAS.","FAMAS surbaissé ou commando équipé d'une optique FELIN, ce FAMAS fait parti du programme du Fantassin à Equipement et Liason INtégrées. Il est une modification du FAMAS G2, la poignée PGM a été retirée et remplacée par un rail qui permet ainsi l'ajout de la lunette FELIN directement sur le FAMAS."
+STR_R3F_FAMAS_FELIN_DES,"FAMAS FELIN camo","FAMAS FELIN camo"
+
+STR_R3F_FAMAS_G2,"FAMAS G2","FAMAS G2"
+STR_R3F_FAMAS_G2_DESC,"FAMAS G2 model","FAMAS modèle G2"
+STR_R3F_FAMAS_G2_LIB,"FAMAS G2 model: The assault rifle of the Manufacture d'Armes de Saint-Etienne G2 model is a modified version of the FAMAS F1. The stripes of the barrel went from a 1 / 12 to 1 / 9 making the use of chargers or 30 rounds STANAG G2 possible. The bridge was removed to be replaced by a handguard that allows infantry to use gloves when fighting winter. The PGM old fiberglass is now plastic","FAMAS modèle G2 : Le Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle G2 est une version modifiée du FAMAS F1. Les rayures du canon sont passées d'un pas de 1/12 à 1/9 rendant l'utilisation des Chargeur de 30 cartouches G2 ou stanag possible. Le pontet a été supprimé pour être remplacé par un garde-main qui permet aux fantassins d'utiliser des gants lors de combat hivernaux. La PGM autrefois en fibre de verre est maintenant en plastique."
+STR_R3F_FAMAS_G2_DES,"FAMAS G2 camo","FAMAS G2 camo"
+
+STR_R3F_FAMAS_G2_EOT,"FAMAS G2 EOTech","FAMAS G2 EOTech"
+STR_R3F_FAMAS_G2_EOT_DESC,"FAMAS G2 model with EOTech scope","FAMAS modèle G2 avec viseur EOTech"
+STR_R3F_FAMAS_G2_EOT_LIB,"FAMAS G2 model + EOTech: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model G2. This version is equipped with an EOTech Holographic sight for close combat.","FAMAS modèle G2 + EOTech : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle G2. Cette version est équipée d'un viseur Holographique EOTech pour combat rapproché."
+STR_R3F_FAMAS_G2_EOT_DES,"FAMAS G2 EOTech camo","FAMAS G2 EOTech camo"
+
+STR_R3F_FAMAS_G2_J4,"FAMAS G2 J4","FAMAS G2 J4"
+STR_R3F_FAMAS_G2_J4_DESC,"FAMAS G2 model with Scrome J4 scope","FAMAS modèle G2 avec lunette Scrome J4"
+STR_R3F_FAMAS_G2_J4_LIB,"FAMAS G2 model + EOTech: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model G2. This version is equipped with a telescopic sight SCROME J4 magnification X4.","FAMAS modèle G2 + EOTech : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle G2. Cette version est équipée d'une lunette de tir Scrome J4 grossissement X4."
+STR_R3F_FAMAS_G2_J4_DES,"FAMAS G2 J4 camo","FAMAS G2 J4 camo"
+
+
+STR_R3F_FAMAS_G2_J4_HG,"FAMAS G2 J4 HG","FAMAS G2 J4 HG"
+STR_R3F_FAMAS_G2_J4_HG_DESC,"FAMAS G2 model with Scrome J4 scope and HandGrip","FAMAS modèle G2 avec lunette Scrome J4 et poignée"
+STR_R3F_FAMAS_G2_J4_HG_DES,"FAMAS G2 J4 HG Camo","FAMAS G2 J4 HG Camo"
+
+
+STR_R3F_FAMAS_G2_AIM_M203,"FAMAS G2 Aimpoint M203","FAMAS G2 Aimpoint M203"
+STR_R3F_FAMAS_G2_AIM_M203_DESC,"FAMAS G2 model with Aimpoint scope and grenade launcher","FAMAS modèle G2 avec viseur Aimpoint et lance-grenades"
+STR_R3F_FAMAS_G2_AIM_M203_LIB,"FAMAS G2 model + Aimpoint: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model G2. This version is equipped with a sighting aid non-magnifying sight Aimpoint type 'red dot' to close combat, an M203 grenade launcher 40mm caliber and an infrared laser pointer to aid in shooting EL-9A PIRAT.","FAMAS modèle G2 + Aimpoint : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle G2. Cette version est équipée d'une aide à la visée non grossissante Aimpoint de type viseur 'point rouge' pour combat rapproché, d'un lance-grenades M203 calibre 40mm et d'un pointeur laser infrarouge d'aide au tir EL-9A P.I.R.A.T."
+STR_R3F_FAMAS_G2_AIM_M203_DES,"FAMAS G2 Aimpoint M203 camo","FAMAS G2 Aimpoint M203 camo"
+
+STR_R3F_FAMAS_G2_AIM_HG,"FAMAS G2 Aimpoint HG","FAMAS G2 Aimpoint HG"
+STR_R3F_FAMAS_G2_AIM_HG_DESC,"FAMAS G2 model with Aimpoint scope and HandGrip","FAMAS modèle G2 Aimpoint avec poignée"
+STR_R3F_FAMAS_G2_AIM_HG_LIB,"FAMAS G2 model + Aimpoint: Assault Rifle of the Manufacture d'Armes de Saint-Etienne model G2. This version is equipped with a sighting aid non-magnifying sight Aimpoint type 'red dot' to close combat and an HandGrip.","FAMAS modèle G2 + Aimpoint : Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne modèle G2. Cette version est équipée d'une aide à la visée non grossissante Aimpoint de type viseur 'point rouge' pour combat rapproché et d'une poignée."
+STR_R3F_Famas_G2_AIM_HG_DES,"FAMAS G2 Aimpoint HG","FAMAS G2 Aimpoint HG camo"
+
+STR_R3F_FAMAS_surb,"FAMAS C","FAMAS C"
+STR_R3F_FAMAS_surb_DESC,"FAMAS commando model","FAMAS modèle commando"
+STR_R3F_FAMAS_surb_LIB,"FAMAS lowered or commando. This FAMAS is part of the program F.E.L.I.N (infantryman with Integrated Equipment and Liasons). It is a modification of the FAMAS G2, PGM handle was removed and replaced by a rail that allows the addition of any optical directly on the FAMAS.", "FAMAS surbaissé ou commando, ce FAMAS fait parti du programme du Fantassin à Equipement et Liason INtégrées. Il est une modification du FAMAS G2, la poignée PGM a été retirée et remplacée par un rail qui permet ainsi l'ajout de n'importe quelle optique directement sur le FAMAS."
+STR_R3F_FAMAS_surb_DES,"FAMAS C camo","FAMAS C camo"
+
+STR_R3F_FAMAS_surb_EOT_SD,"FAMAS C EOTech SD","FAMAS C EOTech SD"
+STR_R3F_FAMAS_surb_EOT_SD_DESC,"FAMAS commando model with EOTech scope and silencer","FAMAS modèle commando avec viseur EOTech et silencieux"
+STR_R3F_FAMAS_surb_EOT_SD_LIB,"FAMAS lowered or commando. This FAMAS is part of the program F.E.L.I.N (infantryman with Integrated Equipment and Liasons). This version is equipped with an EOTech Holographic sight for close combat, and a silencer for stealth missions.","FAMAS surbaissé ou commando, ce FAMAS fait parti du programme du Fantassin à Equipement et Liason INtégrées. Cette version est équipée d'un viseur Holographique EOTech pour combat rapproché, ainsi que d'un silencieux pour les missions d'infiltrations."
+STR_R3F_FAMAS_surb_EOT_SD_DES,"FAMAS C EOTech SD camo","FAMAS C EOTech SD camo"
+
+STR_R3F_FAMAS_surb_AIM_HG,"FAMAS C Aimpoint HG","FAMAS C Aimpoint HG"
+STR_R3F_FAMAS_surb_AIM_HG_DESC,"FAMAS commando model with Aimpoint scope and HandGrip","FAMAS modèle commando avec viseur Aimpoint et poignée"
+STR_R3F_FAMAS_surb_AIM_HG_LIB,"FAMAS lowered or commando. This FAMAS  is part of the program F.E.L.I.N (infantryman with Integrated Equipment and Liasons). This version is equipped with a sighting aid non-magnifying sight Aimpoint type 'red dot' to close combat and an HandGrip.","FAMAS surbaissé ou commando, ce FAMAS fait parti du programme du Fantassin à Equipement et Liason INtégrées. Cette version est équipée d'une aide à la visée non grossissante Aimpoint de type viseur 'point rouge' pour combat rapproché et d'une poignée."
+STR_R3F_FAMAS_surb_AIM_HG_DES,"FAMAS C Aimpoint HG camo","FAMAS C Aimpoint HG camo"
+
+STR_R3F_FAMAS_surb_AIM_SD,"FAMAS C Aimpoint SD","FAMAS C Aimpoint SD"
+STR_R3F_FAMAS_surb_AIM_SD_DESC,"FAMAS commando model with Aimpoint scope and silencer","FAMAS modèle commando avec viseur Aimpoint et silencieux"
+STR_R3F_FAMAS_surb_AIM_SD_LIB,"FAMAS lowered or commando. This FAMAS  is part of the program F.E.L.I.N (infantryman with Integrated Equipment and Liasons). This version is equipped with a sighting aid non-magnifying sight Aimpoint type 'red dot' to close combat, and a silencer for stealth missions.","FAMAS surbaissé ou commando, ce FAMAS fait parti du programme du Fantassin à Equipement et Liason INtégrées. Cette version est équipée d'une aide à la visée non grossissante Aimpoint de type viseur 'point rouge' pour combat rapproché, ainsi que d'un silencieux pour les missions d'infiltrations."
+STR_R3F_FAMAS_surb_AIM_SD_DES,"FAMAS C Aimpoint SD camo","FAMAS C Aimpoint SD camo"
+
+STR_R3F_FAMAS_surb_EOT_M203,"FAMAS C EOTech M203","FAMAS C EOTech M203"
+STR_R3F_FAMAS_surb_EOT_M203_DESC,"FAMAS commando model with EOTech scope and grenade launcher","FAMAS modèle commando avec viseur EOTech et lance-grenades"
+STR_R3F_FAMAS_surb_EOT_M203_LIB,"FAMAS lowered or commando. This FAMAS is part of the program F.E.L.I.N (infantryman with Integrated Equipment and Liasons). This version is equipped with an EOTech Holographic sight for close combat, an M203 grenade launcher 40mm caliber and a tactical flashlight and laser.","FAMAS surbaissé ou commando, ce FAMAS fait parti du programme du Fantassin à Equipement et Liason INtégrées. Cette version est équipée d'un viseur Holographique EOTech pour combat rapproché, d'un lance-grenades M203 calibre 40mm et d'une lampe tactique et laser."
+STR_R3F_FAMAS_surb_EOT_M203_DES,"FAMAS C EOTech M203 camo","FAMAS C EOTech M203 camo"
+
+STR_R3F_FRF2_J8, "FrF2 J8","FrF2 J8"
+STR_R3F_FRF2_J8_DESC,"FrF2 Riffle with Scrome J8 scope","Fusil FrF2 avec lunette Scrome J8"
+STR_R3F_FRF2_J8_LIB,"FRF2: Repeating rifle model F2. FRF2 is a 7.62mm caliber NATO manual repetition. It is equipped with a heat resistant tube that avoids the excessive heating of the barrel during firing, and improves the accuracy of the gun. Its effective range is 800m and the initial speed of its projectile is 830 m / s. This version is equipped with a telescopic sight SCROME D8 X8 magnification.","FRF2 : Fusil à répétition modèle F2. Le FRF2 est un calibre 7.62mm OTAN à répétition manuelle. Il est équipé d'un tube anti-calorique qui évite l'echauffement excessif du canon lors tirs, et ameliore la précision du fusil.  Sa portée efficace est de 800m et la Vitesse initiale de ses projectiles est de 830 m/s. Cette version est équipée d'une lunette de tir Scrome J8 grossissement X8."
+STR_R3F_FRF2_J8_DES, "FrF2 J8 camo","FrF2 J8 camo"
+
+STR_R3F_HK417L_NF, "HK417 NF","HK417 NF"
+STR_R3F_HK417L_NF_DESC,"HK417 riffle with Night Force scope","Fusil HK417 avec lunette Night Force"
+STR_R3F_HK417L_NF_LIB,"HK417: Heckler and Koch rifle model 417. HK417 is a 7.62mm caliber NATO automatic repetition. It is equipped with a 20 inches floating barrel to improve the accuracy of the gun. Its effective range is 800m and the initial speed of its projectile is 815 m / s. This version is equipped with a telescopic sight Night Force X15 magnification.","HK417 : Fusil Heckler and Koch modèle 417. Le HK417 est un calibre 7.62mm OTAN à répétition automatique. Il est équipé d'un canon suspendu de 20 pouces pour ameliorer la précision du fusil.  Sa portée efficace est de 800m et la Vitesse initiale de ses projectiles est de 815 m/s. Cette version est équipée d'une lunette de tir Night Force grossissement X15."
+STR_R3F_HK417L_NF_DES, "HK417 NF camo","HK417 NF camo"
+
+STR_R3F_HK417M_AIM, "HK417 AIM","HK417 AIM"
+STR_R3F_HK417M_AIM_DESC,"HK417 Riffle with Aimpoint scope","Fusil HK417 avec lunette Aimpoint"
+STR_R3F_HK417M_AIM_LIB,"HK417: Heckler and Koch rifle model 417. HK417 is a 7.62mm caliber NATO automatic repetition. It is equipped with a 16 inches floating barrel to improve the accuracy of the gun. Its effective range is 800m and the initial speed of its projectile is 815 m / s. This version is equipped with an Aimpoint scope.","HK417 : Fusil Heckler and Koch modèle 417. Le HK417 est un calibre 7.62mm OTAN à répétition automatique. Il est équipé d'un canon suspendu de 16 pouces pour ameliorer la précision du fusil.  Sa portée efficace est de 800m et la Vitesse initiale de ses projectiles est de 815 m/s. Cette version est équipée d'une lunette de tir Aimpoint."
+STR_R3F_HK417M_AIM_DES, "HK417 AIM camo","HK417 AIM camo"
+
+
+
+
+STR_R3F_HK417S_EOT_HG, "HK417 EOT HG","HK417 EOT HG"
+STR_R3F_HK417S_EOT_HG_DESC,"HK417 Riffle with EOTech scope and HandGrip","Fusil HK417 avec lunette EOTech et poignée"
+STR_R3F_HK417S_EOT_HG_LIB,"HK417: Heckler and Koch rifle model 417. HK417 is a 7.62mm caliber NATO automatic repetition. It is equipped with a 12 inches floating barrel to improve the accuracy of the gun. Its effective range is 800m and the initial speed of its projectile is 790 m / s. This version is equipped with an EOTech scope and HandGrip.","HK417 : Fusil Heckler and Koch modèle 417. Le HK417 est un calibre 7.62mm OTAN à répétition automatique. Il est équipé d'un canon suspendu de 12 pouces pour ameliorer la précision du fusil.  Sa portée efficace est de 800m et la Vitesse initiale de ses projectiles est de 790 m/s. Cette version est équipée d'une lunette de tir EOTech et d'une poignée."
+STR_R3F_HK417S_EOT_HG_DES, "HK417 EOT HG camo","HK417 EOT HG camo"
+
+STR_R3F_HK417S_HG_SD, "HK417 HG SD","HK417 HG SD"
+STR_R3F_HK417S_HG_SD_DESC,"HK417 Riffle with silencer and HandGrip","Fusil HK417 avec silencieux et poignée"
+STR_R3F_HK417S_HG_SD_LIB,"HK417: Heckler and Koch rifle model 417. HK417 is a 7.62mm caliber NATO automatic repetition. It is equipped with a 12 inches floating barrel to improve the accuracy of the gun. Its effective range is 500m and the initial speed of its projectile is 480 m / s. This version is equipped with a a silencer for infiltration missions.","HK417 : Fusil Heckler and Koch modèle 417. Le HK417 est un calibre 7.62mm OTAN à répétition automatique. Il est équipé d'un canon suspendu de 12 pouces pour ameliorer la précision du fusil.  Sa portée efficace est de 500m et la Vitesse initiale de ses projectiles est de 480 m/s. Cette version est équipée d'un silencieux pour les missions d'infiltrations."
+STR_R3F_HK417S_HG_SD_DES, "HK417 HG SD camo","HK417 HG SD camo"
+
+
+
+
+STR_R3F_FRF2_J8_SD, "FrF2 J8 SD","FrF2 J8 SD"
+STR_R3F_FRF2_J8_SD_DESC,"FrF2 Riffle with Scrome J8 scope and silencer","Fusil FrF2 avec lunette Scrome J8 et silencieux"
+STR_R3F_FRF2_J8_SD_LIB,"FRF2: Repeating rifle model F2. FRF2 is a 7.62mm caliber NATO manual repetition. It is equipped with a heat resistant tube that avoids the excessive heating of the barrel during firing, and improves the accuracy of the gun. Its effective range is 800m and the initial speed of its projectile is 480 m / s. This version is equipped with a telescopic sight SCROME D8 X8 magnification, and a silencer for infiltration missions.","FRF2 : Fusil à répétition modèle F2. Le FRF2 est un calibre 7.62mm OTAN à répétition manuelle. Il est équipé d'un tube anti-calorique qui évite l'echauffement excessif du canon lors tirs, et ameliore la précision du fusil.  Sa portée efficace est de 800m et la Vitesse initiale de ses projectiles est de 480 m/s. Cette version est équipée d'une lunette de tir Scrome J8 grossissement X8, ainsi que d'un silencieux pour les missions d'infiltrations."
+STR_R3F_FRF2_J8_SD_DES, "FrF2 J8 SD camo","FrF2 J8 SD camo"
+
+STR_R3F_PGM_Hecate_II,"PGM J10","PGM J10"
+STR_R3F_PGM_Hecate_II_DESC,"PGM Hecate II Riffle with Scrome J10 scope","Fusil PGM Hecate II avec lunette Scrome J10"
+STR_R3F_PGM_Hecate_II_LIB,"PGM Hecate II is a precision bolt action rifle manufactured by PGM precision and size 12.7. It is mainly intended to use anti-material. Its practical significance is 1800m. For efficiency, it can use Piercing Explosive Incendiary Ammunition (IEP). This version is equipped with a telescopic sight SCROME J10 X10 magnification.","Le PGM Hecate II est un fusil de précision à verrou fabriqué par PGM précision et de calibre 12.7. Il est principalement déstiné à un usage anti-materiel. Sa portée pratique est de 1800m. Pour plus d'efficacité, il peut utiliser des munitions Perforantes Explosives Incendiaires (P.E.I). Cette version est équipée d'une lunette de tir Scrome J10 grossissement X10."
+STR_R3F_PGM_Hecate_II_DES,"PGM J10 camo","PGM J10 camo"
+
+STR_R3F_PGM_Hecate_II_MILDOT,"PGM MilDot","PGM MilDot"
+STR_R3F_PGM_Hecate_II_MILDOT_DESC,"PGM Hecate II Riffle with Scrome MilDot scope","Fusil PGM Hecate II avec lunette MilDot"
+STR_R3F_PGM_Hecate_II_MILDOT_LIB,"PGM Hecate II is a precision bolt action rifle manufactured by PGM precision and size 12.7. It is mainly intended to use anti-material. Its practical significance is 1800m. For efficiency, it can use Piercing Explosive Incendiary Ammunition (IEP). This version is equipped with a telescopic sight MilDot type X10 magnification.","Le PGM Hecate II est un fusil de précision à verrou fabriqué par PGM précision et de calibre 12.7. Il est principalement déstiné à un usage anti-materiel. Sa portée pratique est de 1800m. Pour plus d'efficacité, il peut utiliser des munitions Perforantes Explosives Incendiaires (P.E.I). Cette version est équipée d'une lunette de tir de type MilDot grossissement X10."
+STR_R3F_PGM_Hecate_II_MILDOT_DES,"PGM MilDot camo","PGM MilDot camo"
+
+
+
+STR_R3F_PGM_Hecate_II_POLY,"PGM Polymer","PGM Polymere"
+STR_R3F_PGM_Hecate_II_POLY_DESC,"PGM Hecate II Riffle with Zeiss scope","Fusil PGM Hecate II avec lunette Zeiss"
+STR_R3F_PGM_Hecate_II_POLY_LIB,"PGM Hecate II is a precision bolt action rifle manufactured by PGM precision and size 12.7. It is mainly intended to use anti-material. Its practical significance is 1800m. For efficiency, it can use Piercing Explosive Incendiary Ammunition (IEP). This version is equipped with a Zeiss telescopic sight MilDot type X6-24 magnification.","Le PGM Hecate II est un fusil de précision à verrou fabriqué par PGM précision et de calibre 12.7. Il est principalement déstiné à un usage anti-materiel. Sa portée pratique est de 1800m. Pour plus d'efficacité, il peut utiliser des munitions Perforantes Explosives Incendiaires (P.E.I). Cette version est équipée d'une lunette de tir de type Zeiss MilDot grossissement X6-24."
+
+
+
+STR_R3F_AT4CS,"AT4 CS","AT4 CS"
+STR_R3F_AT4CS_DESC,"AT4 CS Rocket launcher","lance-roquettes AT4 CS"
+STR_R3F_AT4CS_LIB,"The AT4 CS is a rocket launcher Anti-tank for Confined Space (CS) to 84mm (Eighty Four = AT4). Its weight is 7.6kg for 1.04m long. It has a range of 25m to 200m on moving target, and 300m on fixed target.","L'AT4 CS est un lance-roquettes Anti-char pour confined space (CS) de 84mm (Eighty Four = AT4). Sa masse est de 7.6Kg pour 1.04m de longueur. Il a une portée de 25m à 200m sur objectif mobile, et de 300m sur objectif fixe."
+
+STR_R3F_Minimi_EOT, "Minimi Para EOTech","Minimi Para EOTech"
+STR_R3F_Minimi_EOT_DESC,"Airborne FN Minimi with EOTech scope","FN Minimi Para avec viseur EOTech"
+STR_R3F_Minimi_EOT_LIB,"The Minimi, wich means 'MINI-MItraileuse', was developped during the 70's by FN Herstal, in Belgium. It can fire 200 5.56 rounds magazine. It's used for defensive and offensive purpose. This version is equipped with an holographic EOTech for close combat.","La Minimi, qui veut dire MINI-MItraileuse, a été inventée dans les années 70 par la firme nationale de Herstal en Belgique. Elle peut tirer des chargeurs de 200 cartouches en 5.56mm. Elle est destinée à une utilisation défensive et offensive. Cette version est équipée d'un viseur Holographique EOTech pour combat rapproché."
+
+STR_R3F_Minimi_J4, "Minimi Para J4","Minimi Para J4"
+STR_R3F_Minimi_J4_DESC,"Airborne FN Minimi with Scrome J4 scope","FN Minimi Para avec lunette Scrome J4"
+STR_R3F_Minimi_J4_LIB,"The Minimi, wich means 'MINI-MItraileuse', was developped during the 70's by FN Herstal, in Belgium. It can fire 200 5.56 rounds magazine. It's used for defensive and offensive purpose. This version is equipped with a Scrome J4 scope, 4X magnification","La Minimi, qui veut dire MINI-MItraileuse, a été inventée dans les années 70 par la firme nationale de Herstal en Belgique. Elle peut tirer des chargeurs de 200 cartouches en 5.56mm. Elle est destinée à une utilisation défensive et offensive. Cette version est équipée d'une lunette de tir Scrome J4 grossissement X4"
+
+STR_R3F_Minimi_762_J4, "Minimi Para 7.62 J4","Minimi Para 7.62 J4"
+STR_R3F_Minimi_762_J4_DESC,"Airborne FN Minimi 7.62 with Scrome J4 scope","FN Minimi Para 7.62 avec lunette Scrome J4"
+STR_R3F_Minimi_762_J4_LIB,"The Minimi 7.62, wich means 'MINI-MItraileuse', was developped by FN Herstal, in Belgium. It can fire 100 7.62 rounds magazine. It's used for defensive and offensive purpose. This version is equipped with a Scrome J4 scope, 4X magnification","La Minimi, qui veut dire MINI-MItraileuse, a été développée par la firme nationale de Herstal en Belgique. Elle peut tirer des chargeurs de 100 cartouches de 7.62mm. Elle est destinée à une utilisation défensive et offensive. Cette version est équipée d'une lunette de tir Scrome J4 grossissement X4"
+
+STR_R3F_Minimi_762_OB50, "Minimi Para 7.62 OB 50","Minimi Para 7.62 OB 50"
+STR_R3F_Minimi_762_OB50_DESC,"Airborne FN Minimi 7.62 with OB50 scope","FN Minimi Para 7.62 avec lunette OB50"
+STR_R3F_Minimi_762_OB50_LIB,"The Minimi 7.62, wich means 'MINI-MItraileuse', was developped by FN Herstal, in Belgium. It can fire 100 7.62 rounds magazine. It's used for defensive and offensive purpose. This version is equipped with a OB 50 scope, 3.2X magnification and night vision","La Minimi, qui veut dire MINI-MItraileuse, a été développée par la firme nationale de Herstal en Belgique. Elle peut tirer des chargeurs de 100 cartouches de 7.62mm. Elle est destinée à une utilisation défensive et offensive. Cette version est équipée d'une lunette OB 50 grossissement X3.2 à amplificateur de lumière"
+
+STR_R3F_Minimi_AIM_HG, "Minimi Para Aimpoint HG","Minimi Para Aimpoint HG"
+STR_R3F_Minimi_AIM_HG_DESC,"Airborne FN Minimi with Aimpoint scope and HandGrip","FN Minimi Para avec viseur Aimpoint et poignée"
+STR_R3F_Minimi_AIM_HG_LIB,"The Minimi, wich means 'MINI-MItraileuse', was developped during the 70's by FN Herstal, in Belgium. It can fire 200 5.56 rounds magazine. It's used for defensive and offensive purpose. This version is equipped with an Aimpoint scope","La Minimi, qui veut dire MINI-MItraileuse, a été inventée dans les années 70 par la firme nationale de Herstal en Belgique. Elle peut tirer des chargeurs de 200 cartouches en 5.56mm. Elle est destinée à une utilisation défensive et offensive. Cette version est équipée d'une lunette de tir Aimpoint"
+
+STR_R3F_Minimi_762_EOT_HG, "Minimi Para 7.62 EOT HG","Minimi Para 7.62 EOT HG"
+STR_R3F_Minimi_762_EOT_HG_DESC,"Airborne FN Minimi 7.62 with EOTech scope and HandGrip","FN Minimi Para 7.62 avec lunette EOTech et poignée"
+STR_R3F_Minimi_762_EOT_HG_LIB,"The Minimi 7.62, wich means 'MINI-MItraileuse', was developped by FN Herstal, in Belgium. It can fire 100 7.62 rounds magazine. It's used for defensive and offensive purpose. This version is equipped with an EOTech scope","La Minimi, qui veut dire MINI-MItraileuse, a été développée par la firme nationale de Herstal en Belgique. Elle peut tirer des chargeurs de 100 cartouches de 7.62mm. Elle est destinée à une utilisation défensive et offensive. Cette version est équipée d'une lunette de tir EOTech"
+
+
+STR_R3F_JIM_LR, "Jim LR Binoculars","Jumelles Jim LR"
+STR_R3F_JIM_LR_DESC,"Optronic long range binoculars 2X-16X with laser designator ","Jumelles optroniques longue distance 2X-16X avec designateur Laser"
+STR_R3F_JIM_LR_LIB,"JIM LR : Long Range infrared Binoculars. They belong to F.E.L.I.N. program. They are equipped with night vision, telemeter, laser pointer, magnetic compass and a GPS.","JIM LR : Les Jumelles Infrarouges Multifonctions Long Range. Elle font parties du programme F.E.L.I.N. Elles disposent d'une vision jour-nuit, d'un télémètre, d'un pointeur laser, d'un compas magnétique, et d'un GPS."
+STR_R3F_JIM_LR_DES, "Jim LR Binoculars camo","Jumelles Jim LR camo"
+
+STR_R3F_SIT_COMDE, "SIT COMDE tablet","Tablette SIT COMDE"
+STR_R3F_SIT_COMDE_DESC,"SIT COMDE FELIN interface","Interface FELIN SIT COMDE"
+STR_R3F_SIT_COMDE_LIB,"Le SIT COMDE, for terminal system of information for infantery fighter, use the R.I.F (Infantery information network) to obtain tactical informations of battlefield (location, pictures, videos...). It is part of the program FELIN and may, during an operation, capturing images of glasses FELIN to allow the group leader to have a better view of the battlefield and its objectives.","Le SIT COMDE, ou Système d’Information Terminal du COMbattant DEbarqué, utilise le R.I.F (Réseau d'Information du Fantassin) pour obtenir des informations tactiques du champ de bataille ( positions, images, vidéos ... etc). Il fait parti du programme F.E.L.I.N, et peut, lors d'une opération, capter les images de lunettes F.E.L.I.N pour permettre au chef de groupe d'avoir une meilleure vision du champ de bataille et de ses objectifs."
+
+STR_R3F_WeaponBox, "R3F Standard weapon Box","Caisse standard d'armes R3F"
+STR_R3F_WeaponBox_DESC,"R3F Standard weapon Box","Caisse standard d'armes R3F"
+STR_R3F_WeaponBox_LIB,"",""
+
+STR_R3F_WeaponBox_Full, "R3F Full weapon Box","Caisse étendue d'armes R3F"
+STR_R3F_WeaponBox_Full_DESC,"R3F Full weapon Box","Caisse étendue d'armes R3F"
+STR_R3F_WeaponBox_Full_LIB,"",""
+
+STR_R3F_WeaponBox_Full_NoTherm, "R3F Full weapon Box with no Thermal","Caisse étendue d'armes R3F sans thermique"
+STR_R3F_WeaponBox_Full_NoTherm_DESC,"R3F Full weapon Box with no Thermal","Caisse étendue d'armes R3F sans thermique"
+STR_R3F_WeaponBox_Full_NoTherm_LIB,"",""
+
+STR_R3F_LIB,"Work in progress", "En construction"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

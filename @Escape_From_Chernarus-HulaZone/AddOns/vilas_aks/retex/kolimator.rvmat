@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 3.51
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class vilas_aks : retex\kolimator.rvmat{
+ambient[] = {100.0,0.5,0.5,1.0};
+diffuse[] = {1.0,0.5,0.5,1.0};
+forcedDiffuse[] = {10.0,2.0,2.0,0.0};
+emmisive[] = {10.0,10.0,10.0,1.0};
+specular[] = {0.0,0.0,0.0,1.0};
+specularPower = 1.0;
+renderFlags[] = {"AddBlend"};
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+//};

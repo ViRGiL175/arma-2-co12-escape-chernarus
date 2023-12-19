@@ -1,0 +1,95 @@
+
+ADDON : Backpack Variants made by Lennard
+
+Version : 1.0
+
+Release Date : 25-03-2011
+
+
+======================
+CONTACT INFORMATION :
+======================
+
+You can pm me on the BI forums.
+(http://forums.bistudio.com/member.php?u=32667)
+
+If you want an other camo pattern to be added, send me a tileable image of it and I will add it.
+
+
+======================
+REQUIRED ADDONS:
+======================
+
+None
+
+
+======================
+DESCRIPTION :
+======================
+
+This addon adds 19 Backpacks in various camouflages and colours based on the CZ Backpack.
+
+
+==============================
+Known issues :
+==============================
+
+None
+
+
+======================
+CLASSNAMES :
+======================
+
+"LEN_Backpack_OD"	-	Olive Drab
+"LEN_Backpack_DES"	-	Desert Tan
+"LEN_Backpack_3DES"	-	3 Color Desert Camo
+"LEN_Backpack_WDL"	-	US M81 Woodland Camo
+"LEN_Backpack_MAR"	-	Woodland Marpat Camo
+"LEN_Backpack_DMAR"	-	Desert Marpat Camo
+"LEN_Backpack_UCP"	-	UCP Camo
+"LEN_Backpack_6DES"	-	6 Color Desert Camo
+"LEN_Backpack_TAK"	-	Takistani DPM Camo
+"LEN_Backpack_NVG"	-	Night Vision Camo
+"LEN_Backpack_BLK"	-	Black
+"LEN_Backpack_DPM"	-	British DPM Camo
+"LEN_Backpack_FIN"	-	Finnish M05 Camo
+"LEN_Backpack_MTC"	-	Multicam
+"LEN_Backpack_NOR"	-	Digital Camo
+"LEN_Backpack_WIN"	-	Winter Camo
+"LEN_Backpack_ATC"	-	ATACS Camo
+"LEN_Backpack_MTL"	-	Mitchell Pattern Camo
+"LEN_Backpack_FTN"	-	Fictional Flecktarn Camo
+
+======================
+INSTALLATION :
+======================
+
+The PBO and Sign files in the archive need to be extracted into your ArmA/Addons folder.
+However the mod folder method is the better solution. 
+Copy the following URL into your browser to view a Mod Folder Tutorial : http://tinyurl.com/armamodfolder
+
+
+======================
+CREDITS AND THANKS :
+======================
+
+BIS - For their great games.
+People who take the time to mirror this addon - Special thanks.
+
+======================
+DISCLAIMER :
+======================
+
+I take no responsibility for (im)possible damage to your game/system that may be caused 
+by installation of this Addon. 
+This Addon is also prohibited to be used in any commercial product.
+
+
+
+======================
+Special thanks :
+======================
+
+This readme has been made with the help of the ArmedAssault.info Readme Generator.
+Check ArmedAssault.info to get the latest ArmA news !

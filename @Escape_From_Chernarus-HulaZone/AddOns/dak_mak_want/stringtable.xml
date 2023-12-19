@@ -1,0 +1,81 @@
+﻿<Project name="Arma2">
+<Package name="dak_mak_want">
+<Key ID="STR_DN_want">
+				<German>Der Schild "Vant-LM"</German>
+				<English>Shield "Vant-LM"</English>
+				<Russian>Бронещит "Вант-ЛМ"</Russian>
+</Key>
+<Key ID="STR_DN_mak_BZT75C">
+				<German>Der Schild "BZT75C"</German>
+				<English>Shield "BZT75C"</English>
+				<Russian>Бронещит "БЗТ-75С"</Russian>
+</Key>
+<Key ID="STR_DN_mak_BZT75C">
+				<German>Der Schild "BZT75C"</German>
+				<English>Shield "BZT75C"</English>
+				<Russian>Бронещит "БЗТ-75С"</Russian>
+</Key>
+<Key ID="STR_DN_AKS_74U_BZT75C">
+				<German>Der Schild "BZT75C" und AKS_74U"</German>
+				<English>Shield "BZT75C"</English>
+				<Russian>Бронещит "БЗТ-75С"</Russian>
+</Key>
+<Key ID="STR_DN_Planshet">
+				<German>Der Panzerung der Schild "Planshet" und PM</German>
+				<English>Shield "Planshet"</English>
+				<Russian>Бронещит "Планшет"</Russian>
+</Key>
+</Key>
+<Key ID="STR_DN_swat">
+				 <German>Der Schild Polizei</German>
+				<English>Shield Police</English>
+				<Russian>Бронещит Полиции</Russian>
+</Key>
+
+
+
+<Key ID="STR_LIB_want">
+				<German>Der Schild "Vant-LM"</German>
+				<English>FORT "Vant-LM" assault shield is designed for protection during storming  operations inside buildings,airplanes and railroad transport. Special design  and unique armour structure of the shield provide for high maneuverability and  high efficiency protection against hard steel core bullets for AKM and AK-74  assualt rifles, mild steel core bullets for SVD rifle, bullets for M16 rifles (A1  and A2) at 5 meter  distance with a low probability of ricochet.</English>
+				<Russian>Бронещит ФОРТ «Вант-ЛМ» предназначен для защиты при проведении штурмовых операций в зданиях, авиа- и железнодорожном транспорте. Благодаря специальной конструкции и уникальной бронеструктуре щит обеспечивает высокую маневренность и высоко-эффективную защиту от пуль с термоупрочненным сердечником автоматов АКМ и АК-74, пуль ЛПС винтовки СВД и пуль винтовки М16А1 и А2 на дистанции 5 метров при низкой вероятности рикошета. Бронещит оснащен съемным фартуком, закрепляемым в нижней части щита.</Russian>					
+</Key>
+<Key ID="STR_LIB_mak_BZT75C">
+				<German>Der Schild "BZT75C"</German>
+				<English>Shield "BZT75C"</English>
+				<Russian>Бронещит «БЗТ-75С» предназначен для защиты при проведении штурмовых операций в зданиях и др.</Russian>					
+</Key>
+<Key ID="STR_LIB_Planshet">
+				<German>Der Schild "Planshet"</German>
+				<English>Shield "Planshet"</English>
+				<Russian>Бронещит «Планшет» предназначен для защиты при проведении штурмовых операций в зданиях и др.</Russian>					
+</Key>
+<Key ID="STR_LIB_swat">
+				 <German>Der Schild Polizei</German>
+				<English>Shield Police</English>
+				<Russian>Бронещит Полиции</Russian>
+</Key>
+
+
+
+<Key ID="STR_DSS_want">
+				<German>Der Schild "Vant-LM"</German>
+				<English>FORT “Vant-LM” assault shield is designed for protection during storming operations inside buildings.</English>
+				<Russian>Бронещит ФОРТ «Вант-ЛМ» предназначен для защиты от пуль.</Russian>					
+</Key>
+<Key ID="STR_DSS_mak_BZT75C">
+				<German>Der Schild "Vant-LM"</German>
+				<English>Shield "BZT75C"</English>
+				<Russian>Бронещит«БЗТ-75С» предназначен для защиты от пуль.</Russian>					
+</Key>
+<Key ID="STR_DSS_Planshet">
+				<German>Der Schild "Planshet"</German>
+				<English>Shield "Planshet"</English>
+				<Russian>Бронещит «Планшет» предназначен для защиты при проведении штурмовых операций в зданиях и др.</Russian>					
+</Key>
+<Key ID="STR_DSS_swat">
+				<German>Der Schild Polizei</German>
+				<English>Shield Police</English>
+				<Russian>Бронещит Полиции предназначен для защиты при проведении штурмовых операций в зданиях и др.</Russian>					
+</Key>
+</Package>
+</Project>

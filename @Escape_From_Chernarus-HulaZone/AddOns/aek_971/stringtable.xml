@@ -1,0 +1,180 @@
+﻿<Project name="Arma2">
+<Package name="AEK_971">
+<Key ID="STR_AEK_971">
+				<German>AEK-971</German>
+				<English>AEK-971</English>
+				<Russian>АЕК-971</Russian>
+</Key>
+<Key ID="STR_LIB_AEK_971">
+				<German>AEK-971</German>
+				<English>The AEK-971 assault rifle was developed at Kovrov Machinebuilding Plant (formerly known as Kovrov Machineguns Plant) by chief designer S.I. Koksharov. Originally designed and tested during 'Abakan' trials of late 1980s, it failed in trials, but its development was continued in hopes to sell the gun to police forces and for export. During early 2000s small batches of AEK-971 rifles in 5.45x39 caliber were manufactured for Russian MVD (internal affairs ministry) troops, but its production has ceased in 2006.</English>
+				<Russian>Автомат АЕК-971 разработан в 1980х годах на Ковровском Машиностроительном заводе (КМЗ) под руководством С.И.Кокшарова в рамках конкурсной программы "Абакан". Особенность конструкции АЕК-971 - схема со сбалансированной автоматикой на основе газового двигателя. В результате стрелок ощущает только импульс от отдачи при выстрелах, и автомат при стрельбе очередями не дергается, а как бы прилипает к плечу. Из других особенностей следует отметить измененную по сравнению с автоматами Калашникова конструкцию предохранителя-переводчика режимов огня, позволяющую более удобно переключать режимы огня. Автоматы АЕК-971 последних модификаций имеют складной приклад трубчатой конструкции с пластиковым покрытием для защиты стрелка в жару и холод, пластиковые рукоятку управления огнем и цевье, а для питания используют штатные магазины от АК-74. На ствольной коробке автомата имеется посадочное место для установки кронштейнов под оптические либо ночные прицелы, возможна также установка подствольных гранатометов ГП-25 или ГП-30
+Автоматы АЕК-971 выпускались небольшими партиями и поставлялись в подразделения МВД и других силовых ведомств России вплоть до 2006 года.</Russian>				
+</Key>
+<Key ID="STR_DESC_AEK_971">
+				<German>AEK-971</German>
+				<English>AEK-971 assault rifle</English>
+				<Russian>Автомат АЕК-971</Russian>		
+</Key>
+<Key ID="STR_AEK_971_gp_34">
+				<German>AEK-971 GP-34</German>
+				<English>AEK-971 GP-34 gl</English>
+				<Russian>АЕК-971 ГП-34</Russian>				
+</Key>
+<Key ID="STR_DESC_AEK_971_GP_34">
+				<German>AEK-971 GP-34</German>
+				<English>AEK-971 assault rifle with GP-34 grenade launcher</English>
+				<Russian>Автомат АЕК-971 с подствольным гранатометом ГП-34</Russian>				
+</Key>
+<Key ID="STR_AEK_971_1P78">
+				<German>AEK-971 1P78</German>
+				<English>AEK-971 1P78</English>
+				<Russian>АЕК-971 1П78</Russian>		
+</Key>
+<Key ID="STR_DESC_AEK_971_1p78">
+				<German>AEK-971 1P78</German>
+				<English>AEK-971 assault rifle with 1P78 scope</English>
+				<Russian>Автомат АЕК-971 с оптическим прицелом 1П78</Russian>
+</Key>
+<Key ID="STR_AEK_971_1P63">
+				<German>AEK-971 1P63</German>
+				<English>AEK-971 1P63</English>
+				<Russian>АЕК-971 1П63</Russian>  		
+</Key>
+<Key ID="STR_DESC_AEK_971_1p63">
+				<German>AEK-971 1P63</German>
+				<English>AEK-971 assault rifle with 1P63 сollimator sight</English>
+				<Russian>Автомат АЕК-971 с коллиматорным прицелом 1П63</Russian>		
+</Key>
+<Key ID="STR_AEK_971_1P63_GP_34">
+				<German>AEK-971 GP-34 1P63</German>
+				<English>AEK-971 GP-34 1P63</English>
+				<Russian>АЕК-971 ГП-34 1П63</Russian>		
+</Key>
+<Key ID="STR_DESC_AEK_971_1p63_GP_34">
+				<German>AEK-971 GP-34 1P63</German>
+				<English>AEK-971 assault rifle with GP-34 grenade launcher and 1P63 сollimator sight</English>		
+              			<Russian>Автомат АЕК-971 с подствольным гранатометом ГП-34 и коллиматорным прицелом 1П63</Russian>	
+</Key>
+<Key ID="STR_AEK_971_1PN100">
+				<German>AEK-971 1PN100</German>
+				<English>AEK-971 1PN100</English>		
+              			<Russian>АЕК-971 1ПН100</Russian>	
+</Key>
+<Key ID="STR_DESC_AEK_971_1pn100">
+				<German>AEK-971 1PN100</German>
+				<English>AEK-971 assault rifle with 1PN100 day\night scope</English>		
+              			<Russian>Автомат АЕК-971 с оптическим прицелом день\ночь 1ПН100</Russian>	
+</Key>
+<Key ID="STR_AEK_971_tgp_cln">
+				<German>AEK-971 TGP-A ZLN-1K</German>
+				<English>AEK-971 TGP-A ZLN-1K</English>		
+              			<Russian>АЕК-971 ТГП-А ЦЛН-1К</Russian>	
+</Key>
+<Key ID="STR_DESC_AEK_971_tgp_cln">
+				<German>AEK-971 TGP-A CLN-1K</German>
+				<English>AEK-971 assault rifle with TGP-A suppressor and ZLN-1K IR laser aiming device</English>
+              			<Russian>Автомат АЕК-971 с глушителем ТГП-А и целеуказателем лазерным ночным ЦЛН-1К</Russian>	
+</Key>
+<Key ID="STR_AEK_971_shahin">
+				<German>AEK-971 Shahin</German>
+				<English>AEK-971 Shahin</English>		
+              			<Russian>АЕК-971 Шахин</Russian>	
+</Key>
+<Key ID="STR_DESC_AEK_973s_shahin">
+				<German>AEK-971 Shahin</German>
+				<English>AEK-971 assault rifle with "Shahin" thermal sight</English>		
+              			<Russian>Автомат АЕК-971 с ТВП "Шахин"</Russian>	
+</Key>
+<Key ID="STR_AEK_AmmoBox">
+				<German>AEK AmmoBox</German>
+				<English>AEK AmmoBox</English>		
+              			<Russian>Ящик с АЕК</Russian>	
+</Key>
+<Key ID="STR_AEK_973s">
+				<German>AEK-973s</German>
+				<English>AEK-973s</English>
+              			<Russian>АЕК-973с</Russian>
+</Key>
+<Key ID="STR_DESC_AEK_973s">
+				<German>AEK-973s</German>
+				<English>AEK-973s assault rifle</English>		
+              			<Russian>Автомат АЕК-973с</Russian>	
+</Key>
+<Key ID="STR_AEK_973s_1P78">
+				<German>AEK-973s 1p78</German>
+				<English>AEK-973s 1p78</English>
+              			<Russian>АЕК-973с 1п78</Russian>
+</Key>
+<Key ID="STR_DESC_AEK_973s_1p78">
+				<German>AEK-973s 1P78</German>
+				<English>AEK-973s assault rifle with 1P78 scope</English>
+				<Russian>Автомат АЕК-973с с оптическим прицелом 1П78</Russian>
+</Key>
+<Key ID="STR_AEK_973s_gp_34">
+				<German>AEK-973s GP-34</German>
+				<English>AEK-973s GP-34 gl</English>
+				<Russian>АЕК-973с ГП-34</Russian>				
+</Key>
+<Key ID="STR_DESC_AEK_973s_GP_34">
+				<German>AEK-973s GP-34</German>
+				<English>AEK-973s assault rifle with GP-34 grenade launcher</English>
+				<Russian>Автомат АЕК-973с с подствольным гранатометом ГП-34</Russian>				
+</Key>
+<Key ID="STR_AEK_973s_1P63">
+				<German>AEK-973s 1P63</German>
+				<English>AEK-973s 1P63</English>
+				<Russian>АЕК-973с 1П63</Russian>  		
+</Key>
+<Key ID="STR_DESC_AEK_973s_1p63">
+				<German>AEK-973s 1P63</German>
+				<English>AEK-973s assault rifle with 1P63 сollimator sight</English>
+				<Russian>Автомат АЕК-973с с коллиматорным прицелом 1П63</Russian>
+</Key>
+<Key ID="STR_AEK_973s_1P63_GP_34">
+				<German>AEK-973s GP-34 1P63</German>
+				<English>AEK-973s GP-34 1P63</English>
+				<Russian>АЕК-973с ГП-34 1П63</Russian>		
+</Key>
+<Key ID="STR_DESC_AEK_973s_1p63_GP_34">
+				<German>AEK-973s GP-34 1P63</German>
+				<English>AEK-973s assault rifle with GP-34 grenade launcher and 1P63 сollimator sight</English>		
+              			<Russian>Автомат АЕК-973ы с подствольным гранатометом ГП-34 и коллиматорным прицелом 1П63</Russian>	
+</Key>
+<Key ID="STR_AEK_973s_1PN100">
+				<German>AEK-973s 1PN100</German>
+				<English>AEK-973s 1PN100</English>		
+              			<Russian>АЕК-973с 1ПН100</Russian>	
+</Key>
+<Key ID="STR_DESC_AEK_971_1pn100">
+				<German>AEK-973s 1PN100</German>
+				<English>AEK-973s assault rifle with 1PN100 day\night scope</English>		
+              			<Russian>Автомат АЕК-973с с оптическим прицелом день\ночь 1ПН100</Russian>	
+</Key>
+<Key ID="STR_AEK_973s_tgp_cln">
+				<German>AEK-973s TGP-A ZLN-1K</German>
+				<English>AEK-973s TGP-A ZLN-1K</English>		
+              			<Russian>АЕК-973с ТГП-А ЦЛН-1К</Russian>	
+</Key>
+<Key ID="STR_DESC_AEK_973s_tgp_cln">
+				<German>AEK-973s TGP-A CLN-1K</German>
+				<English>AEK-973s assault rifle with TGP-A suppressor and ZLN-1K IR laser aiming device</English>		
+              			<Russian>Автомат АЕК-973с с глушителем ТГП-А и целеуказателем лазерным ночным ЦЛН-1К</Russian>	
+</Key>
+<Key ID="STR_AEK_973s_shahin">
+				<German>AEK-973s Shahin</German>
+				<English>AEK-973s Shahin</English>		
+              			<Russian>АЕК-973с Шахин</Russian>	
+</Key>
+<Key ID="STR_DESC_AEK_973s_shahin">
+				<German>AEK-973s Shahin</German>
+				<English>AEK-973s assault rifle with "Shahin" thermal sight</English>		
+              			<Russian>Автомат АЕК-973с с ТВП "Шахин"</Russian>	
+</Key>
+<Key ID="STR_LIB_AEK_973s">
+				<German>AEK-973s</German>
+				<English>The AEK-973s assault rifle was developed at Kovrov Machinebuilding Plant (formerly known as Kovrov Machineguns Plant) by chief designer S.I. Koksharov. Originally designed and tested during 'Abakan' trials of late 1980s, it failed in trials, but its development was continued in hopes to sell the gun to police forces and for export.</English>
+				<Russian>Автомат АЕК-973c разработан по схеме со сбалансированной автоматикой на основе газового двигателя. При стрельбе стрелок ощущает только импульс от отдачи при выстрелах, и автомат при стрельбе очередями не дергается, а как бы прилипает к плечу. Из других особенностей следует отметить измененную по сравнению с автоматами Калашникова конструкцию предохранителя-переводчика режимов огня, позволяющую более удобно переключать режимы огня. Автомат АЕК-973с имеет выдвижной приклад, пластиковые рукоятку управления огнем и цевье, а для питания используют штатные магазины от АК-47. На ствольной коробке автомата имеется посадочное место для установки кронштейнов под оптические либо ночные прицелы, возможна также установка подствольных гранатометов ГП-25 или ГП-30</Russian>				
+</Key>
+</Package>
+</Project>
