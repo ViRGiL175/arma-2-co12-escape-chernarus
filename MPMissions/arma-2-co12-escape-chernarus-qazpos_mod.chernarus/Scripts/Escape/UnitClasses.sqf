@@ -1251,7 +1251,6 @@ drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["vil_ak
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["VIL_ABAKAN_GP", 15, 1, 3, ["30Rnd_545x39_AK", "1Rnd_HE_GP25", "FlareWhite_GP25", "FlareGreen_GP25", "FlareRed_GP25", "FlareYellow_GP25", "1Rnd_SMOKE_GP25", "1Rnd_SMOKERED_GP25", "1Rnd_SMOKEGREEN_GP25", "1Rnd_SMOKEYELLOW_GP25"], 12]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["Da_MagpulAK", 15, 2, 4, ["30Rnd_545x39_AK", "30Rnd_545x39_AK_7N24"], 12]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["VityazSN", 15, 1, 2, ["30rnd_9x19_VityazSN"], 12]];
-drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["VityazKN", 15, 1, 2, ["30rnd_9x19_VityazSN"], 12]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["AK_107_GL_Kobra", 10, 1, 3, ["30Rnd_545x39_AK", "1Rnd_SMOKE_GP25", "1Rnd_HE_GP25"], 12]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["vil_ak12_gp", 10, 1, 2, ["30Rnd_545x39_AK", "1Rnd_HE_GP25", "FlareWhite_GP25", "FlareGreen_GP25", "FlareRed_GP25", "FlareYellow_GP25", "1Rnd_SMOKE_GP25", "1Rnd_SMOKERED_GP25", "1Rnd_SMOKEGREEN_GP25", "1Rnd_SMOKEYELLOW_GP25"], 12]];
 drn_arr_AmmoDepotBasicWeapons set [count drn_arr_AmmoDepotBasicWeapons, ["bizon", 10, 2, 4, ["64Rnd_9x19_Bizon"], 8]];
